@@ -78,6 +78,7 @@ Set dataManagerTables = ;
 
  -> Em resumo, esse script é usado para gerenciar ou renomear tabelas no script de carregamento de dados do Qlik Sense, lidando especificamente com casos em que pode haver conflitos com nomes de tabelas existentes. O script anexa um índice ao nome da tabela para resolver conflitos e, em seguida, renomeia a tabela conflitante.
 
+------------------------
 
 ## Script utilizado no Dash BLITZ RASTREAMENTO para contagem de APTO e INAPTO
 
