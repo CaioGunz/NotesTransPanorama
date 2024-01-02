@@ -18,3 +18,8 @@ Data Squad: https://www.youtube.com/channel/UCM0-D6Z_s59riXyedTrceng
 Recursos para estudar Qlik (Dicas do StackOverFlow): https://stackoverflow.com/questions/36619242/resources-for-learning-qlik-sense
 
 Blog de Qlik: https://www.askqv.com/blogs/
+
+
+
+-------------------------------------------------------
+[Volta Página Principal](/README.md)
