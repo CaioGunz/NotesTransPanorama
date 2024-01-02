@@ -79,7 +79,32 @@ Set dataManagerTables = ;
  -> Em resumo, esse script é usado para gerenciar ou renomear tabelas no script de carregamento de dados do Qlik Sense, lidando especificamente com casos em que pode haver conflitos com nomes de tabelas existentes. O script anexa um índice ao nome da tabela para resolver conflitos e, em seguida, renomeia a tabela conflitante.
 
 
+## Script utilizado no Dash BLITZ RASTREAMENTO para contagem de APTO e INAPTO
 
+```
+COUNT(DISTINCT{<
+	[BLITZ.DATA_ANO]={$(=If(IsNull(DATA_ANO), '2024', DATA_ANO))}
+    //[BLITZ.DATA_MES]={"$(=MONTH(TODAY()))"}
+>}
+[BLITZ.ID])
+``` 
+### Vamos decompor o código para entender sua funcionalidade:
+
+O código em questão realiza uma contagem distinta dos IDs no campo **[BLITZ.ID]**. Para isso, são aplicadas condições temporárias utilizando o modificador **{< ... >}**.
+
+A primeira condição 
+```
+([BLITZ.DATA_ANO]={$(=If(IsNull(DATA_ANO), '2024', DATA_ANO))})
+``` 
+define que, se o campo **[BLITZ.DATA_ANO]** estiver nulo, ele será ajustado para o valor **'2024'**. Caso contrário, será mantido o valor original de **[BLITZ.DATA_ANO]**. Isso é alcançado por meio da função condicional If.
+
+A segunda condição 
+```
+([BLITZ.DATA_MES]={"$(=MONTH(TODAY()))"})
+```
+embora esteja comentada e, portanto, inativa, parece destinada a condicionar o campo **[BLITZ.DATA_MES]** para que seja igual ao mês atual, utilizando a função **MONTH(TODAY())**.
+
+Dessa forma, o código globalmente contabiliza a quantidade única de IDs em **[BLITZ.ID]**, levando em consideração as condições especificadas para **[BLITZ.DATA_ANO]** e **[BLITZ.DATA_MES]** (ainda que a condição para o mês esteja atualmente desativada). Vale ressaltar que as especificidades podem variar dependendo das regras de negócios específicas e da versão do Qlik sendo utilizada.
 
 -------------------------------------------------------
 [Volta Página Principal](/README.md)
