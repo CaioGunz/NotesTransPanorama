@@ -107,5 +107,33 @@ embora esteja comentada e, portanto, inativa, parece destinada a condicionar o c
 
 Dessa forma, o código globalmente contabiliza a quantidade única de IDs em **[BLITZ.ID]**, levando em consideração as condições especificadas para **[BLITZ.DATA_ANO]** e **[BLITZ.DATA_MES]** (ainda que a condição para o mês esteja atualmente desativada). Vale ressaltar que as especificidades podem variar dependendo das regras de negócios específicas e da versão do Qlik sendo utilizada.
 
+---------------------------
+
+## Erro de campo não encontrado
+```
+20240102T091313.248-0300      Error: Field 'F43' not found 
+```
+### Descrição
+Primeiro verifiquei se a conexão puxava o campo não encontrado.
+![resolução 001](/ASSETS/Outros/resolução%20qlik%20001.png)
+
+Segundo apaguei o campo não encontrado do Script
+
+![resolução 002](/ASSETS/Outros/resolução%20qlik%20002.png)
+
+E por ultimo carreguei os dados novamente com a coluna "ID" e a coluna "43" e concatenei com a primeira conexão.
+```
+  Concatenate([ESTADIAS])
+  LOAD
+      RowNo()	AS id_1,
+      @43 as TIPO
+  FROM [lib://CONTROLE_ESTADIAS (g10_tp.dev_3)]
+  (html, utf8, no labels, table is @1)
+  where @1 > 1;
+```
+
+
+
+
 -------------------------------------------------------
 [Volta Página Principal](/README.md)
