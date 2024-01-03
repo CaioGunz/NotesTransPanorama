@@ -18,7 +18,5 @@ em breve...
 # Outros Assuntos:
 [Estrutura dos Estudos em 2024 (Issue)](https://github.com/CaioGunz/Study/issues/1#issue-2057441700)
 
-[Pasta de Estatística](/OUTROS%20ASSUNTOS/ESTATISTICA/)
-
-[Pasta de Gestão Agil](/OUTROS%20ASSUNTOS/GESTÃO%20AGIL/)
+[Pasta de Estatística](/OUTROS%20ASSUNTOS/ESTATISTICA/) (Arrumar)
 
