@@ -7,7 +7,7 @@
 [Link das Issues: Issue Qlik](https://github.com/CaioGunz/Study/issues/2#issue-2057726169)
 
 # Sobre Python:
-Em breve...
+[Estudos e Libs Python](/PYTHON/Estudos%20e%20Libs%20Python.md)
 
 # Sobre SQL:
 Em breve...
