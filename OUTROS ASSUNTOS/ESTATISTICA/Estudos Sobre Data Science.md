@@ -11,10 +11,11 @@
 
 [Artigo - **Engenharia de Caracteristicas** (Falta Ler)](https://datascience.eu/pt/aprendizado-de-maquina/engenharia-de-caracteristicas/)
 
-[Artigo **Como utilizar o featuretools** (Falta Ler)](https://medium.com/datarisk-io/automated-feature-engineering-como-utilizar-o-featuretools-25586438df3d)
+[Artigo - **Como utilizar o featuretools** (Falta Ler)](https://medium.com/datarisk-io/automated-feature-engineering-como-utilizar-o-featuretools-25586438df3d)
 
-[Artigo **Deep Feature Synthesis (DFS)** (Falta Ler)](https://medium.com/data-hackers/deep-feature-synthesis-dfs-835cbc7a3290)
+[Artigo - **Deep Feature Synthesis (DFS)** (Falta Ler)](https://medium.com/data-hackers/deep-feature-synthesis-dfs-835cbc7a3290)
 
+[Artigo - **Medidas com tendência cental: moda, média e mediana** (Falta Ler)](https://medium.com/pizzadedados/medidas-tendencia-central-185924243185)
 
 #### Vídeos
 [Aula sobre Engenharia de Requisitos do Prof Grabriel Tozatto](https://www.youtube.com/watch?v=DH4hzOLHF0Y)
