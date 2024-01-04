@@ -9,5 +9,14 @@
 
 [Canal sobre Tkinter e CustomTkinter (Gringo)](https://www.youtube.com/channel/UCTsyH5vDt8RaRUD9yIhjX1w)
 
+
+---------------
+## Artigos
+
+[Introdução a Blibioteca Pandas (Resumido)](https://medium.com/tech-grupozap/introdu%C3%A7%C3%A3o-a-biblioteca-pandas-89fa8ed4fa38)
+
+
+[Introdução a Blibioteca Numpy (Resumido)](https://medium.com/ensina-ai/entendendo-a-biblioteca-numpy-4858fde63355)
+
 -------------------
 [Volta Página Principal](/README.md)
