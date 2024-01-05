@@ -13,12 +13,10 @@
 Em breve...
 
 # Sobre gestão Agil:
-em breve...
+[Estudos de SCRUM](/OUTROS%20ASSUNTOS/GESTÃO%20AGIL/Estudos%20Scrum.md)
 
 # Outros Assuntos:
 [Estrutura dos Estudos em 2024 (Issue)](https://github.com/CaioGunz/Study/issues/1#issue-2057441700)
-
-[Estudos de SCRUM](/OUTROS%20ASSUNTOS/SCRUM/Estudos%20Scrum.md)
 
 [Estudos de Data Science](/OUTROS%20ASSUNTOS/ESTATISTICA/Estudos%20Sobre%20Data%20Science.md)
 
