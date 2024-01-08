@@ -115,11 +115,11 @@ Dessa forma, o código globalmente contabiliza a quantidade única de IDs em **[
 ```
 ### Descrição
 Primeiro verifiquei se a conexão puxava o campo não encontrado.
-![resolução 001](/ASSETS/Outros/resolução%20qlik%20001.png)
+![resolução 001](/QLIK/ASSETS/resolução%20qlik%20001.png)
 
 Segundo apaguei o campo não encontrado do Script
 
-![resolução 002](/ASSETS/Outros/resolução%20qlik%20002.png)
+![resolução 002](/QLIK/ASSETS/resolução%20qlik%20002.png)
 
 E por ultimo carreguei os dados novamente com a coluna "ID" e a coluna "43" e concatenei com a primeira conexão.
 ```
