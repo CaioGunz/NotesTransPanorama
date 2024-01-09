@@ -5,7 +5,10 @@
 
 [Documentação Lib TKINTER Usado Para Criação de Aplicativos desktop](https://docs.python.org/pt-br/3/library/tkinter.html)
 
+[Documentação Lib CustomTkinter alternativa ao Tkinter](https://customtkinter.tomschimansky.com/)
+
 [Gerar .gitignore para qualquer linguagem com as restrições necessarias](https://www.toptal.com/developers/gitignore)
+
 
 ## Canais sobre Python:
 
