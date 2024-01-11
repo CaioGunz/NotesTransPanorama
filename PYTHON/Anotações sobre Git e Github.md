@@ -91,8 +91,7 @@
 
 ## Alguns sites para ajudar no dia a dia com o GitHub:
 
-Git log cheatsheet:
-   https://devhints.io/git-log
+[Git log cheatsheet](https://devhints.io/git-log)
 
 -------------------
 [Voltar Para Página Inicial](/README.md)
