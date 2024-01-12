@@ -26,7 +26,7 @@
 
 [Blog de Qlik](https://www.askqv.com/blogs/)
 
-
+[Comunidade de Qlik do Yoshida (Telegram)](https://hosteagle.club/+YQ31_7lm7xM4YWJh?__cpo=aHR0cHM6Ly90Lm1l)
 
 -------------------------------------------------------
 [Volta Página Principal](/README.md)
