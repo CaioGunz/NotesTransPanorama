@@ -9,6 +9,8 @@
 
 [Documentação QlikView](https://help.qlik.com/pt-BR/qlikview/May2023/Content/QV_HelpSites/what-is.htm)
 
+[Curso Yoshida Qlik Todas as Aulas]()
+
 ## Canais e Cursos:
 [Webinar inQuesti Sobre QlikView (Youtube)](https://youtu.be/2Z4gThXvLdc?si=ZHpD0EFZSHOifRLN)
 
