@@ -132,6 +132,43 @@ E por ultimo carreguei os dados novamente com a coluna "ID" e a coluna "43" e co
   where @1 > 1;
 ```
 
+----------------------
+
+## Ajuste do BI de DASHBOARD CONTROLE ESTADIAS CONSOLIDADA — WORKSHOP
+
+### Mudança para bloquear apenas os anos solicitados diretamente nas medidas
+Utilizei o seguinte código para ler apenas os dados de 2023 e 2024
+```
+ANO={'2023','2024'}
+```
+Exemplo, na prática:
+``` 
+SUM({<ANO={'2023','2024'}>} VALOR_ESTADIA)
+```
+
+-------------------------
+
+### Mudança para bloquear os filtros de ano apenas nos anos solicitados
+Para fixar o filtro de Ano (Para todos os Filtros de ANO poderia ter criado uma dimensão com o cálculo, mas fiz direto na medida de cada filtro) apenas em 2023 e 2024 utilizei o seguinte código:
+``` 
+IF(ANO='2023' OR ANO='2024', ANO)
+```
+
+------------------------
+
+### Mudança em alguns filtros de Mês/Ano no formato (ex: **jan/2023**)
+Para remover os meses/ano de 2021 e 2022 e deixar apenas 2023 e 2024 utilizei o seguinte código:
+```
+IF(Year(DATA_EMISSAO) >= 2023 AND Year(DATA_EMISSAO) <= 2024, MONTHNAME(DATA_EMISSAO), null())
+```
+
+-------------------------
+
+### Mudança em alguns filtros de Mês/Ano no formato (ex: **01/2023**)
+Para remover os dados de 2021 e 2022 e manter 2023 e 2024 em um formato diferente da fórmula acima utilizei o seguinte código:
+```
+=IF(Year(Date#([MES ANO], 'MM/YYYY')) >= 2023 AND Year(Date#([MES ANO], 'MM/YYYY')) <= 2024, [MES ANO])
+``` 
 
 
 
