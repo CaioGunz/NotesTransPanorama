@@ -11,6 +11,8 @@
 
 [Estudos sobre Diagrama de Classes](/PYTHON/Diagrama%20de%20Classes.md)
 
+[Estudos sobre Git e Github](/PYTHON/Anotações%20sobre%20Git%20e%20Github.md)
+
 # Sobre SQL:
 Em breve...
 
@@ -23,4 +25,3 @@ Em breve...
 [Estudos de Data Science](/OUTROS%20ASSUNTOS/ESTATISTICA/Estudos%20Sobre%20Data%20Science.md)
 
 [Estudo sobre Gráficos](/OUTROS%20ASSUNTOS/ESTATISTICA/Graficos.md)
-
