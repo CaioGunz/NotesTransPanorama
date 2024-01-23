@@ -7,6 +7,8 @@
 
 [Documentação Lib CustomTkinter alternativa ao Tkinter](https://customtkinter.tomschimansky.com/)
 
+[Curso Python Progressivo (tudo sobre python)](https://www.pythonprogressivo.net/)
+
 [Gerar .gitignore para qualquer linguagem com as restrições necessarias](https://www.toptal.com/developers/gitignore)
 
 
