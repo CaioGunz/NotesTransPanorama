@@ -9,6 +9,8 @@
 
 [Documentação QlikView](https://help.qlik.com/pt-BR/qlikview/May2023/Content/QV_HelpSites/what-is.htm)
 
+[Qlik sense help (Para buscar tudo sobre as formulas do Qlik)](https://help.qlik.com/pt-BR/sense/August2022/Subsystems/Hub/Content/Sense_Hub/Introduction/create.htm)
+
 [Curso Yoshida Qlik Todas as Aulas]()
 
 ## Canais e Cursos:
