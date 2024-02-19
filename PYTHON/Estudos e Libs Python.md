@@ -25,5 +25,10 @@
 
 [Introdução a Blibioteca Numpy (Resumido)](https://medium.com/ensina-ai/entendendo-a-biblioteca-numpy-4858fde63355)
 
+
+-------------------
+## Exemplos de Uso de Algumas Libs do Python (RoadMap)
+![Imagen Libs Python](/PYTHON/ASSETS/libs%20python.gif)
+
 -------------------
 [Volta Página Principal](/README.md)
