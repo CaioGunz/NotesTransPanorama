@@ -25,3 +25,5 @@ Em breve...
 [Estudos de Data Science](/OUTROS%20ASSUNTOS/ESTATISTICA/Estudos%20Sobre%20Data%20Science.md)
 
 [Estudo sobre Gráficos](/OUTROS%20ASSUNTOS/ESTATISTICA/Graficos.md)
+
+[Comando que mais uso no Linux](/LINUX/COMANDOS%20LINUX.md)
