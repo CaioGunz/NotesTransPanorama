@@ -18,6 +18,8 @@
 
 [Principais Formulas](/POWER%20BI/Principais%20Formulas.md)
 
+[Medida Implicita e Explicita](/POWER%20BI/Medida%20Implicita%20e%20Explicita.md)
+
 # Sobre SQL:
 Em breve...
 
