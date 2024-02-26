@@ -49,3 +49,29 @@
    zip -r -e -P minha_senha pasta_zipada.zip minha_pasta
    ``` 
    substituir **minha_senha** pela senha que deseja usar no arquivo ZIP, **pasta_zipada.zip** pelo nome que vai ter a pasta gerada e o nome da pasta que vai ser zipada **minha_pasta**.
+
+
+## Alterações de arquivos no Linux
+
+### Alterar nome de arquivos e pastas
+
+   Para renomear uma pasta/arquivo no terminal linux deve usar o comando
+   ```
+   mv nome_atual novo_nome
+   ```
+   substitua **nome_atual** pelo nome em que se encontra seu arquivo ou pasta e em **novo_nome** pelo nome que deseja ter no arquivo alterado. Certifique que o repositorio que vai ser alterado é o correto. Exemplo de alteação com o caminho do repositorio:
+   ```
+   mv /home/seu_usuario/pasta_antiga /home/seu_usuario/pasta_nova
+   ```
+
+### Remover arquivos no linux
+
+   Para remover arquivos ou pastas no terminal você deve fazer o seguinte comando
+   ```
+   rm exemple.txt
+   ```
+   caso vá excluir de um repositorio diferente do que você está use o comando com o caminho do arquivo/pasta. Exemplo:
+   ```
+   rm /home/seu_usuario/documentos/example.txt
+   ```
+   Lembre-se que o comando **rm** remove permanente os arquivos, então use com cuidado.
