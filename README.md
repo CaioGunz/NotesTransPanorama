@@ -13,6 +13,11 @@
 
 [Estudos sobre Git e Github](/PYTHON/Anotações%20sobre%20Git%20e%20Github.md)
 
+# Sobre Power BI
+[Estudos Sobre Power BI](/POWER%20BI/Estudos%20Power%20BI.md)
+
+[Principais Formulas](/POWER%20BI/Principais%20Formulas.md)
+
 # Sobre SQL:
 Em breve...
 
