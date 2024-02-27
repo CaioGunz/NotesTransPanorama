@@ -33,4 +33,6 @@ Em breve...
 
 [Estudo sobre Gráficos](/OUTROS%20ASSUNTOS/ESTATISTICA/Graficos.md)
 
+[Estudo sobre Gráfico de Pizza](/OUTROS%20ASSUNTOS/ESTATISTICA/Grafico%20de%20Pizza.md)
+
 [Comando que mais uso no Linux](/LINUX/COMANDOS%20LINUX.md)
