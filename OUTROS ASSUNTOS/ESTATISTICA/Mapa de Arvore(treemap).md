@@ -17,3 +17,6 @@ Nós podemos utilizar esse visual quando:
 Caso você esteja interessado em se aprofundar um pouco mais sobre esse visual, vamos deixar o link da documentação da microsoft:
 
 [Mapas de árvore no Power BI](https://docs.microsoft.com/pt-br/power-bi/visuals/power-bi-visualization-treemaps)
+
+----------------------------------
+[Volta Página Principal](/README.md)
