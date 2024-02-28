@@ -19,3 +19,6 @@ Porém, como dissemos antes, olha só como a análise fica muito poluída, não 
 Os múltiplos pequenos nos ajudam a dividir a análise, deixando assim a leitura e 
 interpretação muito mais fáceis de se fazer.
 ```
+
+-------------------------------------------------------
+[Volta Página Principal](/README.md)
