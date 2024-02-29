@@ -13,6 +13,9 @@
 
 [Estudos sobre Git e Github](/PYTHON/Anotações%20sobre%20Git%20e%20Github.md)
 
+#### Sobre gestão Agil:
+[Estudos de SCRUM](/PYTHON/Estudos%20Scrum.md)
+
 # Sobre Power BI
 [Estudos Sobre Power BI](/POWER%20BI/Estudos%20Power%20BI.md)
 
@@ -23,16 +26,20 @@
 # Sobre SQL:
 Em breve...
 
-# Sobre gestão Agil:
-[Estudos de SCRUM](/OUTROS%20ASSUNTOS/GESTÃO%20AGIL/Estudos%20Scrum.md)
+# Sobre Estatistica:
 
-# Outros Assuntos:
-[Estrutura dos Estudos em 2024 (Issue)](https://github.com/CaioGunz/Study/issues/1#issue-2057441700)
+[Estudos de Data Science](/ESTATISTICA/Estudos%20Sobre%20Data%20Science.md)
 
-[Estudos de Data Science](/OUTROS%20ASSUNTOS/ESTATISTICA/Estudos%20Sobre%20Data%20Science.md)
+[Estudo sobre Gráficos](/ESTATISTICA/Graficos.md)
 
-[Estudo sobre Gráficos](/OUTROS%20ASSUNTOS/ESTATISTICA/Graficos.md)
+[Estudo sobre Gráfico de Pizza](/ESTATISTICA/Grafico%20de%20Pizza.md)
 
-[Estudo sobre Gráfico de Pizza](/OUTROS%20ASSUNTOS/ESTATISTICA/Grafico%20de%20Pizza.md)
+[Estudo sobre Gráfico de Barras](/ESTATISTICA/Grafico%20de%20Barras.md)
+
+[Estudo sobre Mapa de Arvore(Treemap)](/ESTATISTICA/Mapa%20de%20Arvore(treemap).md)
+
+[Estudos sobre Multiplos Pequenos](/ESTATISTICA/Multiplos%20Pequenos.md)
+
+# Sobre Linux:
 
 [Comando que mais uso no Linux](/LINUX/COMANDOS%20LINUX.md)

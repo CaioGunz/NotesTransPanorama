@@ -1,6 +1,6 @@
 # Visual Mapa de Árvore (Treemap)
 O mapa de árvore é um visual disponível no Power BI muito utilizado para mostrar hierarquia entre os dados usando formas geométricas de retângulos coloridos:
-![Exemplo de Mapa de Arvore(treemap)](/OUTROS%20ASSUNTOS/ESTATISTICA/ASSETS/exemploMapaDeArvore.png)
+![Exemplo de Mapa de Arvore(treemap)](/ESTATISTICA/ASSETS/exemploMapaDeArvore.png)
 Fonte: [documentação Microsoft](https://docs.microsoft.com/pt-br/power-bi/visuals/power-bi-visualization-treemaps)
 
 Cada retângulo tem o seu tamanho baseado no valor dos dados que estamos representando. Eles são organizados no tamanho da parte superior esquerda (maior) à parte inferior direita (menor).
