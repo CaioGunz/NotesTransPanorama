@@ -23,6 +23,8 @@
 
 [Medida Implicita e Explicita](/POWER%20BI/Medida%20Implicita%20e%20Explicita.md)
 
+[Como calcular hora para KPI e Gráficos](/POWER%20BI/Calculo%20de%20Horas%20-%20Acima%20de%2024h.md)
+
 # Sobre SQL:
 Em breve...
 
