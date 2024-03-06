@@ -50,5 +50,7 @@ A partir de agora, sabemos que existem duas opções ao copiar uma tabela. Com i
 
 As opções de Duplicar e Referenciar são distintas e cada uma tem suas vantagens e desvantagens. A opção de duplicar é útil quando você deseja que as duas **cópias sejam independentes** uma da outra, enquanto a opção de referência é adequada quando você cria ramos diferentes a partir de uma tabela original.
 
+Fonte: Alura
+
 ---------------------
 [Volta Página Principal](/README.md)
