@@ -25,6 +25,8 @@
 
 [Como calcular hora para KPI e Gráficos](/POWER%20BI/Calculo%20de%20Horas%20-%20Acima%20de%2024h.md)
 
+[Tipos de Junção na Mesclagem do Power BI](/POWER%20BI/Tipos%20de%20Junção%20na%20Mesclagem%20do%20Power%20BI.md)
+
 # Sobre SQL:
 Em breve...
 
