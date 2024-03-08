@@ -17,15 +17,27 @@
 [Estudos de SCRUM](/PYTHON/Estudos%20Scrum.md)
 
 # Sobre Power BI
+[Como calcular hora para KPI e Gráficos](/POWER%20BI/Calculo%20de%20Horas%20-%20Acima%20de%2024h.md)
+
+[Contexto de Linha X Contexto de Filtro X Iteração](/POWER%20BI/Contexto%20de%20Linha%20X%20Contexto%20de%20Filtro%20X%20Iteração.md)
+
+[Coluna Calculada X Medida](/POWER%20BI/Coluna%20Calculada%20x%20Medidas.md)
+
+[Diferença entre Duplicar e Manipular uma Coluna](/POWER%20BI/Diferenca%20de%20Duplicar%20e%20Manipular%20uma%20Tabela.md)
+
 [Estudos Sobre Power BI](/POWER%20BI/Estudos%20Power%20BI.md)
 
-[Principais Formulas](/POWER%20BI/Principais%20Formulas.md)
+[Funções BLANK e ISBLANK](/POWER%20BI/Funções%20BLANK%20e%20ISBLANK.md)
+
+[Funções para Conversão de Tipo](/POWER%20BI/Funções%20para%20Conversão%20de%20Tipo.md)
 
 [Medida Implicita e Explicita](/POWER%20BI/Medida%20Implicita%20e%20Explicita.md)
 
-[Como calcular hora para KPI e Gráficos](/POWER%20BI/Calculo%20de%20Horas%20-%20Acima%20de%2024h.md)
+[Principais Formulas](/POWER%20BI/Principais%20Formulas.md)
 
 [Tipos de Junção na Mesclagem do Power BI](/POWER%20BI/Tipos%20de%20Junção%20na%20Mesclagem%20do%20Power%20BI.md)
+
+[Tipos de Dados no DAX](/POWER%20BI/Tipos%20de%20Dados%20no%20DAX.md)
 
 # Sobre SQL:
 Em breve...
