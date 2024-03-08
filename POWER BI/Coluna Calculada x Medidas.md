@@ -19,3 +19,7 @@ As colunas calculadas e as medidas no Power BI têm propósitos diferentes e apr
  
 Em resumo, as colunas calculadas e as medidas são recursos poderosos do Power BI que permitem que você realize cálculos personalizados e agregações sobre seus dados. Elas desempenham um papel fundamental na criação de análises e visualizações significativas, fornecendo informações valiosas para a tomada de decisões informadas. Dominar o uso de colunas calculadas e medidas no Power BI capacita você a explorar todo o potencial dos seus dados e apresentá-los de forma clara e impactante.
 
+Fonte: Alura
+
+---------------------
+[Volta Página Principal](/README.md)
