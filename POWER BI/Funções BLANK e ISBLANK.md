@@ -22,5 +22,7 @@ Para tratar essa situação, você pode utilizar a função ISBLANK para verific
 
 Dessa forma, as funções BLANK e ISBLANK são ferramentas valiosas no DAX para trabalhar com valores vazios ou nulos. Ao combiná-las, você pode verificar e tratar dados ausentes de forma eficiente, adptando suas fórmulas para fornecer resultados precisos e significativos em suas análises no Power BI.
 
+Fonte: Alura
+
 ---------------------
 [Volta Página Principal](/README.md)

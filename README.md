@@ -31,6 +31,12 @@
 
 [Funções para Conversão de Tipo](/POWER%20BI/Funções%20para%20Conversão%20de%20Tipo.md)
 
+[Função RELATED](/POWER%20BI/Função%20RELATED.md)
+
+[Função VALUE e DISTINCT](/POWER%20BI/Função%20VALUES%20e%20DISTINCT.md)
+
+[Funções Iteradoras](/POWER%20BI/Funções%20Iteradoras.md)
+
 [Medida Implicita e Explicita](/POWER%20BI/Medida%20Implicita%20e%20Explicita.md)
 
 [Principais Formulas](/POWER%20BI/Principais%20Formulas.md)
