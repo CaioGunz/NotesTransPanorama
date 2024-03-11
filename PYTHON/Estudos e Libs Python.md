@@ -25,6 +25,8 @@
 
 [Introdução a Blibioteca Numpy (Resumido)](https://medium.com/ensina-ai/entendendo-a-biblioteca-numpy-4858fde63355)
 
+[Artigo sobre Venv](https://medium.com/@habbema/python-virtual-environments-venv-8d3696fc47e5)
+
 
 -------------------
 ## Exemplos de Uso de Algumas Libs do Python (RoadMap)
