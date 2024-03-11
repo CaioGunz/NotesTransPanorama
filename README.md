@@ -50,6 +50,8 @@ Em breve...
 
 # Sobre Estatistica:
 
+[Análise de Pareto](/ESTATISTICA/Analise%20de%20Pareto.md)
+
 [Estudos de Data Science](/ESTATISTICA/Estudos%20Sobre%20Data%20Science.md)
 
 [Estudo sobre Gráficos](/ESTATISTICA/Graficos.md)
