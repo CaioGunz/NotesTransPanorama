@@ -23,6 +23,8 @@
 
 [Coluna Calculada X Medida](/POWER%20BI/Coluna%20Calculada%20x%20Medidas.md)
 
+[Contexto](/POWER%20BI/Contextos.md)
+
 [Diferença entre Duplicar e Manipular uma Coluna](/POWER%20BI/Diferenca%20de%20Duplicar%20e%20Manipular%20uma%20Tabela.md)
 
 [Estudos Sobre Power BI](/POWER%20BI/Estudos%20Power%20BI.md)
