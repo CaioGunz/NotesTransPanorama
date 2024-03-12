@@ -132,5 +132,5 @@ Embora os detalhes variem, os princípios subjacentes por trás dessas técnicas
 ### Referências
 [Tipo de analises](https://aws.amazon.com/pt/what-is/data-science/?nc1=h_ls)
 
--------------------------------------------------------
+----------------
 [Volta Página Principal](/README.md)

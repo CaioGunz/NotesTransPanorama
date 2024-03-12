@@ -54,6 +54,8 @@ Em breve...
 
 [Análise de Pareto](/ESTATISTICA/Analise%20de%20Pareto.md)
 
+[Base de Dados Gratis Diversas Fontes](/ESTATISTICA/Base%20de%20Dados%20-%20gratis.md)
+
 [Estudos de Data Science](/ESTATISTICA/Estudos%20Sobre%20Data%20Science.md)
 
 [Estudo sobre Gráficos](/ESTATISTICA/Graficos.md)
