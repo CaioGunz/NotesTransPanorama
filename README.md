@@ -47,6 +47,8 @@
 
 [Tipos de Dados no DAX](/POWER%20BI/Tipos%20de%20Dados%20no%20DAX.md)
 
+[Tooltip](/POWER%20BI/Tooltip.md)
+
 # Sobre SQL:
 Em breve...
 
@@ -67,6 +69,8 @@ Em breve...
 [Estudo sobre Mapa de Arvore(Treemap)](/ESTATISTICA/Mapa%20de%20Arvore(treemap).md)
 
 [Estudos sobre Multiplos Pequenos](/ESTATISTICA/Multiplos%20Pequenos.md)
+
+[Métricas com DAX](/ESTATISTICA/Métricas%20com%20DAX.md)
 
 # Sobre Linux:
 
