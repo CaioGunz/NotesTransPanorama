@@ -17,6 +17,8 @@
 
 [Artigo - **Medidas com tendência cental: moda, média e mediana** (Falta Ler)](https://medium.com/pizzadedados/medidas-tendencia-central-185924243185)
 
+[Artigo - **Diferença entre Dashboards e Relatórios**](https://www.alura.com.br/artigos/dashboards-vs-relatorios?_gl=1*19dcgb4*_ga*MTI0MjAwNDk0Ni4xNzAyMzg5NTU1*_ga_1EPWSW3PCS*MTcxMDI0NzgzMi4yMjAuMS4xNzEwMjUwNzAzLjAuMC4w*_fplc*TG81d29WUFZ4dlpBemtPRmpOdCUyQkJ3RWwzenBNbHpQMVRweUxoOCUyRiUyQlcwNkNHNzRFN1JWeG5LMmd1SiUyRkF1WklpUm4lMkJKdlhQY3lJTHlaSWd3emdhYlBmeFZaSCUyQkE4ZzlvNVdMRUNPRGd3ak5ORnBJV0NKekV2VkFCUVVBNEJnJTNEJTNE)
+
 #### Vídeos
 [Aula sobre Engenharia de Requisitos do Prof Grabriel Tozatto](https://www.youtube.com/watch?v=DH4hzOLHF0Y)
 
