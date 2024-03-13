@@ -15,9 +15,11 @@
 
 [Artigo - **Deep Feature Synthesis (DFS)** (Falta Ler)](https://medium.com/data-hackers/deep-feature-synthesis-dfs-835cbc7a3290)
 
+[Artigo - **Diferença entre Dashboards e Relatórios**](https://www.alura.com.br/artigos/dashboards-vs-relatorios?_gl=1*19dcgb4*_ga*MTI0MjAwNDk0Ni4xNzAyMzg5NTU1*_ga_1EPWSW3PCS*MTcxMDI0NzgzMi4yMjAuMS4xNzEwMjUwNzAzLjAuMC4w*_fplc*TG81d29WUFZ4dlpBemtPRmpOdCUyQkJ3RWwzenBNbHpQMVRweUxoOCUyRiUyQlcwNkNHNzRFN1JWeG5LMmd1SiUyRkF1WklpUm4lMkJKdlhQY3lJTHlaSWd3emdhYlBmeFZaSCUyQkE4ZzlvNVdMRUNPRGd3ak5ORnBJV0NKekV2VkFCUVVBNEJnJTNEJTNE)
+
 [Artigo - **Medidas com tendência cental: moda, média e mediana** (Falta Ler)](https://medium.com/pizzadedados/medidas-tendencia-central-185924243185)
 
-[Artigo - **Diferença entre Dashboards e Relatórios**](https://www.alura.com.br/artigos/dashboards-vs-relatorios?_gl=1*19dcgb4*_ga*MTI0MjAwNDk0Ni4xNzAyMzg5NTU1*_ga_1EPWSW3PCS*MTcxMDI0NzgzMi4yMjAuMS4xNzEwMjUwNzAzLjAuMC4w*_fplc*TG81d29WUFZ4dlpBemtPRmpOdCUyQkJ3RWwzenBNbHpQMVRweUxoOCUyRiUyQlcwNkNHNzRFN1JWeG5LMmd1SiUyRkF1WklpUm4lMkJKdlhQY3lJTHlaSWd3emdhYlBmeFZaSCUyQkE4ZzlvNVdMRUNPRGd3ak5ORnBJV0NKekV2VkFCUVVBNEJnJTNEJTNE)
+[Artigo - Storytelling: técnicas para uma comunicação eficaz e envolvente](https://www.alura.com.br/artigos/storytelling-para-comunicacao?_gl=1*1wg9pu4*_ga*MTI0MjAwNDk0Ni4xNzAyMzg5NTU1*_ga_1EPWSW3PCS*MTcxMDM1MTg0OC4yMjcuMS4xNzEwMzUyNjg2LjAuMC4w*_fplc*WFJucm1NZmZFbU9kbk02VXVZS1B3RHU3eXFLb0h3RE5UNnh3M200a2tQR2FSMnolMkZQR0RaU2pPS3pqRnUlMkZzZ09ncEpzVjhMJTJCRE9xT0l5Zm1GSXpxRGJoZkxFVXAweUhvd2FOY3JJUCUyQklobmdnUEhvNCUyQmdxWnNjaDdIRTJ2USUzRCUzRA..)
 
 #### Vídeos
 [Aula sobre Engenharia de Requisitos do Prof Grabriel Tozatto](https://www.youtube.com/watch?v=DH4hzOLHF0Y)
