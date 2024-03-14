@@ -25,6 +25,8 @@
 
 [Contexto](/POWER%20BI/Contextos.md)
 
+[COnfigurações de Link](/POWER%20BI/Configurações%20de%20Link.md)
+
 [Diferença entre Duplicar e Manipular uma Coluna](/POWER%20BI/Diferenca%20de%20Duplicar%20e%20Manipular%20uma%20Tabela.md)
 
 [Estudos Sobre Power BI](/POWER%20BI/Estudos%20Power%20BI.md)
@@ -38,6 +40,10 @@
 [Função VALUE e DISTINCT](/POWER%20BI/Função%20VALUES%20e%20DISTINCT.md)
 
 [Funções Iteradoras](/POWER%20BI/Funções%20Iteradoras.md)
+
+[KeepFilter](/POWER%20BI/KeepFilter.md)
+
+[Layout Móvel](/POWER%20BI/Layout%20Mobile.md)
 
 [Medida Implicita e Explicita](/POWER%20BI/Medida%20Implicita%20e%20Explicita.md)
 
