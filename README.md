@@ -13,6 +13,8 @@
 
 [Estudos sobre Git e Github](/PYTHON/Anotações%20sobre%20Git%20e%20Github.md)
 
+[Metodo Melt()](/PYTHON/Método%20Melt.md)
+
 #### Sobre gestão Agil:
 [Estudos de SCRUM](/PYTHON/Estudos%20Scrum.md)
 
