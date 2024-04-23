@@ -1,0 +1,8 @@
+site_name: Gunz Study
+
+theme:
+  name: 'material'
+  palette:
+    scheme: 'slate'
+    primary: 'teal'
+
