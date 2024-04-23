@@ -1,0 +1,1624 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../Base%20de%20Dados%20-%20gratis/">
+      
+      
+        <link rel="next" href="../Grafico%20de%20Barras/">
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.5.18">
+    
+    
+      
+        <title>Estudos sobre Data Science - Gunz Study</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.66ac8b77.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="teal" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#estudos-sobre-data-science" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Gunz Study" class="md-header__button md-logo" aria-label="Gunz Study" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Gunz Study
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Estudos sobre Data Science
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Gunz Study" class="md-nav__button md-logo" aria-label="Gunz Study" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    Gunz Study
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Home
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    ESTATISTICA
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            ESTATISTICA
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Analise%20de%20Pareto/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Para saber mais: a Análise de Pareto
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Base%20de%20Dados%20-%20gratis/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Para pegar bases de dados gratis
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Estudos sobre Data Science
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Estudos sobre Data Science
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#links-de-artigos-cursos-youtube" class="md-nav__link">
+    <span class="md-ellipsis">
+      Links de Artigos / Cursos / Youtube
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Links de Artigos / Cursos / Youtube">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#artigos" class="md-nav__link">
+    <span class="md-ellipsis">
+      Artigos
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#videos" class="md-nav__link">
+    <span class="md-ellipsis">
+      Vídeos
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tipos-de-analises" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tipos de Análises
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#processo-da-data-science" class="md-nav__link">
+    <span class="md-ellipsis">
+      Processo da Data Science
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tecnicas-de-data-science" class="md-nav__link">
+    <span class="md-ellipsis">
+      Técnicas de Data Science
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Técnicas de Data Science">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#o-principio-basico-por-tras-das-tecnicas-de-ciencia-de-dados" class="md-nav__link">
+    <span class="md-ellipsis">
+      O princípio básico por trás das técnicas de ciência de dados
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tecnologias-mais-utilizada" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tecnologias mais utilizada
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Tecnologias mais utilizada">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#referencias" class="md-nav__link">
+    <span class="md-ellipsis">
+      Referências
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Grafico%20de%20Barras/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Gráfico de Barras Empilhadas e Clusterizada
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Grafico%20de%20Pizza/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Gráfico de Pizza
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Graficos/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Gráficos
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Mapa%20de%20Arvore%28treemap%29/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Visual Mapa de Árvore (Treemap)
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Multiplos%20Pequenos/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Múltiplos Pequeno
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../M%C3%A9tricas%20com%20DAX/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Para saber mais: médtricas com DAX
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    LINUX
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            LINUX
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../LINUX/COMANDOS%20LINUX/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Comandos Básicos do Linux (Meu uso)
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    POWER BI
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            POWER BI
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../POWER%20BI/Calculo%20de%20Horas%20-%20Acima%20de%2024h/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Cálculo de Horas no Power BI - Acima de 24h
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../POWER%20BI/Coluna%20Calculada%20x%20Medidas/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Coluna Calculada x Medidas
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../POWER%20BI/Configura%C3%A7%C3%B5es%20de%20Link/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Configurações de Link
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../POWER%20BI/Contexto%20de%20Linha%20X%20Contexto%20de%20Filtro%20X%20Itera%C3%A7%C3%A3o/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Para saber mais: Contexto de linha x Contexto de filtro x Iteração
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../POWER%20BI/Contextos/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Para saber mais: Contextos
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../POWER%20BI/Diferenca%20de%20Duplicar%20e%20Manipular%20uma%20Tabela/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Diferenca de Duplicar e Manipular uma Tabela
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../POWER%20BI/Estudos%20Power%20BI/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Estudos Power BI
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../POWER%20BI/Fun%C3%A7%C3%A3o%20RELATED/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Para saber mais: a função RELATED
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../POWER%20BI/Fun%C3%A7%C3%A3o%20VALUES%20e%20DISTINCT/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    PAra saber mais: funções que retornam tabelas (Values e Distinct)
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../POWER%20BI/Fun%C3%A7%C3%B5es%20BLANK%20e%20ISBLANK/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Utilizando as funções BLANK e ISBLANK
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../POWER%20BI/Fun%C3%A7%C3%B5es%20Iteradoras/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Para saber mais: as funções iteradoras
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../POWER%20BI/Fun%C3%A7%C3%B5es%20de%20Modofical%C3%A7%C3%A3o%20de%20Filtros%20de%20DAX/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Para saber mais: Categoria de funções de modificação de filtros em DAX
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../POWER%20BI/Fun%C3%A7%C3%B5es%20para%20Convers%C3%A3o%20de%20Tipo/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Funções para conversão de tipo
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../POWER%20BI/KeepFilter/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Para saber mais: KeepFilter
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../POWER%20BI/Layout%20Mobile/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Layout Mobile
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../POWER%20BI/Medida%20Implicita%20e%20Explicita/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Medidas Implícitas e Explícitas
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../POWER%20BI/Principais%20Formulas/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Fórmulas e Resolução de problemas no Power BI
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../POWER%20BI/Tipos%20de%20Dados%20no%20DAX/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Para saber mais: Tipos de Dados no DAX
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../POWER%20BI/Tipos%20de%20Jun%C3%A7%C3%A3o%20na%20Mesclagem%20do%20Power%20BI/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Tipos de Junção na Mesclagem do Power BI
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../POWER%20BI/Tooltip/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Para saber mais: tooltip
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    PYTHON
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            PYTHON
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../PYTHON/Anota%C3%A7%C3%B5es%20sobre%20Git%20e%20Github/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Anotações Sobre Git e Github
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../PYTHON/Diagrama%20de%20Classes/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Conhecendo Diagrama de Classes
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../PYTHON/Estudos%20Scrum/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Conhecendo o SCRUM
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../PYTHON/Estudos%20e%20Libs%20Python/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Estudos e Libs Python
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../PYTHON/M%C3%A9todo%20Melt/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Resumo Método melt()
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    QLIK
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            QLIK
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../QLIK/Estudos%20Qlik/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Estudos Qlik
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#links-de-artigos-cursos-youtube" class="md-nav__link">
+    <span class="md-ellipsis">
+      Links de Artigos / Cursos / Youtube
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Links de Artigos / Cursos / Youtube">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#artigos" class="md-nav__link">
+    <span class="md-ellipsis">
+      Artigos
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#videos" class="md-nav__link">
+    <span class="md-ellipsis">
+      Vídeos
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tipos-de-analises" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tipos de Análises
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#processo-da-data-science" class="md-nav__link">
+    <span class="md-ellipsis">
+      Processo da Data Science
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tecnicas-de-data-science" class="md-nav__link">
+    <span class="md-ellipsis">
+      Técnicas de Data Science
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Técnicas de Data Science">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#o-principio-basico-por-tras-das-tecnicas-de-ciencia-de-dados" class="md-nav__link">
+    <span class="md-ellipsis">
+      O princípio básico por trás das técnicas de ciência de dados
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tecnologias-mais-utilizada" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tecnologias mais utilizada
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Tecnologias mais utilizada">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#referencias" class="md-nav__link">
+    <span class="md-ellipsis">
+      Referências
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<h1 id="estudos-sobre-data-science">Estudos sobre Data Science</h1>
+<h2 id="links-de-artigos-cursos-youtube">Links de Artigos / Cursos / Youtube</h2>
+<h4 id="artigos">Artigos</h4>
+<p><a href="https://medium.com/@mikaeriohana/como-iniciar-na-carreira-de-ci%C3%AAncia-de-dados-9b37aa525181">Artigo - <strong>Como Iniciar na carreira de Data Science</strong></a></p>
+<p><a href="https://medium.com/pizzadedados/ci%C3%AAncia-de-dados-para-iniciantes-3c0a855d16c7">Artigo - <strong>Conceitos pra quem está começando…</strong></a></p>
+<p><a href="https://ricardomatsumura.medium.com/engenharia-de-atributos-87370c31d0eb">Artigo - <strong>Engenharia de Atributos</strong> (Falta Ler)</a></p>
+<p><a href="https://datascience.eu/pt/aprendizado-de-maquina/engenharia-de-caracteristicas/">Artigo - <strong>Engenharia de Caracteristicas</strong> (Falta Ler)</a></p>
+<p><a href="https://medium.com/datarisk-io/automated-feature-engineering-como-utilizar-o-featuretools-25586438df3d">Artigo - <strong>Como utilizar o featuretools</strong> (Falta Ler)</a></p>
+<p><a href="https://medium.com/data-hackers/deep-feature-synthesis-dfs-835cbc7a3290">Artigo - <strong>Deep Feature Synthesis (DFS)</strong> (Falta Ler)</a></p>
+<p><a href="https://www.alura.com.br/artigos/dashboards-vs-relatorios?_gl=1*19dcgb4*_ga*MTI0MjAwNDk0Ni4xNzAyMzg5NTU1*_ga_1EPWSW3PCS*MTcxMDI0NzgzMi4yMjAuMS4xNzEwMjUwNzAzLjAuMC4w*_fplc*TG81d29WUFZ4dlpBemtPRmpOdCUyQkJ3RWwzenBNbHpQMVRweUxoOCUyRiUyQlcwNkNHNzRFN1JWeG5LMmd1SiUyRkF1WklpUm4lMkJKdlhQY3lJTHlaSWd3emdhYlBmeFZaSCUyQkE4ZzlvNVdMRUNPRGd3ak5ORnBJV0NKekV2VkFCUVVBNEJnJTNEJTNE">Artigo - <strong>Diferença entre Dashboards e Relatórios</strong></a></p>
+<p><a href="https://medium.com/pizzadedados/medidas-tendencia-central-185924243185">Artigo - <strong>Medidas com tendência cental: moda, média e mediana</strong> (Falta Ler)</a></p>
+<p><a href="https://www.alura.com.br/artigos/storytelling-para-comunicacao?_gl=1*1wg9pu4*_ga*MTI0MjAwNDk0Ni4xNzAyMzg5NTU1*_ga_1EPWSW3PCS*MTcxMDM1MTg0OC4yMjcuMS4xNzEwMzUyNjg2LjAuMC4w*_fplc*WFJucm1NZmZFbU9kbk02VXVZS1B3RHU3eXFLb0h3RE5UNnh3M200a2tQR2FSMnolMkZQR0RaU2pPS3pqRnUlMkZzZ09ncEpzVjhMJTJCRE9xT0l5Zm1GSXpxRGJoZkxFVXAweUhvd2FOY3JJUCUyQklobmdnUEhvNCUyQmdxWnNjaDdIRTJ2USUzRCUzRA..">Artigo - Storytelling: técnicas para uma comunicação eficaz e envolvente</a></p>
+<h4 id="videos">Vídeos</h4>
+<p><a href="https://www.youtube.com/watch?v=DH4hzOLHF0Y">Aula sobre Engenharia de Requisitos do Prof Grabriel Tozatto</a></p>
+<hr />
+<h2 id="tipos-de-analises">Tipos de Análises</h2>
+<p>¬ 1. <strong>Análise descritiva</strong></p>
+<p>A análise descritiva analisa os dados para obter insights sobre o que aconteceu ou o que está acontecendo no ambiente de dados. Ela é caracterizada por visualizações de dados, como gráficos de pizza, gráficos de barras, gráficos de linhas, tabelas ou narrativas geradas. Por exemplo, um serviço de reserva de voos pode registrar dados como o número de bilhetes reservados a cada dia. A análise descritiva revelará picos de reservas, quedas nas reservas e meses de alta performance para este serviço.</p>
+<p>¬ 2. <strong>Análise diagnóstica</strong></p>
+<p>A análise diagnóstica é uma análise aprofundada ou detalhada de dados para entender por que algo aconteceu. Ela é caracterizada por técnicas como drill-down, descoberta de dados, mineração de dados e correlações. Várias operações e transformações de dados podem ser realizadas em um determinado conjunto de dados para descobrir padrões exclusivos em cada uma dessas técnicas. Por exemplo, o serviço de voo pode fazer drill-down em um mês particularmente de alta performance para entender melhor o pico de reserva. Isso pode levar à descoberta de que muitos clientes visitam uma determinada cidade para assistir a um evento esportivo mensal.</p>
+<p>¬ 3. <strong>Análise preditiva</strong></p>
+<p>A análise preditiva usa dados históricos para fazer previsões precisas sobre padrões de dados que podem ocorrer no futuro. Ela é caracterizada por técnicas como machine learning, previsão, correspondência de padrões e modelagem preditiva. Em cada uma dessas técnicas, os computadores são treinados para fazer engenharia reversa de conexões de causalidade nos dados. Por exemplo, a equipe de serviço de voo pode usar a ciência de dados para prever padrões de reserva de voo para o próximo ano no início de cada ano. O programa de computador ou algoritmo pode analisar dados anteriores e prever picos de reservas para determinados destinos em maio. Tendo previsto as futuras necessidades de viagem de seus clientes, a empresa poderia iniciar a publicidade direcionada para essas cidades a partir de fevereiro.</p>
+<p>¬ 4. <strong>Análise prescritiva</strong></p>
+<p>A análise prescritiva leva os dados preditivos a um novo patamar. Ela não só prevê o que provavelmente acontecerá, mas também sugere uma resposta ideal para esse resultado. Ela pode analisar as potenciais implicações de diferentes escolhas e recomendar o melhor plano de ação. A análise prescritiva usa análise de gráficos, simulação, processamento de eventos complexos, redes neurais e mecanismos de recomendação de machine learning.         </p>
+<p>Voltando ao exemplo de reserva de voo, a análise prescritiva pode analisar campanhas de marketing históricas para maximizar a vantagem do próximo pico de reservas. Um cientista de dados pode projetar resultados de reservas para diferentes níveis de gastos de marketing em vários canais de marketing. Essas previsões de dados dariam à empresa de reservas de voos mais confiança para tomar suas decisões de marketing.</p>
+<hr />
+<h2 id="processo-da-data-science">Processo da Data Science</h2>
+<p>Um problema de negócios normalmente inicia o processo de ciência de dados. Um cientista de dados trabalhará com as partes interessadas do negócio para entender quais são as necessidades do negócio. Uma vez definido o problema, o cientista de dados pode solucioná-lo usando o processo de ciência de dados OSEMN:</p>
+<p><strong>O: Obter dados</strong></p>
+<p>Os dados podem ser pré-existentes, recém-adquiridos ou um repositório de dados que pode ser baixado da Internet. Os cientistas de dados podem extrair dados de bancos de dados internos ou externos, software de CRM da empresa, logs de servidores da Web, mídias sociais ou comprá-los de fontes confiáveis de terceiros.</p>
+<p><strong>S: Suprimir dados</strong></p>
+<p>A supressão de dados, ou limpeza de dados, é o processo de padronização dos dados de acordo com um formato predeterminado. Ela inclui lidar com a ausência de dados, corrigir erros de dados e remover quaisquer dados atípicos. Alguns exemplos de supressão de dados são:· </p>
+<ul>
+<li>Alterar todos os valores de data para um formato padrão comum.·  </li>
+<li>Corrigir erros de ortografia ou espaços adicionais.·  </li>
+<li>Corrigir imprecisões matemáticas ou remover vírgulas de números grandes.</li>
+</ul>
+<p><strong>E: Explorar dados</strong></p>
+<p>A exploração de dados é uma análise de dados preliminar que é usada para planejar outras estratégias de modelagem de dados. Os cientistas de dados obtêm uma compreensão inicial dos dados usando estatísticas descritivas e ferramentas de visualização de dados. Em seguida, eles exploram os dados para identificar padrões interessantes que podem ser estudados ou acionados.      </p>
+<p><strong>M:Modelar dados</strong></p>
+<p>Os algoritmos de software e machine learning são usados para obter insights mais profundos, prever resultados e prescrever o melhor plano de ação. Técnicas de machine learning, como associação, classificação e clustering, são aplicadas ao conjunto de dados de treinamento. O modelo pode ser testado em relação a dados de teste predeterminados para avaliar a precisão dos resultados. O modelo de dados pode ser ajustado várias vezes para melhorar os resultados. </p>
+<p><strong>N: Interpretar resultados</strong></p>
+<p>Os cientistas de dados trabalham em conjunto com analistas e empresas para converter insights de dados em ação. Eles fazem diagramas, gráficos e tabelas para representar tendências e previsões. A sumarização de dados ajuda as partes interessadas a entender e implementar os resultados de forma eficaz.</p>
+<p><img alt="Gráfico do OSEMN" src="/ESTATISTICA/ASSETS/OSEMn.png" /></p>
+<hr />
+<h2 id="tecnicas-de-data-science">Técnicas de Data Science</h2>
+<p><strong>Classificação</strong> </p>
+<p>é a ordenação de dados em grupos ou categorias específicos. Os computadores são treinados para identificar e classificar dados. Conjuntos de dados conhecidos são usados para criar algoritmos de decisão em um computador que processa e categoriza rapidamente os dados. Por exemplo:·  </p>
+<ul>
+<li>
+<p>Classificar produtos como populares ou não populares·  </p>
+</li>
+<li>
+<p>Classificar as aplicações de seguro como de alto risco ou baixo risco</p>
+</li>
+</ul>
+<p><strong>Regressão</strong></p>
+<p>é o método de encontrar uma relação entre dois pontos de dados aparentemente não relacionados. A conexão geralmente é modelada em torno de uma fórmula matemática e representada como um gráfico ou curvas. Quando o valor de um ponto de dados é conhecido, a regressão é usada para prever o outro ponto de dados. Por exemplo:·  </p>
+<ul>
+<li>
+<p>A taxa de propagação de doenças transmitidas pelo ar.· </p>
+</li>
+<li>
+<p>A relação entre a satisfação do cliente e o número de funcionários.·</p>
+</li>
+</ul>
+<p><strong>Clustering</strong></p>
+<p>é o método de agrupar dados intimamente relacionados para procurar padrões e anomalias. O clustering é diferente da classificação porque os dados não podem ser classificados com precisão em categorias fixas. Portanto, os dados são agrupados em relações mais prováveis. Novos padrões e relações podem ser descobertos com o clustering. Por exemplo:   </p>
+<ul>
+<li>
+<p>Agrupar clientes com comportamento de compra semelhante para melhorar o atendimento ao cliente.·  </p>
+</li>
+<li>
+<p>Agrupar o tráfego de rede para identificar padrões de uso diário e identificar um ataque à rede mais rapidamente.  </p>
+</li>
+</ul>
+<hr />
+<h3 id="o-principio-basico-por-tras-das-tecnicas-de-ciencia-de-dados">O princípio básico por trás das técnicas de ciência de dados</h3>
+<p>Embora os detalhes variem, os princípios subjacentes por trás dessas técnicas são:</p>
+<ul>
+<li>
+<p>Ensinar uma máquina a classificar dados com base em um conjunto de dados conhecido. Por exemplo, palavras-chave de amostra são fornecidas ao computador com seus respectivos valores de classificação. “Feliz” é positivo, enquanto “Ódio” é negativo.</p>
+</li>
+<li>
+<p>Fornecer dados desconhecidos à máquina e permitir que o dispositivo classifique o conjunto de dados de forma independente.</p>
+</li>
+<li>
+<p>Permitir imprecisões de resultados e lidar com o fator de probabilidade do resultado.</p>
+</li>
+</ul>
+<hr />
+<h2 id="tecnologias-mais-utilizada">Tecnologias mais utilizada</h2>
+<ol>
+<li>
+<p>Inteligência artificial: modelos de machine learning e software relacionado são usados para análises preditivas e prescritivas.</p>
+</li>
+<li>
+<p>Computação em nuvem: as tecnologias de nuvem deram aos cientistas de dados a flexibilidade e a capacidade de processamento necessárias para análise de dados avançada.</p>
+</li>
+<li>
+<p>Internet das Coisas: IoT refere-se a vários dispositivos que podem se conectar automaticamente à Internet. Esses dispositivos coletam dados para iniciativas de ciência de dados. Eles geram grandes quantidades de dados que podem ser usados para mineração de dados e extração de dados.</p>
+</li>
+<li>
+<p>Computação quântica: computadores quânticos podem fazer cálculos complexos em alta velocidade. Cientistas de dados qualificados os usam para criar algoritmos quantitativos complexos.</p>
+</li>
+</ol>
+<hr />
+<h3 id="referencias">Referências</h3>
+<p><a href="https://aws.amazon.com/pt/what-is/data-science/?nc1=h_ls">Tipo de analises</a></p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": [], "search": "../../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.3220b9d7.min.js"></script>
+      
+    
+  </body>
+</html>

@@ -1,0 +1,1903 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../Diagrama%20de%20Classes/">
+      
+      
+        <link rel="next" href="../Estudos%20e%20Libs%20Python/">
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.5.18">
+    
+    
+      
+        <title>Conhecendo o SCRUM - Gunz Study</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.66ac8b77.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="teal" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#conhecendo-o-scrum" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Gunz Study" class="md-header__button md-logo" aria-label="Gunz Study" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Gunz Study
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Conhecendo o SCRUM
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Gunz Study" class="md-nav__button md-logo" aria-label="Gunz Study" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    Gunz Study
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Home
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    ESTATISTICA
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            ESTATISTICA
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ESTATISTICA/Analise%20de%20Pareto/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Para saber mais: a Análise de Pareto
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ESTATISTICA/Base%20de%20Dados%20-%20gratis/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Para pegar bases de dados gratis
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ESTATISTICA/Estudos%20Sobre%20Data%20Science/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Estudos sobre Data Science
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ESTATISTICA/Grafico%20de%20Barras/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Gráfico de Barras Empilhadas e Clusterizada
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ESTATISTICA/Grafico%20de%20Pizza/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Gráfico de Pizza
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ESTATISTICA/Graficos/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Gráficos
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ESTATISTICA/Mapa%20de%20Arvore%28treemap%29/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Visual Mapa de Árvore (Treemap)
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ESTATISTICA/Multiplos%20Pequenos/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Múltiplos Pequeno
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ESTATISTICA/M%C3%A9tricas%20com%20DAX/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Para saber mais: médtricas com DAX
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    LINUX
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            LINUX
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../LINUX/COMANDOS%20LINUX/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Comandos Básicos do Linux (Meu uso)
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    POWER BI
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            POWER BI
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../POWER%20BI/Calculo%20de%20Horas%20-%20Acima%20de%2024h/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Cálculo de Horas no Power BI - Acima de 24h
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../POWER%20BI/Coluna%20Calculada%20x%20Medidas/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Coluna Calculada x Medidas
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../POWER%20BI/Configura%C3%A7%C3%B5es%20de%20Link/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Configurações de Link
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../POWER%20BI/Contexto%20de%20Linha%20X%20Contexto%20de%20Filtro%20X%20Itera%C3%A7%C3%A3o/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Para saber mais: Contexto de linha x Contexto de filtro x Iteração
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../POWER%20BI/Contextos/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Para saber mais: Contextos
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../POWER%20BI/Diferenca%20de%20Duplicar%20e%20Manipular%20uma%20Tabela/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Diferenca de Duplicar e Manipular uma Tabela
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../POWER%20BI/Estudos%20Power%20BI/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Estudos Power BI
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../POWER%20BI/Fun%C3%A7%C3%A3o%20RELATED/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Para saber mais: a função RELATED
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../POWER%20BI/Fun%C3%A7%C3%A3o%20VALUES%20e%20DISTINCT/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    PAra saber mais: funções que retornam tabelas (Values e Distinct)
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../POWER%20BI/Fun%C3%A7%C3%B5es%20BLANK%20e%20ISBLANK/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Utilizando as funções BLANK e ISBLANK
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../POWER%20BI/Fun%C3%A7%C3%B5es%20Iteradoras/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Para saber mais: as funções iteradoras
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../POWER%20BI/Fun%C3%A7%C3%B5es%20de%20Modofical%C3%A7%C3%A3o%20de%20Filtros%20de%20DAX/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Para saber mais: Categoria de funções de modificação de filtros em DAX
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../POWER%20BI/Fun%C3%A7%C3%B5es%20para%20Convers%C3%A3o%20de%20Tipo/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Funções para conversão de tipo
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../POWER%20BI/KeepFilter/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Para saber mais: KeepFilter
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../POWER%20BI/Layout%20Mobile/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Layout Mobile
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../POWER%20BI/Medida%20Implicita%20e%20Explicita/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Medidas Implícitas e Explícitas
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../POWER%20BI/Principais%20Formulas/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Fórmulas e Resolução de problemas no Power BI
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../POWER%20BI/Tipos%20de%20Dados%20no%20DAX/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Para saber mais: Tipos de Dados no DAX
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../POWER%20BI/Tipos%20de%20Jun%C3%A7%C3%A3o%20na%20Mesclagem%20do%20Power%20BI/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Tipos de Junção na Mesclagem do Power BI
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../POWER%20BI/Tooltip/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Para saber mais: tooltip
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    PYTHON
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            PYTHON
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Anota%C3%A7%C3%B5es%20sobre%20Git%20e%20Github/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Anotações Sobre Git e Github
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Diagrama%20de%20Classes/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Conhecendo Diagrama de Classes
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Conhecendo o SCRUM
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Conhecendo o SCRUM
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#retrospective-meeting" class="md-nav__link">
+    <span class="md-ellipsis">
+      Retrospective Meeting
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Retrospective Meeting">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#acoes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ações
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#daily-scrum" class="md-nav__link">
+    <span class="md-ellipsis">
+      Daily Scrum
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#product-e-sprint-backlogs" class="md-nav__link">
+    <span class="md-ellipsis">
+      Product e Sprint Backlogs
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Product e Sprint Backlogs">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#product-backlog" class="md-nav__link">
+    <span class="md-ellipsis">
+      Product Backlog
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sprint-backlog" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sprint Backlog
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#historias-e-tarefas" class="md-nav__link">
+    <span class="md-ellipsis">
+      Histórias e tarefas
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#scrum-master" class="md-nav__link">
+    <span class="md-ellipsis">
+      Scrum Master
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Scrum Master">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#papeis-scrum-master" class="md-nav__link">
+    <span class="md-ellipsis">
+      Papéis: Scrum Master
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#o-dia-a-dia-de-um-scrum-master" class="md-nav__link">
+    <span class="md-ellipsis">
+      O dia-a-dia de um Scrum Master
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#evolucao-do-papel" class="md-nav__link">
+    <span class="md-ellipsis">
+      Evolução do papel
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#problemas-e-impedimentos" class="md-nav__link">
+    <span class="md-ellipsis">
+      Problemas e Impedimentos
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#product-owner" class="md-nav__link">
+    <span class="md-ellipsis">
+      Product Owner
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Product Owner">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#papeis-po" class="md-nav__link">
+    <span class="md-ellipsis">
+      Papéis: (P.O.)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#o-dia-a-dia-de-um-product-owner" class="md-nav__link">
+    <span class="md-ellipsis">
+      O dia-a-dia de um Product Owner
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#refinamento-do-backlog" class="md-nav__link">
+    <span class="md-ellipsis">
+      Refinamento do backlog
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uma-pessoa-so" class="md-nav__link">
+    <span class="md-ellipsis">
+      Uma pessoa só!
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#desenvolvedor" class="md-nav__link">
+    <span class="md-ellipsis">
+      Desenvolvedor
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Desenvolvedor">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#papeis-desenvolvedor" class="md-nav__link">
+    <span class="md-ellipsis">
+      Papéis: desenvolvedor
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#desenvolvedores-devem" class="md-nav__link">
+    <span class="md-ellipsis">
+      Desenvolvedores devem:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#e-desenvolvedores-nao-devem" class="md-nav__link">
+    <span class="md-ellipsis">
+      E desenvolvedores não devem:
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Estudos%20e%20Libs%20Python/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Estudos e Libs Python
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../M%C3%A9todo%20Melt/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Resumo Método melt()
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    QLIK
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            QLIK
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../QLIK/Estudos%20Qlik/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Estudos Qlik
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#retrospective-meeting" class="md-nav__link">
+    <span class="md-ellipsis">
+      Retrospective Meeting
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Retrospective Meeting">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#acoes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ações
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#daily-scrum" class="md-nav__link">
+    <span class="md-ellipsis">
+      Daily Scrum
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#product-e-sprint-backlogs" class="md-nav__link">
+    <span class="md-ellipsis">
+      Product e Sprint Backlogs
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Product e Sprint Backlogs">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#product-backlog" class="md-nav__link">
+    <span class="md-ellipsis">
+      Product Backlog
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sprint-backlog" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sprint Backlog
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#historias-e-tarefas" class="md-nav__link">
+    <span class="md-ellipsis">
+      Histórias e tarefas
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#scrum-master" class="md-nav__link">
+    <span class="md-ellipsis">
+      Scrum Master
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Scrum Master">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#papeis-scrum-master" class="md-nav__link">
+    <span class="md-ellipsis">
+      Papéis: Scrum Master
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#o-dia-a-dia-de-um-scrum-master" class="md-nav__link">
+    <span class="md-ellipsis">
+      O dia-a-dia de um Scrum Master
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#evolucao-do-papel" class="md-nav__link">
+    <span class="md-ellipsis">
+      Evolução do papel
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#problemas-e-impedimentos" class="md-nav__link">
+    <span class="md-ellipsis">
+      Problemas e Impedimentos
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#product-owner" class="md-nav__link">
+    <span class="md-ellipsis">
+      Product Owner
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Product Owner">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#papeis-po" class="md-nav__link">
+    <span class="md-ellipsis">
+      Papéis: (P.O.)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#o-dia-a-dia-de-um-product-owner" class="md-nav__link">
+    <span class="md-ellipsis">
+      O dia-a-dia de um Product Owner
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#refinamento-do-backlog" class="md-nav__link">
+    <span class="md-ellipsis">
+      Refinamento do backlog
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uma-pessoa-so" class="md-nav__link">
+    <span class="md-ellipsis">
+      Uma pessoa só!
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#desenvolvedor" class="md-nav__link">
+    <span class="md-ellipsis">
+      Desenvolvedor
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Desenvolvedor">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#papeis-desenvolvedor" class="md-nav__link">
+    <span class="md-ellipsis">
+      Papéis: desenvolvedor
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#desenvolvedores-devem" class="md-nav__link">
+    <span class="md-ellipsis">
+      Desenvolvedores devem:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#e-desenvolvedores-nao-devem" class="md-nav__link">
+    <span class="md-ellipsis">
+      E desenvolvedores não devem:
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<h1 id="conhecendo-o-scrum">Conhecendo o SCRUM</h1>
+<h2 id="retrospective-meeting">Retrospective Meeting</h2>
+<p>O último timebox dentro de uma Sprint é o que chamamos de reunião de Retrospectiva. Em toda Sprint, problemas acontecem e sempre temos como crescer e melhorar. Para isso, contudo, é necessário parar e pensar em o que foi legal, para mantermos, e no que não foi bom, para mudarmos.</p>
+<p>A ideia de uma Retrospectiva é pôr em prática o conceito de <strong>melhoria contínua</strong>. Nessa reunião, o time todo (PO, Scrum Master e Desenvolvedores) se foca em descobrir como melhorar ainda mais o time, o processo e o projeto já na próxima Sprint.</p>
+<p>Há diversas mecânicas para essa reunião. Para saber mais sobre elas, você sempre pode olhar referências como o blog <a href="https://www.funretrospectives.com/">Fun Retrospectives</a> ou a <a href="http://retrospectivewiki.org/">Retrospectives Wiki</a>. Aqui, vamos mostrar um modelo básico e bastante utilizado.
+Nesse modelo, levantaremos pontos positivos e negativos da Sprint anterior, para aprendermos com ela. Costumamos fazer isso em silêncio, para que cada um dê a própria opinião, sem enviesar os outros.</p>
+<p>Para os pontos negativos, buscamos entender o que aconteceu para causá-los, claro, mas mais importante do que isso, definimos ações de melhoria para que tais problemas sejam evitados (ou reduzidos) no futuro.</p>
+<p>Similarmente, analisamos os pontos positivos e, se o time sentir necessidade, definimos também lembretes para os pontos que ainda não viraram rotina.
+É comum também que durante a retrospectiva, discutam-se também os itens da retrospectiva anterior, com o objetivo de validar se os problemas se repetiram e se as ações anteriores deram o efeito esperado.</p>
+<p>Ao final da reunião, o time possui uma lista de <strong>ações</strong> a fazer na próxima Sprint. Essa lista deve ficar visível durante o andamento da próxima Sprint, para que o time se relembre delas.</p>
+<h3 id="acoes">Ações</h3>
+<p>É importante também notar que a lista de itens a fazer que sai de uma retrospectiva contém apenas <strong>ações</strong>, isto é, atividades que membros do time vão efetivamente fazer para obter algum resultado.</p>
+<p>Note que o time não pode decidir que o cliente vá mudar seu comportamento ou que outra área da empresa vá passar a ajudá-los. Essas não são ações, são desejos de que algo magicamente vá mudar. No mundo da agilidade, isso é frequentemente chamado de wishful thinking.</p>
+<p>Ações, por outro lado, envolvem os membros do time. Se o problema em questão é que o cliente desaparece e não conseguimos tirar dúvidas com eles:</p>
+<pre><code>* desejo: o cliente vai entender a importância de estar presente
+* uma ação: o Scrum Master vai explicar as perdas e ganhos de uma maior participação do cliente
+* outra ação: em toda história daqui para a frente, haverá também o contato de quem pode sanar dúvidas dos desenvolvedores desse item em particular.
+</code></pre>
+<p>O resultado de uma retrospectiva é uma lista, preferencialmente curta, de ações que serão tomadas durante o próximo Sprint para melhorar ainda mais o time e o andamento do projeto.</p>
+<hr />
+<h2 id="daily-scrum">Daily Scrum</h2>
+<p>No capítulo de Retrospectiva você aprendeu sobre essa importante ferramenta para promover melhoria contínua, mas esperar o fim da Sprint para resolver probleminhas do dia-a-dia seria um grande desperdício de tempo.</p>
+<p>Para resolver obstáculos do dia-a-dia e para todos saberem como está o andamento das tarefas e histórias nessa Sprint, o Scrum tem ainda mais uma cerimônia. Todos os dias, <strong>no mesmo horário e no mesmo local</strong>, a equipe se reúne para responder 3 perguntas simples:</p>
+<pre><code>* O que fiz desde o último Daily Scrum?
+* O que pretendo fazer até o próximo?
+* Quais problemas me atrapalharam?
+</code></pre>
+<p>O timebox para essa reunião é de apenas 15 minutos por dia e, como qualquer outro timebox, deve ser respeitado. Para isso, é importante lembrar que essa é uma reunião expositiva: o objetivo aqui não é resolver o problema, mas sim apontá-lo. Se alguém souber como ajudar, apenas indica que sabe e <strong>após o fim do Daily</strong> os interessados se reúnem para conversar.</p>
+<p>Há uma divergência de opiniões sobre quem deve estar presente nessa reunião. O Scrum Guide aponta que os desenvolvedores respondem as perguntas e o Scrum Master apenas assiste a reunião, eximindo a participação do P.O.</p>
+<p>Na prática, vemos uma real vantagem em ter o P.O. presente nessa reunião, já que ele precisa saber do andamento da Sprint, entender os problemas que estão desacelerando desenvolvedores e ainda ajudar a alterar o plano de ação, se o time estiver atrasado. Assim, recomendamos fortemente que o P.O. esteja, sim, presente nessa reunião.
+Com o Daily Scrum, o time evita com que problemas durem muitos dias e que desenvolvedores façam trabalhos repetidos - tanto trabalhando sobre uma mesma feature, quanto sofrendo para resolver um problema que outro sabe solucionar.</p>
+<hr />
+<h2 id="product-e-sprint-backlogs">Product e Sprint Backlogs</h2>
+<p>O P.O. deve chegar à reunião de Planning com o topo do Product Backlog devidamente atualizado, isto é, com os itens mais relevantes para o negócio, já granulares o bastante para caber no Sprint. Falamos também que sairemos de cada Planning Meeting com um Sprint Backlog. Faltou, no entanto, estudarmos mais a fundo o que é o Product e os Sprint Backlogs e quais regras do Scrum se aplicam a eles.</p>
+<h3 id="product-backlog">Product Backlog</h3>
+<p>Assim que imaginamos um projeto, já temos uma lista de funcionalidades que gostaríamos de ter nele! Essa lista é frequentemente usada para decidir se o projeto realmente será desenvolvido e, quando vamos começar a transformar esses desejos em realidade é importante fazê-lo de forma consciente, para maximizar o valor produzido a cada interação.</p>
+<p>O Product Backlog, a lista ordenada de itens a serem feitos no projeto, é o artefato que ajuda o P.O. a manter todos esses pedidos organizados. O P.O. é responsável por mantê-lo atualizado e priorizado de modo a agregarmos o máximo de valor possível para o cliente a cada iteração.</p>
+<p>Embora clientes, usuários e o próprio time tenham a liberdade de influenciar mudanças no Product Backlog, a única pessoa que de fato o altera é o Product Owner -- inclusive, o papel é chamado dessa forma porque o P.O. é dono do Product Backlog! Os itens do Product Backlog são sempre mutáveis: o P.O. pode adicionar itens, removê-los e re-priorizá-los sempre que achar que consegue agregar mais valor ao projeto dessa forma.</p>
+<p>A proposta do Product Backlog é, também, que evitemos colocar trabalho em itens pouco importantes ou que sequer sabemos se serão feitos: os itens mais prioritários de um backlog têm que ter sua importância de negócio estudada e ser pequenos o bastante para que o time estime e os aloque em Sprints, mas os mais distantes e menos prioritários podem permanecer em blocos maiores e mais grosseiros, que serão refinados conforme sua prioridade cresce.</p>
+<h3 id="sprint-backlog">Sprint Backlog</h3>
+<p>Uma vez que itens cheguem ao topo do Product Backlog, eles serão discutidos em uma Planning Meeting, quebrados em alguns sub-itens técnicos e, se escolhidos para serem executados, esses itens e sub-itens comporão o chamado Sprint Backlog: a lista ordenada de itens funcionais e seus sub-itens técnicos que serão feitos durante essa Sprint.</p>
+<p>Diferente do Product Backlog, apenas o time pode influenciar e alterar o Sprint Backlog. Existe uma razão para isso: o Sprint Backlog é formado dos itens mais prioritários do Product Backlog e é uma indicação séria de problemas sistêmicos se os itens mais prioritários precisarem sofrer grandes modificações. Se os itens mais prioritários não fizerem sentido nas, digamos, 2 semanas de Sprint, isso indica que o P.O. não fez um bom trabalho de refinamento e de descobrir com usuários o que eles realmente precisam.</p>
+<h3 id="historias-e-tarefas">Histórias e tarefas</h3>
+<p>Cada item que compõe um Product Backlog representa uma funcionalidade, algo que agrega valor para o usuário final -- note, portanto, que "documentação técnica" não é um item válido, já que o usuário não se beneficia disso.</p>
+<p>Esses itens podem ter o formato que você quiser -- por exemplo, um conjuntinho de casos de uso do sistema pode ser um item válido. Há uma forte preferência entre agilistas, no entanto, de usar um formato especial para representar esses itens: uma história de usuário (user story).</p>
+<p>Uma história é um formato criado em eXtreme Programming (XP) para representar um item que agrega valor a usuários e agrega, de uma forma bastante simples, três informações importantíssimas para a priorização e posterior desenvolvimento da funcionalidade: por que é importante, para quem é importante e, só então, o que a pessoa quer, em si. O modelo que costumamos preencher é o seguinte:</p>
+<pre><code>[TÍTULO]**Para...**
+[por que o pedido é importante]**No papel de...**
+[para quem é importante]**Quero...** 
+[o pedido em si]
+</code></pre>
+<p>Em um sistema de vagas online como o OndeTrabalhar.com, por exemplo, poderíamos ter a história:</p>
+<pre><code>        VAGAS POR LOCALIDADE
+**Para...** não perder tempo olhando cada vaga para descobrir se é na minha cidade
+**No papel de...** pessoa procurando trabalho
+**Quero...** ter a opção de filtrar as vagas de trabalho por cidade
+</code></pre>
+<p>Durante o Planning é comum verificarmos o entendimento da história quebrando-a em itens menores, técnicos, que não necessariamente agregam valor ao usuário individualmente. Esses sub-itens técnicos de histórias são chamados tarefas. A história acima poderia ser quebrada nas seguintes tarefas:</p>
+<pre><code>    * Cadastro de cidades no banco de dados;
+    * Mudança no formulário de postagem de vaga para limitar à lista de cidades;
+    * Filtro de busca de vagas no menu principal.
+</code></pre>
+<p>Muito comumente também, embora não seja regra, é vermos histórias em cartões (fichas pautadas) e tarefas em post-its.</p>
+<hr />
+<h2 id="scrum-master">Scrum Master</h2>
+<h3 id="papeis-scrum-master">Papéis: Scrum Master</h3>
+<p>Assim como o Product Owner, há outro papel que é executado por uma pessoa: o de Scrum Master. Enquanto o P.O. foca no produto a ser desenvolvido e em atender as necessidades do cliente, a função principal do Scrum Master é focar no processo e se assegurar que o time esteja tirando o maior proveito possível dele.</p>
+<p>Como o próprio nome diz, a pessoa que tem o papel de Scrum Master tem que entender muito bem o Scrum e ser capaz de passar isso para todos os envolvidos no projeto: desenvolvedores, Product Owner, clientes e a própria organização na qual o time está inserido.</p>
+<p>O Scrum Master <strong>não é</strong>, contudo, chefe do time e não deve agir como tal. Um bom Scrum Master é um facilitador e coach excelente, que atua como Líder Servidor, isto é, livrando o time dos problemas que o impede de ter uma melhor performance.</p>
+<h3 id="o-dia-a-dia-de-um-scrum-master">O dia-a-dia de um Scrum Master</h3>
+<p>Durante o andamento do projeto que usa Scrum, o Scrum Master deve:</p>
+<pre><code>    * Facilitar as reuniões, quando necessário;
+    * Atentar para o cumprimento dos time-boxes e explicar o porquê deles;
+    * Educar desenvolvedores, product owner e clientes sobre o processo;
+    * Remover ou reduzir impedimentos (não problemas!);
+    * Buscar continuamente ferramentas para ajudar o time a evoluir.
+    * E no que pode estar impedindo o time de melhorar sua performance.
+</code></pre>
+<h3 id="evolucao-do-papel">Evolução do papel</h3>
+<p>Note que performance é um termo muito mais abrangente que produtividade. Produzir vários incrementos é interessante, claro, mas a performance do time está, também, em decidir quais funcionalidades agregam mais valor, em evitar reuniões desnecessárias, em melhorar a qualidade da comunicação, etc.</p>
+<h3 id="problemas-e-impedimentos">Problemas e Impedimentos</h3>
+<p>Há uma enorme confusão em implantações do Scrum pelo mundo sobre o que é um problema e o que é um impedimento. O mau entendimento da diferença entre eles faz com que diversos Scrum Masters se comportem mais como babás de times do que deveriam - e isso também prejudica a evolução do time.</p>
+<p>Como Scrum Master, portanto, é importante que você deixe claro para o time a diferença entre um problema e um impedimento.</p>
+<p>Tudo o que atrapalha o time, interno ou externo, é considerado um <strong>problema</strong> do time e, como tal, é responsabilidade do próprio time (qualquer membro, não apenas o Scrum Master!) resolvê-lo.</p>
+<p>Se o time tentou resolver o problema <strong>e não conseguiu</strong>, isso pode ser considerado um Impedimento.</p>
+<p>Assim, lembre-se que Scrum Master não é a pessoa que vai resolver problemas técnicos (ele nem precisa ser técnico!) ou cotidianos ("Acabou o café!"). O time deve trabalhar junto para resolver esses problemas.</p>
+<p>Você, Scrum Master, evite acostumar mal o time: isso pode tirar o senso de responsabilidade das pessoas e você pode acabar se tornando uma muleta.</p>
+<hr />
+<h2 id="product-owner">Product Owner</h2>
+<h3 id="papeis-po">Papéis:  (P.O.)</h3>
+<p>Agora que já vimos os timeboxes e artefatos do Scrum, também já falamos um bocado da atuação de cada um dos três papéis que pessoas desenvolvem no Scrum. Nessa e nas próximas sessões, faremos uma grande revisão e consolidação do conhecimento já visto até agora, focando nos papéis do Scrum.</p>
+<p>Certamente, o papel mais comentado nas sessões anteriores é o do Product Owner. Essa terminologia é bastante expressiva e, até por isso, acabou sendo utilizada informalmente mesmo em equipes que não trabalham com Scrum, mas cuidado para não entendê-la errado: quando trabalhamos com métodos ágeis o time todo se sente responsável pelo produto que está sendo produzido e o cliente se interessa por ele, portanto a palavra Owner do nome do papel não exime o resto do time dessa responsabilidade. O P.O. é, no entanto, o dono do Product Backlog.</p>
+<h3 id="o-dia-a-dia-de-um-product-owner">O dia-a-dia de um Product Owner</h3>
+<p>Durante o andamento do projeto que usa Scrum, o Product Owner (P.O.) deve:</p>
+<pre><code>* participar das reuniões;
+* responder dúvidas dos desenvolvedores sobre histórias ou indicar quem poderia respondê-las melhor;
+* deixar claro para o time qual o valor de negócios de cada Sprint;
+* obter feedback e expectativas dos diversos clientes e extrair delas as necessidades;
+* MANTER O PRODUCT BACKLOG ATUALIZADO, isto é:
+* adicionar itens novos;
+* remover itens desatualizados;
+* revisar a priorização do backlog constantemente;
+* refinar histórias mais importantes em preparação para o próximo Planning.
+</code></pre>
+<h3 id="refinamento-do-backlog">Refinamento do backlog</h3>
+<p>Uma dúvida frequente é o que o P.O. faz durante a maior parte da Sprint, quando os desenvolvedores estão trabalhando em incrementos de software. Há várias atividades listadas acima que tornam a disponibilidade diária do P.O. como para tirar dúvidas, repriorizar o Sprint backlog conforme necessidade, etc. Conforme o time amadurece e aprende a lidar consigo mesmo e com a organização, no entanto, é comum que esses trabalhos diminuam consideravelmente.</p>
+<p>Algo que não diminui tanto, contudo, é o refinamento do topo do Product Backlog.</p>
+<p>Vimos que, para que o planejamento de uma Sprint caiba nos 5% da duração da Sprint, é preciso que o P.O. saiba explicar histórias e que elas estejam em uma granularidade (tamanho) adequado para desenvolvedores conseguirem estimá-las. Portanto, para o próximo Planning correr bem, o P.O. já começa a se preparar para a reunião refinando os itens mais prioritários do Product Backlog, isto é, quebrando eles nas menores histórias possíveis e fazendo perguntas relevantes aos clientes.</p>
+<p>Pense que a segunda história mais importante de nosso Backlog é a seguinte:</p>
+<pre><code>                    Opção de boleto
+**Para...**atender aos pedidos de 15 pessoas que foram na conferência ano passado
+**No papel de...**organização da Agile Brazil
+**Quero...**oferecer a opção de pagamento em boleto no site e controlar as inscrições feitas com essa forma de pagamento no sistema.
+</code></pre>
+<p>Essa simples história já poderia ser quebrada em pelo menos duas menores, que individualmente já agregam valor para papéis diferentes e nem mesmo precisam ser feitos no mesmo Sprint!</p>
+<pre><code>                    Inscrição em boleto
+**Para...** conseguir pagar minha inscrição no caixa eletrônico do meu banco
+**No papel de...** participante da Agile Brazil
+**Quero...** escolher pagar minha inscrição em boleto e emití-lo direto da próxima página
+</code></pre>
+<p>E, também:
+                        Pagamentos de boleto
+    <strong>Para...</strong> não vender mais ingressos do que devia, nem menos do que podia
+    <strong>No papel de...</strong> organizador da Agile Brazil
+    <strong>Quero...</strong> reservar vagas na conferência quando alguém gerar um boleto e, ou criar a inscrição quando receber a confirmação do pagamento do gateway, ou abrir a vaga para vendas novamente, quando o boleto vencer sem ser pago.</p>
+<p>Note que, graças ao refinamento, foi preciso perguntar melhor os porquês daquela história original e o que exatamente está sendo pedido. Assim, será mais fácil gerenciar essas histórias no Planning Meeting que está por vir.</p>
+<h3 id="uma-pessoa-so">Uma pessoa só!</h3>
+<p>Outra informação importante sobre o P.O. é que ele é <strong>uma pessoa, não um comitê</strong>. A razão para isso é bastante simples: o time precisa saber quem está no comando do que será feito e, se tivéssemos diversos P.O.s correríamos um maior risco de informações conflitantes atrapalharem o time.</p>
+<p>Assim, consideramos essas várias pessoas como clientes e tanto elas quanto o time podem influenciar o P.O., mas a palavra final e o plano de como maximizar o valor entregue pelo time é do Product Owner.</p>
+<hr />
+<h2 id="desenvolvedor">Desenvolvedor</h2>
+<h3 id="papeis-desenvolvedor">Papéis: desenvolvedor</h3>
+<p>Enquanto em ambientes mais tradicionais os executores das tarefas apenas fazem o trabalho que lhes é atribuído, tentando respeitar os prazos já decididos por eles e da forma como alguém definiu... essa não é nossa realidade em times ágeis.</p>
+<p>Como vimos nos capítulos anteriores, desenvolvedores discutem histórias tecnicamente, estimam o esforço para fazê-las e negociam o que cabe na Sprint durante o planning. Daí, nos daily scrums, eles decidem qual tarefa vão pegar para si, considerando o resultado esperado da Sprint.</p>
+<p>A vida dos desenvolvedores dentro de um ambiente ágil é mais complexa do que em um ambiente tradicional, onde eles podem apenas seguir ordens e já fazem seu trabalho. Ao mesmo tempo, as possibilidades de crescimento pessoal aqui são muitas e a autonomia dada a esse grupo é muito interessante, especialmente dado que tratamos aqui com trabalhadores do conhecimento. Em um time ágil, há espaço para criatividade no desenvolvimento.</p>
+<p>Em resumo, no dia-a-dia dos desenvolvedores em times ágeis...</p>
+<h3 id="desenvolvedores-devem">Desenvolvedores devem:</h3>
+<pre><code>* Decidir a abordagem técnica para os problemas apresentados;
+* Trocar informações e ajudar os companheiros de time;
+* ESTIMAR AS  HÍSTORIAS durante o planning;
+* ESCOLHER SUA PRÓXIMA TAREFA a ser feita, considerando as prioridades da Sprint;
+* Buscar a qualidade do projeto e a redução de erros.
+</code></pre>
+<h3 id="e-desenvolvedores-nao-devem">E desenvolvedores não devem:</h3>
+<pre><code>* Considerar dúvidas técnicas como impedimentos - elas são apenas problemas;
+* Esperar que alguém decida as atividades a serem feitas por eles;
+* Se recusar a aprender um pouco sobre outras áreas de desenvolvimento.
+</code></pre>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": [], "search": "../../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.3220b9d7.min.js"></script>
+      
+    
+  </body>
+</html>
