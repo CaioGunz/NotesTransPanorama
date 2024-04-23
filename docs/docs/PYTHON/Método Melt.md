@@ -19,11 +19,12 @@ vendas_ton
 ```
 
 Saída:
-|   | Produto |	2020 | 2021 | 2022 | 2023 |
-|:-:| :-----:| :----: | :----: | :-----: | :----: |
-| 0 | Arroz  | 90 | 92 |	84 | 100 |
-| 1 | Feijão | 85 | 94 |	88 | 98 |
-| 2 | Açúcar | 88 | 89 |	92 | 87 |
+
+|   | Produto |	2020  | 2021   | 2022| 2023 |
+|:-:| :-----:| :----: | :----: | :--:| :--: |
+| 0 | Arroz  |  90    |   92   |  84 | 100  |
+| 1 | Feijão |  85    |   94   |  88 | 98   |
+| 2 | Açúcar |  88    |   89   |  92 | 87   |
 
 Podemos perceber que temos um DataFrame com cada ano como uma coluna, configurando-o como do tipo "wide". É possível trabalhar com ele dessa forma, mas podemos, por exemplo, trazer os dados dos anos para uma única colunas e seus valores correspondentes em outra colunas se quisermos transformar o nosso conjungto de dados para um formato longo.
 
