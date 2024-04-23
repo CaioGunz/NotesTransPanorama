@@ -2,7 +2,7 @@
 
 Estaremos na segunda guia do Power BI, a de Dados, e iremos trabalhar com uma tabela em Excel já importada. Observe a seguir:
 
-![Como cálcular horas - tabela exemplo](/POWER%20BI/ASSETS/Como-Fazer-Calculo-com-Horas-no-Power-BI-Imagem-1.png.webp)
+![Como cálcular horas - tabela exemplo](../assets/Como-Fazer-Calculo-com-Horas-no-Power-BI-Imagem-1.png.jpg)
 
 A partir daqui, iremos trabalhar com o ambiente temporário do Power Query, o editor de consultas do Power BI. Iremos no menu na parte superior de Página Inicial > Transformar dados. A seguir veremos os passos para realizar os cálculos citados acima.
 
@@ -16,7 +16,7 @@ Para finalizar nossa etapa 1, **renomearemos** a coluna nova criada e transforma
 
 Observe o resultado:
 
-![Gerar coluna de horas - imagem resultado](/POWER%20BI/ASSETS/Como-Fazer-Calculo-com-Horas-no-Power-BI-Imagem-2.png.webp)
+![Gerar coluna de horas - imagem resultado](../assets/Como-Fazer-Calculo-com-Horas-no-Power-BI-Imagem-2.png.jpg)
 
 Aqui, teremos a nossa nova coluna criada com a diferença de horas entre Fim e Início, nos dando qual foi a quantidade de horas calculada individualmente por cada pessoa, em cada dia apresentado. Iremos na Página **Inicial > Fechar e Aplicar** para continuar fazendo nosso trabalho final.
 
@@ -32,7 +32,7 @@ Para visualizar o resultado dessa medida vamos **criar um cartão**, nas visuali
 
  - OBS: Se ela tiver como número inteiro (sem casas decimais), você deve clicar na medida, ir em Ferramentas de medida (ou Modelagem), e alterar a quantidade de casas decimais de Auto para 4. Veremos abaixo que teremos o número **197,9972**:
 
-![Formato em que o calculo vai trazer a hora](/POWER%20BI/ASSETS/Como-Fazer-Calculo-com-Horas-no-Power-BI-Imagem-3.png.webp)
+![Formato em que o calculo vai trazer a hora](../assets/Como-Fazer-Calculo-com-Horas-no-Power-BI-Imagem-3.png.jpg)
 
 #### Variáveis Hora, Minuto e Segundo
 
@@ -89,7 +89,7 @@ Para consertar isso, iremos **clicar na visualização do cartão**, iremos na p
 
 Finalmente teremos o resultado de **197:59:50**, exatamente o que achamos nas variáveis de **“horas”**, **“minutos” e “segundos”**. Observe:
 
-![Formato da hora no KPI após formula](/POWER%20BI/ASSETS/Como-Fazer-Calculo-com-Horas-no-Power-BI-Imagem-4.png.webp)
+![Formato da hora no KPI após formula](../assets/Como-Fazer-Calculo-com-Horas-no-Power-BI-Imagem-4.png.jpg)
 
 #### Gráfico de colunas para visualização de horas dos funcionários
 
@@ -99,5 +99,5 @@ Ué, que valores são esses nos eixos? É o mesmo caso do passo anterior. O grá
 
 Para mudar isso, iremos **clicar no gráfico** de colunas, ir em **Eixo Y, Exibir unidades e trocar de Auto para Nenhum**. Assim, teremos todas as informações da forma que queremos. Observe nosso gráfico final, abaixo:
 
-![Gráfico de colunas com horas ](/POWER%20BI/ASSETS/Como-Fazer-Calculo-com-Horas-no-Power-BI-Imagem-5.png.webp)
+![Gráfico de colunas com horas ](../assets/Como-Fazer-Calculo-com-Horas-no-Power-BI-Imagem-5.png.jpg)
 

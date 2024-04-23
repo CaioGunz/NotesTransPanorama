@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        <link rel="canonical" href="https://gunz-study.com/PYTHON/Estudos%20Scrum/">
+        <link rel="shortcut icon" href="../../img/favicon.ico">
+        <title>Conhecendo o SCRUM - Gunz Study</title>
+        <link href="../../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/rainbow.min.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+        <script>hljs.highlightAll();</script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="../..">Gunz Study</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="navitem">
+                                <a href="../.." class="nav-link">Home</a>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">ESTATISTICA <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../ESTATISTICA/Analise%20de%20Pareto/" class="dropdown-item">Para saber mais: a Análise de Pareto</a>
+</li>
+                                    
+<li>
+    <a href="../../ESTATISTICA/Base%20de%20Dados%20-%20gratis/" class="dropdown-item">Para pegar bases de dados gratis</a>
+</li>
+                                    
+<li>
+    <a href="../../ESTATISTICA/Estudos%20Sobre%20Data%20Science/" class="dropdown-item">Estudos sobre Data Science</a>
+</li>
+                                    
+<li>
+    <a href="../../ESTATISTICA/Grafico%20de%20Barras/" class="dropdown-item">Gráfico de Barras Empilhadas e Clusterizada</a>
+</li>
+                                    
+<li>
+    <a href="../../ESTATISTICA/Grafico%20de%20Pizza/" class="dropdown-item">Gráfico de Pizza</a>
+</li>
+                                    
+<li>
+    <a href="../../ESTATISTICA/Graficos/" class="dropdown-item">Gráficos</a>
+</li>
+                                    
+<li>
+    <a href="../../ESTATISTICA/Mapa%20de%20Arvore%28treemap%29/" class="dropdown-item">Visual Mapa de Árvore (Treemap)</a>
+</li>
+                                    
+<li>
+    <a href="../../ESTATISTICA/Multiplos%20Pequenos/" class="dropdown-item">Múltiplos Pequeno</a>
+</li>
+                                    
+<li>
+    <a href="../../ESTATISTICA/M%C3%A9tricas%20com%20DAX/" class="dropdown-item">Para saber mais: médtricas com DAX</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">LINUX <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../LINUX/COMANDOS%20LINUX/" class="dropdown-item">Comandos Básicos do Linux (Meu uso)</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">POWER BI <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../POWER%20BI/Calculo%20de%20Horas%20-%20Acima%20de%2024h/" class="dropdown-item">Cálculo de Horas no Power BI - Acima de 24h</a>
+</li>
+                                    
+<li>
+    <a href="../../POWER%20BI/Coluna%20Calculada%20x%20Medidas/" class="dropdown-item">Coluna Calculada x Medidas</a>
+</li>
+                                    
+<li>
+    <a href="../../POWER%20BI/Configura%C3%A7%C3%B5es%20de%20Link/" class="dropdown-item">Configurações de Link</a>
+</li>
+                                    
+<li>
+    <a href="../../POWER%20BI/Contexto%20de%20Linha%20X%20Contexto%20de%20Filtro%20X%20Itera%C3%A7%C3%A3o/" class="dropdown-item">Para saber mais: Contexto de linha x Contexto de filtro x Iteração</a>
+</li>
+                                    
+<li>
+    <a href="../../POWER%20BI/Contextos/" class="dropdown-item">Para saber mais: Contextos</a>
+</li>
+                                    
+<li>
+    <a href="../../POWER%20BI/Diferenca%20de%20Duplicar%20e%20Manipular%20uma%20Tabela/" class="dropdown-item">Diferenca de Duplicar e Manipular uma Tabela</a>
+</li>
+                                    
+<li>
+    <a href="../../POWER%20BI/Estudos%20Power%20BI/" class="dropdown-item">Estudos Power BI</a>
+</li>
+                                    
+<li>
+    <a href="../../POWER%20BI/Fun%C3%A7%C3%A3o%20RELATED/" class="dropdown-item">Para saber mais: a função RELATED</a>
+</li>
+                                    
+<li>
+    <a href="../../POWER%20BI/Fun%C3%A7%C3%A3o%20VALUES%20e%20DISTINCT/" class="dropdown-item">PAra saber mais: funções que retornam tabelas (Values e Distinct)</a>
+</li>
+                                    
+<li>
+    <a href="../../POWER%20BI/Fun%C3%A7%C3%B5es%20BLANK%20e%20ISBLANK/" class="dropdown-item">Utilizando as funções BLANK e ISBLANK</a>
+</li>
+                                    
+<li>
+    <a href="../../POWER%20BI/Fun%C3%A7%C3%B5es%20Iteradoras/" class="dropdown-item">Para saber mais: as funções iteradoras</a>
+</li>
+                                    
+<li>
+    <a href="../../POWER%20BI/Fun%C3%A7%C3%B5es%20de%20Modofical%C3%A7%C3%A3o%20de%20Filtros%20de%20DAX/" class="dropdown-item">Para saber mais: Categoria de funções de modificação de filtros em DAX</a>
+</li>
+                                    
+<li>
+    <a href="../../POWER%20BI/Fun%C3%A7%C3%B5es%20para%20Convers%C3%A3o%20de%20Tipo/" class="dropdown-item">Funções para conversão de tipo</a>
+</li>
+                                    
+<li>
+    <a href="../../POWER%20BI/KeepFilter/" class="dropdown-item">Para saber mais: KeepFilter</a>
+</li>
+                                    
+<li>
+    <a href="../../POWER%20BI/Layout%20Mobile/" class="dropdown-item">Layout Mobile</a>
+</li>
+                                    
+<li>
+    <a href="../../POWER%20BI/Medida%20Implicita%20e%20Explicita/" class="dropdown-item">Medidas Implícitas e Explícitas</a>
+</li>
+                                    
+<li>
+    <a href="../../POWER%20BI/Tipos%20de%20Dados%20no%20DAX/" class="dropdown-item">Para saber mais: Tipos de Dados no DAX</a>
+</li>
+                                    
+<li>
+    <a href="../../POWER%20BI/Tipos%20de%20Jun%C3%A7%C3%A3o%20na%20Mesclagem%20do%20Power%20BI/" class="dropdown-item">Tipos de Junção na Mesclagem do Power BI</a>
+</li>
+                                    
+<li>
+    <a href="../../POWER%20BI/Tooltip/" class="dropdown-item">Para saber mais: tooltip</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown active">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">PYTHON <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../Anota%C3%A7%C3%B5es%20sobre%20Git%20e%20Github/" class="dropdown-item">Anotações Sobre Git e Github</a>
+</li>
+                                    
+<li>
+    <a href="../Diagrama%20de%20Classes/" class="dropdown-item">Conhecendo Diagrama de Classes</a>
+</li>
+                                    
+<li>
+    <a href="./" class="dropdown-item active">Conhecendo o SCRUM</a>
+</li>
+                                    
+<li>
+    <a href="../Estudos%20e%20Libs%20Python/" class="dropdown-item">Estudos e Libs Python</a>
+</li>
+                                    
+<li>
+    <a href="../M%C3%A9todo%20Melt/" class="dropdown-item">Resumo Método melt()</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">QLIK <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../QLIK/Estudos%20Qlik/" class="dropdown-item">Estudos Qlik</a>
+</li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li class="nav-item">
+                                <a rel="prev" href="../Diagrama%20de%20Classes/" class="nav-link">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" href="../Estudos%20e%20Libs%20Python/" class="nav-link">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-level="1"><a href="#conhecendo-o-scrum" class="nav-link">Conhecendo o SCRUM</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="2"><a href="#retrospective-meeting" class="nav-link">Retrospective Meeting</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#daily-scrum" class="nav-link">Daily Scrum</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#product-e-sprint-backlogs" class="nav-link">Product e Sprint Backlogs</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#scrum-master" class="nav-link">Scrum Master</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#product-owner" class="nav-link">Product Owner</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#desenvolvedor" class="nav-link">Desenvolvedor</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<h1 id="conhecendo-o-scrum">Conhecendo o SCRUM</h1>
+<h2 id="retrospective-meeting">Retrospective Meeting</h2>
+<p>O último timebox dentro de uma Sprint é o que chamamos de reunião de Retrospectiva. Em toda Sprint, problemas acontecem e sempre temos como crescer e melhorar. Para isso, contudo, é necessário parar e pensar em o que foi legal, para mantermos, e no que não foi bom, para mudarmos.</p>
+<p>A ideia de uma Retrospectiva é pôr em prática o conceito de <strong>melhoria contínua</strong>. Nessa reunião, o time todo (PO, Scrum Master e Desenvolvedores) se foca em descobrir como melhorar ainda mais o time, o processo e o projeto já na próxima Sprint.</p>
+<p>Há diversas mecânicas para essa reunião. Para saber mais sobre elas, você sempre pode olhar referências como o blog <a href="https://www.funretrospectives.com/">Fun Retrospectives</a> ou a <a href="http://retrospectivewiki.org/">Retrospectives Wiki</a>. Aqui, vamos mostrar um modelo básico e bastante utilizado.
+Nesse modelo, levantaremos pontos positivos e negativos da Sprint anterior, para aprendermos com ela. Costumamos fazer isso em silêncio, para que cada um dê a própria opinião, sem enviesar os outros.</p>
+<p>Para os pontos negativos, buscamos entender o que aconteceu para causá-los, claro, mas mais importante do que isso, definimos ações de melhoria para que tais problemas sejam evitados (ou reduzidos) no futuro.</p>
+<p>Similarmente, analisamos os pontos positivos e, se o time sentir necessidade, definimos também lembretes para os pontos que ainda não viraram rotina.
+É comum também que durante a retrospectiva, discutam-se também os itens da retrospectiva anterior, com o objetivo de validar se os problemas se repetiram e se as ações anteriores deram o efeito esperado.</p>
+<p>Ao final da reunião, o time possui uma lista de <strong>ações</strong> a fazer na próxima Sprint. Essa lista deve ficar visível durante o andamento da próxima Sprint, para que o time se relembre delas.</p>
+<h3 id="acoes">Ações</h3>
+<p>É importante também notar que a lista de itens a fazer que sai de uma retrospectiva contém apenas <strong>ações</strong>, isto é, atividades que membros do time vão efetivamente fazer para obter algum resultado.</p>
+<p>Note que o time não pode decidir que o cliente vá mudar seu comportamento ou que outra área da empresa vá passar a ajudá-los. Essas não são ações, são desejos de que algo magicamente vá mudar. No mundo da agilidade, isso é frequentemente chamado de wishful thinking.</p>
+<p>Ações, por outro lado, envolvem os membros do time. Se o problema em questão é que o cliente desaparece e não conseguimos tirar dúvidas com eles:</p>
+<pre><code>* desejo: o cliente vai entender a importância de estar presente
+* uma ação: o Scrum Master vai explicar as perdas e ganhos de uma maior participação do cliente
+* outra ação: em toda história daqui para a frente, haverá também o contato de quem pode sanar dúvidas dos desenvolvedores desse item em particular.
+</code></pre>
+<p>O resultado de uma retrospectiva é uma lista, preferencialmente curta, de ações que serão tomadas durante o próximo Sprint para melhorar ainda mais o time e o andamento do projeto.</p>
+<hr />
+<h2 id="daily-scrum">Daily Scrum</h2>
+<p>No capítulo de Retrospectiva você aprendeu sobre essa importante ferramenta para promover melhoria contínua, mas esperar o fim da Sprint para resolver probleminhas do dia-a-dia seria um grande desperdício de tempo.</p>
+<p>Para resolver obstáculos do dia-a-dia e para todos saberem como está o andamento das tarefas e histórias nessa Sprint, o Scrum tem ainda mais uma cerimônia. Todos os dias, <strong>no mesmo horário e no mesmo local</strong>, a equipe se reúne para responder 3 perguntas simples:</p>
+<pre><code>* O que fiz desde o último Daily Scrum?
+* O que pretendo fazer até o próximo?
+* Quais problemas me atrapalharam?
+</code></pre>
+<p>O timebox para essa reunião é de apenas 15 minutos por dia e, como qualquer outro timebox, deve ser respeitado. Para isso, é importante lembrar que essa é uma reunião expositiva: o objetivo aqui não é resolver o problema, mas sim apontá-lo. Se alguém souber como ajudar, apenas indica que sabe e <strong>após o fim do Daily</strong> os interessados se reúnem para conversar.</p>
+<p>Há uma divergência de opiniões sobre quem deve estar presente nessa reunião. O Scrum Guide aponta que os desenvolvedores respondem as perguntas e o Scrum Master apenas assiste a reunião, eximindo a participação do P.O.</p>
+<p>Na prática, vemos uma real vantagem em ter o P.O. presente nessa reunião, já que ele precisa saber do andamento da Sprint, entender os problemas que estão desacelerando desenvolvedores e ainda ajudar a alterar o plano de ação, se o time estiver atrasado. Assim, recomendamos fortemente que o P.O. esteja, sim, presente nessa reunião.
+Com o Daily Scrum, o time evita com que problemas durem muitos dias e que desenvolvedores façam trabalhos repetidos - tanto trabalhando sobre uma mesma feature, quanto sofrendo para resolver um problema que outro sabe solucionar.</p>
+<hr />
+<h2 id="product-e-sprint-backlogs">Product e Sprint Backlogs</h2>
+<p>O P.O. deve chegar à reunião de Planning com o topo do Product Backlog devidamente atualizado, isto é, com os itens mais relevantes para o negócio, já granulares o bastante para caber no Sprint. Falamos também que sairemos de cada Planning Meeting com um Sprint Backlog. Faltou, no entanto, estudarmos mais a fundo o que é o Product e os Sprint Backlogs e quais regras do Scrum se aplicam a eles.</p>
+<h3 id="product-backlog">Product Backlog</h3>
+<p>Assim que imaginamos um projeto, já temos uma lista de funcionalidades que gostaríamos de ter nele! Essa lista é frequentemente usada para decidir se o projeto realmente será desenvolvido e, quando vamos começar a transformar esses desejos em realidade é importante fazê-lo de forma consciente, para maximizar o valor produzido a cada interação.</p>
+<p>O Product Backlog, a lista ordenada de itens a serem feitos no projeto, é o artefato que ajuda o P.O. a manter todos esses pedidos organizados. O P.O. é responsável por mantê-lo atualizado e priorizado de modo a agregarmos o máximo de valor possível para o cliente a cada iteração.</p>
+<p>Embora clientes, usuários e o próprio time tenham a liberdade de influenciar mudanças no Product Backlog, a única pessoa que de fato o altera é o Product Owner -- inclusive, o papel é chamado dessa forma porque o P.O. é dono do Product Backlog! Os itens do Product Backlog são sempre mutáveis: o P.O. pode adicionar itens, removê-los e re-priorizá-los sempre que achar que consegue agregar mais valor ao projeto dessa forma.</p>
+<p>A proposta do Product Backlog é, também, que evitemos colocar trabalho em itens pouco importantes ou que sequer sabemos se serão feitos: os itens mais prioritários de um backlog têm que ter sua importância de negócio estudada e ser pequenos o bastante para que o time estime e os aloque em Sprints, mas os mais distantes e menos prioritários podem permanecer em blocos maiores e mais grosseiros, que serão refinados conforme sua prioridade cresce.</p>
+<h3 id="sprint-backlog">Sprint Backlog</h3>
+<p>Uma vez que itens cheguem ao topo do Product Backlog, eles serão discutidos em uma Planning Meeting, quebrados em alguns sub-itens técnicos e, se escolhidos para serem executados, esses itens e sub-itens comporão o chamado Sprint Backlog: a lista ordenada de itens funcionais e seus sub-itens técnicos que serão feitos durante essa Sprint.</p>
+<p>Diferente do Product Backlog, apenas o time pode influenciar e alterar o Sprint Backlog. Existe uma razão para isso: o Sprint Backlog é formado dos itens mais prioritários do Product Backlog e é uma indicação séria de problemas sistêmicos se os itens mais prioritários precisarem sofrer grandes modificações. Se os itens mais prioritários não fizerem sentido nas, digamos, 2 semanas de Sprint, isso indica que o P.O. não fez um bom trabalho de refinamento e de descobrir com usuários o que eles realmente precisam.</p>
+<h3 id="historias-e-tarefas">Histórias e tarefas</h3>
+<p>Cada item que compõe um Product Backlog representa uma funcionalidade, algo que agrega valor para o usuário final -- note, portanto, que "documentação técnica" não é um item válido, já que o usuário não se beneficia disso.</p>
+<p>Esses itens podem ter o formato que você quiser -- por exemplo, um conjuntinho de casos de uso do sistema pode ser um item válido. Há uma forte preferência entre agilistas, no entanto, de usar um formato especial para representar esses itens: uma história de usuário (user story).</p>
+<p>Uma história é um formato criado em eXtreme Programming (XP) para representar um item que agrega valor a usuários e agrega, de uma forma bastante simples, três informações importantíssimas para a priorização e posterior desenvolvimento da funcionalidade: por que é importante, para quem é importante e, só então, o que a pessoa quer, em si. O modelo que costumamos preencher é o seguinte:</p>
+<pre><code>[TÍTULO]**Para...**
+[por que o pedido é importante]**No papel de...**
+[para quem é importante]**Quero...** 
+[o pedido em si]
+</code></pre>
+<p>Em um sistema de vagas online como o OndeTrabalhar.com, por exemplo, poderíamos ter a história:</p>
+<pre><code>        VAGAS POR LOCALIDADE
+**Para...** não perder tempo olhando cada vaga para descobrir se é na minha cidade
+**No papel de...** pessoa procurando trabalho
+**Quero...** ter a opção de filtrar as vagas de trabalho por cidade
+</code></pre>
+<p>Durante o Planning é comum verificarmos o entendimento da história quebrando-a em itens menores, técnicos, que não necessariamente agregam valor ao usuário individualmente. Esses sub-itens técnicos de histórias são chamados tarefas. A história acima poderia ser quebrada nas seguintes tarefas:</p>
+<pre><code>    * Cadastro de cidades no banco de dados;
+    * Mudança no formulário de postagem de vaga para limitar à lista de cidades;
+    * Filtro de busca de vagas no menu principal.
+</code></pre>
+<p>Muito comumente também, embora não seja regra, é vermos histórias em cartões (fichas pautadas) e tarefas em post-its.</p>
+<hr />
+<h2 id="scrum-master">Scrum Master</h2>
+<h3 id="papeis-scrum-master">Papéis: Scrum Master</h3>
+<p>Assim como o Product Owner, há outro papel que é executado por uma pessoa: o de Scrum Master. Enquanto o P.O. foca no produto a ser desenvolvido e em atender as necessidades do cliente, a função principal do Scrum Master é focar no processo e se assegurar que o time esteja tirando o maior proveito possível dele.</p>
+<p>Como o próprio nome diz, a pessoa que tem o papel de Scrum Master tem que entender muito bem o Scrum e ser capaz de passar isso para todos os envolvidos no projeto: desenvolvedores, Product Owner, clientes e a própria organização na qual o time está inserido.</p>
+<p>O Scrum Master <strong>não é</strong>, contudo, chefe do time e não deve agir como tal. Um bom Scrum Master é um facilitador e coach excelente, que atua como Líder Servidor, isto é, livrando o time dos problemas que o impede de ter uma melhor performance.</p>
+<h3 id="o-dia-a-dia-de-um-scrum-master">O dia-a-dia de um Scrum Master</h3>
+<p>Durante o andamento do projeto que usa Scrum, o Scrum Master deve:</p>
+<pre><code>    * Facilitar as reuniões, quando necessário;
+    * Atentar para o cumprimento dos time-boxes e explicar o porquê deles;
+    * Educar desenvolvedores, product owner e clientes sobre o processo;
+    * Remover ou reduzir impedimentos (não problemas!);
+    * Buscar continuamente ferramentas para ajudar o time a evoluir.
+    * E no que pode estar impedindo o time de melhorar sua performance.
+</code></pre>
+<h3 id="evolucao-do-papel">Evolução do papel</h3>
+<p>Note que performance é um termo muito mais abrangente que produtividade. Produzir vários incrementos é interessante, claro, mas a performance do time está, também, em decidir quais funcionalidades agregam mais valor, em evitar reuniões desnecessárias, em melhorar a qualidade da comunicação, etc.</p>
+<h3 id="problemas-e-impedimentos">Problemas e Impedimentos</h3>
+<p>Há uma enorme confusão em implantações do Scrum pelo mundo sobre o que é um problema e o que é um impedimento. O mau entendimento da diferença entre eles faz com que diversos Scrum Masters se comportem mais como babás de times do que deveriam - e isso também prejudica a evolução do time.</p>
+<p>Como Scrum Master, portanto, é importante que você deixe claro para o time a diferença entre um problema e um impedimento.</p>
+<p>Tudo o que atrapalha o time, interno ou externo, é considerado um <strong>problema</strong> do time e, como tal, é responsabilidade do próprio time (qualquer membro, não apenas o Scrum Master!) resolvê-lo.</p>
+<p>Se o time tentou resolver o problema <strong>e não conseguiu</strong>, isso pode ser considerado um Impedimento.</p>
+<p>Assim, lembre-se que Scrum Master não é a pessoa que vai resolver problemas técnicos (ele nem precisa ser técnico!) ou cotidianos ("Acabou o café!"). O time deve trabalhar junto para resolver esses problemas.</p>
+<p>Você, Scrum Master, evite acostumar mal o time: isso pode tirar o senso de responsabilidade das pessoas e você pode acabar se tornando uma muleta.</p>
+<hr />
+<h2 id="product-owner">Product Owner</h2>
+<h3 id="papeis-po">Papéis:  (P.O.)</h3>
+<p>Agora que já vimos os timeboxes e artefatos do Scrum, também já falamos um bocado da atuação de cada um dos três papéis que pessoas desenvolvem no Scrum. Nessa e nas próximas sessões, faremos uma grande revisão e consolidação do conhecimento já visto até agora, focando nos papéis do Scrum.</p>
+<p>Certamente, o papel mais comentado nas sessões anteriores é o do Product Owner. Essa terminologia é bastante expressiva e, até por isso, acabou sendo utilizada informalmente mesmo em equipes que não trabalham com Scrum, mas cuidado para não entendê-la errado: quando trabalhamos com métodos ágeis o time todo se sente responsável pelo produto que está sendo produzido e o cliente se interessa por ele, portanto a palavra Owner do nome do papel não exime o resto do time dessa responsabilidade. O P.O. é, no entanto, o dono do Product Backlog.</p>
+<h3 id="o-dia-a-dia-de-um-product-owner">O dia-a-dia de um Product Owner</h3>
+<p>Durante o andamento do projeto que usa Scrum, o Product Owner (P.O.) deve:</p>
+<pre><code>* participar das reuniões;
+* responder dúvidas dos desenvolvedores sobre histórias ou indicar quem poderia respondê-las melhor;
+* deixar claro para o time qual o valor de negócios de cada Sprint;
+* obter feedback e expectativas dos diversos clientes e extrair delas as necessidades;
+* MANTER O PRODUCT BACKLOG ATUALIZADO, isto é:
+* adicionar itens novos;
+* remover itens desatualizados;
+* revisar a priorização do backlog constantemente;
+* refinar histórias mais importantes em preparação para o próximo Planning.
+</code></pre>
+<h3 id="refinamento-do-backlog">Refinamento do backlog</h3>
+<p>Uma dúvida frequente é o que o P.O. faz durante a maior parte da Sprint, quando os desenvolvedores estão trabalhando em incrementos de software. Há várias atividades listadas acima que tornam a disponibilidade diária do P.O. como para tirar dúvidas, repriorizar o Sprint backlog conforme necessidade, etc. Conforme o time amadurece e aprende a lidar consigo mesmo e com a organização, no entanto, é comum que esses trabalhos diminuam consideravelmente.</p>
+<p>Algo que não diminui tanto, contudo, é o refinamento do topo do Product Backlog.</p>
+<p>Vimos que, para que o planejamento de uma Sprint caiba nos 5% da duração da Sprint, é preciso que o P.O. saiba explicar histórias e que elas estejam em uma granularidade (tamanho) adequado para desenvolvedores conseguirem estimá-las. Portanto, para o próximo Planning correr bem, o P.O. já começa a se preparar para a reunião refinando os itens mais prioritários do Product Backlog, isto é, quebrando eles nas menores histórias possíveis e fazendo perguntas relevantes aos clientes.</p>
+<p>Pense que a segunda história mais importante de nosso Backlog é a seguinte:</p>
+<pre><code>                    Opção de boleto
+**Para...**atender aos pedidos de 15 pessoas que foram na conferência ano passado
+**No papel de...**organização da Agile Brazil
+**Quero...**oferecer a opção de pagamento em boleto no site e controlar as inscrições feitas com essa forma de pagamento no sistema.
+</code></pre>
+<p>Essa simples história já poderia ser quebrada em pelo menos duas menores, que individualmente já agregam valor para papéis diferentes e nem mesmo precisam ser feitos no mesmo Sprint!</p>
+<pre><code>                    Inscrição em boleto
+**Para...** conseguir pagar minha inscrição no caixa eletrônico do meu banco
+**No papel de...** participante da Agile Brazil
+**Quero...** escolher pagar minha inscrição em boleto e emití-lo direto da próxima página
+</code></pre>
+<p>E, também:
+                        Pagamentos de boleto
+    <strong>Para...</strong> não vender mais ingressos do que devia, nem menos do que podia
+    <strong>No papel de...</strong> organizador da Agile Brazil
+    <strong>Quero...</strong> reservar vagas na conferência quando alguém gerar um boleto e, ou criar a inscrição quando receber a confirmação do pagamento do gateway, ou abrir a vaga para vendas novamente, quando o boleto vencer sem ser pago.</p>
+<p>Note que, graças ao refinamento, foi preciso perguntar melhor os porquês daquela história original e o que exatamente está sendo pedido. Assim, será mais fácil gerenciar essas histórias no Planning Meeting que está por vir.</p>
+<h3 id="uma-pessoa-so">Uma pessoa só!</h3>
+<p>Outra informação importante sobre o P.O. é que ele é <strong>uma pessoa, não um comitê</strong>. A razão para isso é bastante simples: o time precisa saber quem está no comando do que será feito e, se tivéssemos diversos P.O.s correríamos um maior risco de informações conflitantes atrapalharem o time.</p>
+<p>Assim, consideramos essas várias pessoas como clientes e tanto elas quanto o time podem influenciar o P.O., mas a palavra final e o plano de como maximizar o valor entregue pelo time é do Product Owner.</p>
+<hr />
+<h2 id="desenvolvedor">Desenvolvedor</h2>
+<h3 id="papeis-desenvolvedor">Papéis: desenvolvedor</h3>
+<p>Enquanto em ambientes mais tradicionais os executores das tarefas apenas fazem o trabalho que lhes é atribuído, tentando respeitar os prazos já decididos por eles e da forma como alguém definiu... essa não é nossa realidade em times ágeis.</p>
+<p>Como vimos nos capítulos anteriores, desenvolvedores discutem histórias tecnicamente, estimam o esforço para fazê-las e negociam o que cabe na Sprint durante o planning. Daí, nos daily scrums, eles decidem qual tarefa vão pegar para si, considerando o resultado esperado da Sprint.</p>
+<p>A vida dos desenvolvedores dentro de um ambiente ágil é mais complexa do que em um ambiente tradicional, onde eles podem apenas seguir ordens e já fazem seu trabalho. Ao mesmo tempo, as possibilidades de crescimento pessoal aqui são muitas e a autonomia dada a esse grupo é muito interessante, especialmente dado que tratamos aqui com trabalhadores do conhecimento. Em um time ágil, há espaço para criatividade no desenvolvimento.</p>
+<p>Em resumo, no dia-a-dia dos desenvolvedores em times ágeis...</p>
+<h3 id="desenvolvedores-devem">Desenvolvedores devem:</h3>
+<pre><code>* Decidir a abordagem técnica para os problemas apresentados;
+* Trocar informações e ajudar os companheiros de time;
+* ESTIMAR AS  HÍSTORIAS durante o planning;
+* ESCOLHER SUA PRÓXIMA TAREFA a ser feita, considerando as prioridades da Sprint;
+* Buscar a qualidade do projeto e a redução de erros.
+</code></pre>
+<h3 id="e-desenvolvedores-nao-devem">E desenvolvedores não devem:</h3>
+<pre><code>* Considerar dúvidas técnicas como impedimentos - elas são apenas problemas;
+* Esperar que alguém decida as atividades a serem feitas por eles;
+* Se recusar a aprender um pouco sobre outras áreas de desenvolvimento.
+</code></pre></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script src="../../js/jquery-3.6.0.min.js"></script>
+        <script src="../../js/bootstrap.min.js"></script>
+        <script>
+            var base_url = "../..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../../js/base.js"></script>
+        <script src="../../search/main.js"></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+                <p>From here you can search these documents. Enter your search terms below.</p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>

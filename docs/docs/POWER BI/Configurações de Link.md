@@ -2,7 +2,7 @@
 
 Ao gerar um link de compartilhamento é possível definir com quais tipos de pessoas esse link irá funcionar. Há três definições: Pessoas na sua organização, Pessoas com acesso existente e Pessoas específicas. Confira abaixo mais detalhes desse funcionamento:
 
-![Configurações de Link](/POWER%20BI/ASSETS/configurcoesDeLink.png)
+![Configurações de Link](../assets/configurcoesDeLink.png)
 
 ### Pessoas na sua organização
 

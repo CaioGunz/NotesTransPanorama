@@ -2,7 +2,7 @@
 
 No Power BI, uma das principais funcionalidades é a capacidade de mesclar dados de diferentes fontes em um único conjunto de dados para análise. Essa mesclagem é possível graças ao recurso de junções, que permite combinar informações com base em critérios específicos. Existem diferentes tipos de junções disponíveis no Power BI, cada uma com suas características e finalidades. Neste texto, vamos conhecer os tipos de junções mais comuns utilizados na mesclagem de dados no Power BI.
 
-![Tipos de Junção](/POWER%20BI/ASSETS/aula4_img_tipos_de_juncao.jpg)
+![Tipos de Junção](../assets/aula4_img_tipos_de_juncao.jpg)
 
  - Esquerda Externa (Left Outer Join): Retorna todas as linhas da tabela esquerda e as linhas correspondentes da tabela direita com base em um critério de correspondência dos relacionamentos entre chaves primárias e estrangeiras das tabelas. Se não houver correspondência na tabela direita, os valores serão preenchidos com nulos.
 

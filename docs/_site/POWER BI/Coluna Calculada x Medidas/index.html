@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        <link rel="canonical" href="https://gunz-study.com/POWER%20BI/Coluna%20Calculada%20x%20Medidas/">
+        <link rel="shortcut icon" href="../../img/favicon.ico">
+        <title>Coluna Calculada x Medidas - Gunz Study</title>
+        <link href="../../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/rainbow.min.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+        <script>hljs.highlightAll();</script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="../..">Gunz Study</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="navitem">
+                                <a href="../.." class="nav-link">Home</a>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">ESTATISTICA <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../ESTATISTICA/Analise%20de%20Pareto/" class="dropdown-item">Para saber mais: a Análise de Pareto</a>
+</li>
+                                    
+<li>
+    <a href="../../ESTATISTICA/Base%20de%20Dados%20-%20gratis/" class="dropdown-item">Para pegar bases de dados gratis</a>
+</li>
+                                    
+<li>
+    <a href="../../ESTATISTICA/Estudos%20Sobre%20Data%20Science/" class="dropdown-item">Estudos sobre Data Science</a>
+</li>
+                                    
+<li>
+    <a href="../../ESTATISTICA/Grafico%20de%20Barras/" class="dropdown-item">Gráfico de Barras Empilhadas e Clusterizada</a>
+</li>
+                                    
+<li>
+    <a href="../../ESTATISTICA/Grafico%20de%20Pizza/" class="dropdown-item">Gráfico de Pizza</a>
+</li>
+                                    
+<li>
+    <a href="../../ESTATISTICA/Graficos/" class="dropdown-item">Gráficos</a>
+</li>
+                                    
+<li>
+    <a href="../../ESTATISTICA/Mapa%20de%20Arvore%28treemap%29/" class="dropdown-item">Visual Mapa de Árvore (Treemap)</a>
+</li>
+                                    
+<li>
+    <a href="../../ESTATISTICA/Multiplos%20Pequenos/" class="dropdown-item">Múltiplos Pequeno</a>
+</li>
+                                    
+<li>
+    <a href="../../ESTATISTICA/M%C3%A9tricas%20com%20DAX/" class="dropdown-item">Para saber mais: médtricas com DAX</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">LINUX <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../LINUX/COMANDOS%20LINUX/" class="dropdown-item">Comandos Básicos do Linux (Meu uso)</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown active">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">POWER BI <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../Calculo%20de%20Horas%20-%20Acima%20de%2024h/" class="dropdown-item">Cálculo de Horas no Power BI - Acima de 24h</a>
+</li>
+                                    
+<li>
+    <a href="./" class="dropdown-item active">Coluna Calculada x Medidas</a>
+</li>
+                                    
+<li>
+    <a href="../Configura%C3%A7%C3%B5es%20de%20Link/" class="dropdown-item">Configurações de Link</a>
+</li>
+                                    
+<li>
+    <a href="../Contexto%20de%20Linha%20X%20Contexto%20de%20Filtro%20X%20Itera%C3%A7%C3%A3o/" class="dropdown-item">Para saber mais: Contexto de linha x Contexto de filtro x Iteração</a>
+</li>
+                                    
+<li>
+    <a href="../Contextos/" class="dropdown-item">Para saber mais: Contextos</a>
+</li>
+                                    
+<li>
+    <a href="../Diferenca%20de%20Duplicar%20e%20Manipular%20uma%20Tabela/" class="dropdown-item">Diferenca de Duplicar e Manipular uma Tabela</a>
+</li>
+                                    
+<li>
+    <a href="../Estudos%20Power%20BI/" class="dropdown-item">Estudos Power BI</a>
+</li>
+                                    
+<li>
+    <a href="../Fun%C3%A7%C3%A3o%20RELATED/" class="dropdown-item">Para saber mais: a função RELATED</a>
+</li>
+                                    
+<li>
+    <a href="../Fun%C3%A7%C3%A3o%20VALUES%20e%20DISTINCT/" class="dropdown-item">PAra saber mais: funções que retornam tabelas (Values e Distinct)</a>
+</li>
+                                    
+<li>
+    <a href="../Fun%C3%A7%C3%B5es%20BLANK%20e%20ISBLANK/" class="dropdown-item">Utilizando as funções BLANK e ISBLANK</a>
+</li>
+                                    
+<li>
+    <a href="../Fun%C3%A7%C3%B5es%20Iteradoras/" class="dropdown-item">Para saber mais: as funções iteradoras</a>
+</li>
+                                    
+<li>
+    <a href="../Fun%C3%A7%C3%B5es%20de%20Modofical%C3%A7%C3%A3o%20de%20Filtros%20de%20DAX/" class="dropdown-item">Para saber mais: Categoria de funções de modificação de filtros em DAX</a>
+</li>
+                                    
+<li>
+    <a href="../Fun%C3%A7%C3%B5es%20para%20Convers%C3%A3o%20de%20Tipo/" class="dropdown-item">Funções para conversão de tipo</a>
+</li>
+                                    
+<li>
+    <a href="../KeepFilter/" class="dropdown-item">Para saber mais: KeepFilter</a>
+</li>
+                                    
+<li>
+    <a href="../Layout%20Mobile/" class="dropdown-item">Layout Mobile</a>
+</li>
+                                    
+<li>
+    <a href="../Medida%20Implicita%20e%20Explicita/" class="dropdown-item">Medidas Implícitas e Explícitas</a>
+</li>
+                                    
+<li>
+    <a href="../Tipos%20de%20Dados%20no%20DAX/" class="dropdown-item">Para saber mais: Tipos de Dados no DAX</a>
+</li>
+                                    
+<li>
+    <a href="../Tipos%20de%20Jun%C3%A7%C3%A3o%20na%20Mesclagem%20do%20Power%20BI/" class="dropdown-item">Tipos de Junção na Mesclagem do Power BI</a>
+</li>
+                                    
+<li>
+    <a href="../Tooltip/" class="dropdown-item">Para saber mais: tooltip</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">PYTHON <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../PYTHON/Anota%C3%A7%C3%B5es%20sobre%20Git%20e%20Github/" class="dropdown-item">Anotações Sobre Git e Github</a>
+</li>
+                                    
+<li>
+    <a href="../../PYTHON/Diagrama%20de%20Classes/" class="dropdown-item">Conhecendo Diagrama de Classes</a>
+</li>
+                                    
+<li>
+    <a href="../../PYTHON/Estudos%20Scrum/" class="dropdown-item">Conhecendo o SCRUM</a>
+</li>
+                                    
+<li>
+    <a href="../../PYTHON/Estudos%20e%20Libs%20Python/" class="dropdown-item">Estudos e Libs Python</a>
+</li>
+                                    
+<li>
+    <a href="../../PYTHON/M%C3%A9todo%20Melt/" class="dropdown-item">Resumo Método melt()</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">QLIK <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../QLIK/Estudos%20Qlik/" class="dropdown-item">Estudos Qlik</a>
+</li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li class="nav-item">
+                                <a rel="prev" href="../Calculo%20de%20Horas%20-%20Acima%20de%2024h/" class="nav-link">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" href="../Configura%C3%A7%C3%B5es%20de%20Link/" class="nav-link">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
+        <ul class="nav flex-column">
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<p># Para saber mais: Coluna calculada x Medidas</p>
+<p>Uma coluna calculada é uma coluna adicional que você cria em uma tabela existente com base em uma fórmula ou expressão. Essa coluna é calculada dinamicamente durante a atualização dos dados ou quando você executa uma consulta. As colunas calculadas são úteis quando você precisa derivar novas informações ou realizar cálculos com base em combinações de colunas existentes. Por exemplo, você pode criar uma coluna calculada para calcular a margem de lucro bruto de um produto, subtraindo o custo dos produtos vendidos da receita de vendas.</p>
+<p>Por outro lado, as medidas são cálculos que agregam ou resumem valores de uma ou mais colunas em uma tabela. As medidas são criadas usando funções agregadas, como soma, média, máximo, mínimo, entre outras, para fornecer informações resumidas sobre os dados. Diferentemente das colunas calculadas, as medidas são usadas em visualizações interativas, como gráficos e tabelas, permitindo que você explore seus dados em diferentes perspectivas. Por exemplo, você pode criar uma medida para calcular a receita total de vendas ou a contagem de produtos vendidos.</p>
+<p>As medidas também são flexíveis e podem responder dinamicamente às interações do usuário, ajustando seus resultados com base nas seleções feitas em filtros ou em outras partes da visualização. Além disso, as medidas podem ser compartilhadas entre diferentes visualizações e relatórios, promovendo a reutilização e a consistência dos cálculos em todo o seu projeto.</p>
+<p>No Power BI, você pode criar colunas calculadas e medidas usando a linguagem DAX (Data Analysis Expressions), que oferece uma ampla variedade de funções e operadores para manipular e analisar dados. Através do uso inteligente de colunas calculadas e medidas, você pode enriquecer seus relatórios com cálculos personalizados, indicadores-chave de desempenho (KPIs), métricas e muito mais, proporcionando uma compreensão mais profunda dos seus dados.</p>
+<p>As colunas calculadas e as medidas no Power BI têm propósitos diferentes e apresentam algumas diferenças importantes. Aqui estão as principais diferenças entre as duas:</p>
+<ul>
+<li><strong>Agregação versus Valor Individual</strong>: As medidas são calculadas para fornecer um valor agregado, como soma, média ou contagem, com base em um conjunto de linhas ou colunas. Por outro lado, as colunas calculadas retornam um valor individual para cada linha da tabela, calculado com base em uma fórmula específica.</li>
+<li><strong>Armazenamento</strong>: As colunas calculadas são armazenadas fisicamente no modelo de dados, ocupando espaço no armazenamento. Por outro lado, as medidas são calculadas sob demanda, durante a exibição dos dados, e não ocupam espaço adicional no armazenamento.</li>
+<li><strong>Reutilização</strong>: As medidas podem ser reutilizadas em várias visualizações e relatórios. Elas são criadas uma vez e podem ser usadas em diferentes partes do projeto. Por outro lado, as colunas calculadas são específicas para a tabela em que são criadas e não podem ser diretamente reutilizadas em outras tabelas.</li>
+<li><strong>Complexidade</strong>: As colunas calculadas são mais adequadas para cálculos simples e fórmulas diretas que podem ser aplicadas a cada linha da tabela. Elas podem usar colunas existentes como base para os cálculos. Já as medidas são mais adequadas para cálculos mais complexos, envolvendo agregações, filtros e contextos mais amplos.</li>
+<li><strong>Exibição</strong>: As medidas são projetadas para serem exibidas em visualizações, como gráficos, tabelas e cartões. Elas fornecem informações resumidas e indicadores-chave de desempenho (KPIs). As colunas calculadas, por outro lado, não são projetadas para serem exibidas diretamente em visualizações, porém podem ser usadas como base para cálculos adicionais ou como informações adicionais nos bastidores do modelo de dados.</li>
+<li><strong>Contexto</strong>: A coluna calculada trabalha em contexto de linha, pois ela funciona dentro do escopo da linha atual da tabela onde a coluna pertence. Ao fazer referência a uma coluna, o valor correspondente a essa coluna é retornado para a linha em questão. Em contrapartida, a medida trabalha no contexto de filtro, seja do visual ou da consulta. Quando você quiser agregar valores de várias linhas em uma tabela, ao invés de calcular para cada linha, você pode utilizar uma medida.</li>
+</ul>
+<p>Em resumo, as colunas calculadas e as medidas são recursos poderosos do Power BI que permitem que você realize cálculos personalizados e agregações sobre seus dados. Elas desempenham um papel fundamental na criação de análises e visualizações significativas, fornecendo informações valiosas para a tomada de decisões informadas. Dominar o uso de colunas calculadas e medidas no Power BI capacita você a explorar todo o potencial dos seus dados e apresentá-los de forma clara e impactante.</p>
+<p>Fonte: Alura</p></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script src="../../js/jquery-3.6.0.min.js"></script>
+        <script src="../../js/bootstrap.min.js"></script>
+        <script>
+            var base_url = "../..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../../js/base.js"></script>
+        <script src="../../search/main.js"></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+                <p>From here you can search these documents. Enter your search terms below.</p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>

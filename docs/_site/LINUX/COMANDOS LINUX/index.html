@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        <link rel="canonical" href="https://gunz-study.com/LINUX/COMANDOS%20LINUX/">
+        <link rel="shortcut icon" href="../../img/favicon.ico">
+        <title>Comandos Básicos do Linux (Meu uso) - Gunz Study</title>
+        <link href="../../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/rainbow.min.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+        <script>hljs.highlightAll();</script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="../..">Gunz Study</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="navitem">
+                                <a href="../.." class="nav-link">Home</a>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">ESTATISTICA <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../ESTATISTICA/Analise%20de%20Pareto/" class="dropdown-item">Para saber mais: a Análise de Pareto</a>
+</li>
+                                    
+<li>
+    <a href="../../ESTATISTICA/Base%20de%20Dados%20-%20gratis/" class="dropdown-item">Para pegar bases de dados gratis</a>
+</li>
+                                    
+<li>
+    <a href="../../ESTATISTICA/Estudos%20Sobre%20Data%20Science/" class="dropdown-item">Estudos sobre Data Science</a>
+</li>
+                                    
+<li>
+    <a href="../../ESTATISTICA/Grafico%20de%20Barras/" class="dropdown-item">Gráfico de Barras Empilhadas e Clusterizada</a>
+</li>
+                                    
+<li>
+    <a href="../../ESTATISTICA/Grafico%20de%20Pizza/" class="dropdown-item">Gráfico de Pizza</a>
+</li>
+                                    
+<li>
+    <a href="../../ESTATISTICA/Graficos/" class="dropdown-item">Gráficos</a>
+</li>
+                                    
+<li>
+    <a href="../../ESTATISTICA/Mapa%20de%20Arvore%28treemap%29/" class="dropdown-item">Visual Mapa de Árvore (Treemap)</a>
+</li>
+                                    
+<li>
+    <a href="../../ESTATISTICA/Multiplos%20Pequenos/" class="dropdown-item">Múltiplos Pequeno</a>
+</li>
+                                    
+<li>
+    <a href="../../ESTATISTICA/M%C3%A9tricas%20com%20DAX/" class="dropdown-item">Para saber mais: médtricas com DAX</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown active">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">LINUX <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="./" class="dropdown-item active">Comandos Básicos do Linux (Meu uso)</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">POWER BI <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../POWER%20BI/Calculo%20de%20Horas%20-%20Acima%20de%2024h/" class="dropdown-item">Cálculo de Horas no Power BI - Acima de 24h</a>
+</li>
+                                    
+<li>
+    <a href="../../POWER%20BI/Coluna%20Calculada%20x%20Medidas/" class="dropdown-item">Coluna Calculada x Medidas</a>
+</li>
+                                    
+<li>
+    <a href="../../POWER%20BI/Configura%C3%A7%C3%B5es%20de%20Link/" class="dropdown-item">Configurações de Link</a>
+</li>
+                                    
+<li>
+    <a href="../../POWER%20BI/Contexto%20de%20Linha%20X%20Contexto%20de%20Filtro%20X%20Itera%C3%A7%C3%A3o/" class="dropdown-item">Para saber mais: Contexto de linha x Contexto de filtro x Iteração</a>
+</li>
+                                    
+<li>
+    <a href="../../POWER%20BI/Contextos/" class="dropdown-item">Para saber mais: Contextos</a>
+</li>
+                                    
+<li>
+    <a href="../../POWER%20BI/Diferenca%20de%20Duplicar%20e%20Manipular%20uma%20Tabela/" class="dropdown-item">Diferenca de Duplicar e Manipular uma Tabela</a>
+</li>
+                                    
+<li>
+    <a href="../../POWER%20BI/Estudos%20Power%20BI/" class="dropdown-item">Estudos Power BI</a>
+</li>
+                                    
+<li>
+    <a href="../../POWER%20BI/Fun%C3%A7%C3%A3o%20RELATED/" class="dropdown-item">Para saber mais: a função RELATED</a>
+</li>
+                                    
+<li>
+    <a href="../../POWER%20BI/Fun%C3%A7%C3%A3o%20VALUES%20e%20DISTINCT/" class="dropdown-item">PAra saber mais: funções que retornam tabelas (Values e Distinct)</a>
+</li>
+                                    
+<li>
+    <a href="../../POWER%20BI/Fun%C3%A7%C3%B5es%20BLANK%20e%20ISBLANK/" class="dropdown-item">Utilizando as funções BLANK e ISBLANK</a>
+</li>
+                                    
+<li>
+    <a href="../../POWER%20BI/Fun%C3%A7%C3%B5es%20Iteradoras/" class="dropdown-item">Para saber mais: as funções iteradoras</a>
+</li>
+                                    
+<li>
+    <a href="../../POWER%20BI/Fun%C3%A7%C3%B5es%20de%20Modofical%C3%A7%C3%A3o%20de%20Filtros%20de%20DAX/" class="dropdown-item">Para saber mais: Categoria de funções de modificação de filtros em DAX</a>
+</li>
+                                    
+<li>
+    <a href="../../POWER%20BI/Fun%C3%A7%C3%B5es%20para%20Convers%C3%A3o%20de%20Tipo/" class="dropdown-item">Funções para conversão de tipo</a>
+</li>
+                                    
+<li>
+    <a href="../../POWER%20BI/KeepFilter/" class="dropdown-item">Para saber mais: KeepFilter</a>
+</li>
+                                    
+<li>
+    <a href="../../POWER%20BI/Layout%20Mobile/" class="dropdown-item">Layout Mobile</a>
+</li>
+                                    
+<li>
+    <a href="../../POWER%20BI/Medida%20Implicita%20e%20Explicita/" class="dropdown-item">Medidas Implícitas e Explícitas</a>
+</li>
+                                    
+<li>
+    <a href="../../POWER%20BI/Tipos%20de%20Dados%20no%20DAX/" class="dropdown-item">Para saber mais: Tipos de Dados no DAX</a>
+</li>
+                                    
+<li>
+    <a href="../../POWER%20BI/Tipos%20de%20Jun%C3%A7%C3%A3o%20na%20Mesclagem%20do%20Power%20BI/" class="dropdown-item">Tipos de Junção na Mesclagem do Power BI</a>
+</li>
+                                    
+<li>
+    <a href="../../POWER%20BI/Tooltip/" class="dropdown-item">Para saber mais: tooltip</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">PYTHON <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../PYTHON/Anota%C3%A7%C3%B5es%20sobre%20Git%20e%20Github/" class="dropdown-item">Anotações Sobre Git e Github</a>
+</li>
+                                    
+<li>
+    <a href="../../PYTHON/Diagrama%20de%20Classes/" class="dropdown-item">Conhecendo Diagrama de Classes</a>
+</li>
+                                    
+<li>
+    <a href="../../PYTHON/Estudos%20Scrum/" class="dropdown-item">Conhecendo o SCRUM</a>
+</li>
+                                    
+<li>
+    <a href="../../PYTHON/Estudos%20e%20Libs%20Python/" class="dropdown-item">Estudos e Libs Python</a>
+</li>
+                                    
+<li>
+    <a href="../../PYTHON/M%C3%A9todo%20Melt/" class="dropdown-item">Resumo Método melt()</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">QLIK <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../QLIK/Estudos%20Qlik/" class="dropdown-item">Estudos Qlik</a>
+</li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li class="nav-item">
+                                <a rel="prev" href="../../ESTATISTICA/M%C3%A9tricas%20com%20DAX/" class="nav-link">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" href="../../POWER%20BI/Calculo%20de%20Horas%20-%20Acima%20de%2024h/" class="nav-link">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-level="1"><a href="#comandos-basicos-do-linux-meu-uso" class="nav-link">Comandos Básicos do Linux (Meu uso)</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="2"><a href="#comandos-teclado" class="nav-link">Comandos Teclado</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#comandos-para-uso-de-hds-e-ssds" class="nav-link">Comandos para uso de HDs e SSDs</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#comandos-para-trabalhar-com-arquivos-zip-rar" class="nav-link">Comandos para trabalhar com arquivos ZIP, RAR</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#alteracoes-de-arquivos-no-linux" class="nav-link">Alterações de arquivos no Linux</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<h1 id="comandos-basicos-do-linux-meu-uso">Comandos Básicos do Linux (Meu uso)</h1>
+<h2 id="comandos-teclado">Comandos Teclado</h2>
+<ol>
+<li>Comando para acender led do teclado que acende pela tecla <strong>Scroll Lock</strong>
+    <code>xset led named "Scroll Lock"</code></li>
+</ol>
+<h2 id="comandos-para-uso-de-hds-e-ssds">Comandos para uso de HDs e SSDs</h2>
+<ol>
+<li>Comando utilizado para habilitar <em>Discos</em> que estão como <strong>NTFS</strong>
+    <code>sudo ntfsfix SEU_DISCO</code>
+    Substituir SEU_DISCO pelo caminho do seu disco. Exemplo: <strong>/dev/sda2</strong>  . Esse comando deve habilitar o disco para criação de pastas e manipulação de arquivos.</li>
+</ol>
+<h2 id="comandos-para-trabalhar-com-arquivos-zip-rar">Comandos para trabalhar com arquivos ZIP, RAR</h2>
+<h3 id="arquivos-rar">Arquivos RAR</h3>
+<ol>
+<li>
+<p>Comando para instalar o descompactador de arquivos RAR
+   <code>sudo apt-get install unrar</code></p>
+</li>
+<li>
+<p>Comando para verificar a integridade dos arquivos RAR e verificar os arquivos sem precisar extrair.
+   <code>unrar t arquivo.rar</code>
+   Substitua o nome <strong>arquivo.rar</strong> para verificar a integridade dos arquivos dentro do RAR.</p>
+</li>
+<li>
+<p>Comando para extrair arquivos RAR sem senha
+   <code>unrar x arquivo.rar</code>
+   Substitua o <strong>arquivo.rar</strong> pelo nome do seu arquivo. Você deve estar dentro da pasta onde esta o arquivo que vai ser descompactado ou passe o caminho completo do arquivo.</p>
+</li>
+<li>
+<p>Comando utilizado para descompactar arquivos RAR com senha
+    <code>unrar x -pSuaSenha arquivo.rar</code>
+    nesse comando se houver senha você deve substituir o <strong>SuaSenha</strong> com a senha correta do arquivo e também substituir o <strong>ARQUIVO.RAR</strong> pelo nome do seu arquivo que vai ser descompactado. Para descompactar você deve estar no mesmo diretorio do arquivo/pasta ou passe o caminho completo do arquivo.</p>
+</li>
+<li>
+<p>Comando para compactar arquivos com senha
+   <code>zip -r -e -P minha_senha pasta_zipada.zip minha_pasta</code> 
+   substituir <strong>minha_senha</strong> pela senha que deseja usar no arquivo ZIP, <strong>pasta_zipada.zip</strong> pelo nome que vai ter a pasta gerada e o nome da pasta que vai ser zipada <strong>minha_pasta</strong>.</p>
+</li>
+</ol>
+<h2 id="alteracoes-de-arquivos-no-linux">Alterações de arquivos no Linux</h2>
+<h3 id="alterar-nome-de-arquivos-e-pastas">Alterar nome de arquivos e pastas</h3>
+<p>Para renomear uma pasta/arquivo no terminal linux deve usar o comando
+   <code>mv nome_atual novo_nome</code>
+   substitua <strong>nome_atual</strong> pelo nome em que se encontra seu arquivo ou pasta e em <strong>novo_nome</strong> pelo nome que deseja ter no arquivo alterado. Certifique que o repositorio que vai ser alterado é o correto. Exemplo de alteação com o caminho do repositorio:
+   <code>mv /home/seu_usuario/pasta_antiga /home/seu_usuario/pasta_nova</code></p>
+<h3 id="remover-arquivos-no-linux">Remover arquivos no linux</h3>
+<p>Para remover arquivos ou pastas no terminal você deve fazer o seguinte comando
+   <code>rm exemple.txt</code>
+   caso vá excluir de um repositorio diferente do que você está use o comando com o caminho do arquivo/pasta. Exemplo:
+   <code>rm /home/seu_usuario/documentos/example.txt</code>
+   Lembre-se que o comando <strong>rm</strong> remove permanente os arquivos, então use com cuidado.</p></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script src="../../js/jquery-3.6.0.min.js"></script>
+        <script src="../../js/bootstrap.min.js"></script>
+        <script>
+            var base_url = "../..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../../js/base.js"></script>
+        <script src="../../search/main.js"></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+                <p>From here you can search these documents. Enter your search terms below.</p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>

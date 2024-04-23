@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        <link rel="canonical" href="https://gunz-study.com/POWER%20BI/Calculo%20de%20Horas%20-%20Acima%20de%2024h/">
+        <link rel="shortcut icon" href="../../img/favicon.ico">
+        <title>Cálculo de Horas no Power BI - Acima de 24h - Gunz Study</title>
+        <link href="../../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/rainbow.min.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+        <script>hljs.highlightAll();</script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="../..">Gunz Study</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="navitem">
+                                <a href="../.." class="nav-link">Home</a>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">ESTATISTICA <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../ESTATISTICA/Analise%20de%20Pareto/" class="dropdown-item">Para saber mais: a Análise de Pareto</a>
+</li>
+                                    
+<li>
+    <a href="../../ESTATISTICA/Base%20de%20Dados%20-%20gratis/" class="dropdown-item">Para pegar bases de dados gratis</a>
+</li>
+                                    
+<li>
+    <a href="../../ESTATISTICA/Estudos%20Sobre%20Data%20Science/" class="dropdown-item">Estudos sobre Data Science</a>
+</li>
+                                    
+<li>
+    <a href="../../ESTATISTICA/Grafico%20de%20Barras/" class="dropdown-item">Gráfico de Barras Empilhadas e Clusterizada</a>
+</li>
+                                    
+<li>
+    <a href="../../ESTATISTICA/Grafico%20de%20Pizza/" class="dropdown-item">Gráfico de Pizza</a>
+</li>
+                                    
+<li>
+    <a href="../../ESTATISTICA/Graficos/" class="dropdown-item">Gráficos</a>
+</li>
+                                    
+<li>
+    <a href="../../ESTATISTICA/Mapa%20de%20Arvore%28treemap%29/" class="dropdown-item">Visual Mapa de Árvore (Treemap)</a>
+</li>
+                                    
+<li>
+    <a href="../../ESTATISTICA/Multiplos%20Pequenos/" class="dropdown-item">Múltiplos Pequeno</a>
+</li>
+                                    
+<li>
+    <a href="../../ESTATISTICA/M%C3%A9tricas%20com%20DAX/" class="dropdown-item">Para saber mais: médtricas com DAX</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">LINUX <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../LINUX/COMANDOS%20LINUX/" class="dropdown-item">Comandos Básicos do Linux (Meu uso)</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown active">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">POWER BI <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="./" class="dropdown-item active">Cálculo de Horas no Power BI - Acima de 24h</a>
+</li>
+                                    
+<li>
+    <a href="../Coluna%20Calculada%20x%20Medidas/" class="dropdown-item">Coluna Calculada x Medidas</a>
+</li>
+                                    
+<li>
+    <a href="../Configura%C3%A7%C3%B5es%20de%20Link/" class="dropdown-item">Configurações de Link</a>
+</li>
+                                    
+<li>
+    <a href="../Contexto%20de%20Linha%20X%20Contexto%20de%20Filtro%20X%20Itera%C3%A7%C3%A3o/" class="dropdown-item">Para saber mais: Contexto de linha x Contexto de filtro x Iteração</a>
+</li>
+                                    
+<li>
+    <a href="../Contextos/" class="dropdown-item">Para saber mais: Contextos</a>
+</li>
+                                    
+<li>
+    <a href="../Diferenca%20de%20Duplicar%20e%20Manipular%20uma%20Tabela/" class="dropdown-item">Diferenca de Duplicar e Manipular uma Tabela</a>
+</li>
+                                    
+<li>
+    <a href="../Estudos%20Power%20BI/" class="dropdown-item">Estudos Power BI</a>
+</li>
+                                    
+<li>
+    <a href="../Fun%C3%A7%C3%A3o%20RELATED/" class="dropdown-item">Para saber mais: a função RELATED</a>
+</li>
+                                    
+<li>
+    <a href="../Fun%C3%A7%C3%A3o%20VALUES%20e%20DISTINCT/" class="dropdown-item">PAra saber mais: funções que retornam tabelas (Values e Distinct)</a>
+</li>
+                                    
+<li>
+    <a href="../Fun%C3%A7%C3%B5es%20BLANK%20e%20ISBLANK/" class="dropdown-item">Utilizando as funções BLANK e ISBLANK</a>
+</li>
+                                    
+<li>
+    <a href="../Fun%C3%A7%C3%B5es%20Iteradoras/" class="dropdown-item">Para saber mais: as funções iteradoras</a>
+</li>
+                                    
+<li>
+    <a href="../Fun%C3%A7%C3%B5es%20de%20Modofical%C3%A7%C3%A3o%20de%20Filtros%20de%20DAX/" class="dropdown-item">Para saber mais: Categoria de funções de modificação de filtros em DAX</a>
+</li>
+                                    
+<li>
+    <a href="../Fun%C3%A7%C3%B5es%20para%20Convers%C3%A3o%20de%20Tipo/" class="dropdown-item">Funções para conversão de tipo</a>
+</li>
+                                    
+<li>
+    <a href="../KeepFilter/" class="dropdown-item">Para saber mais: KeepFilter</a>
+</li>
+                                    
+<li>
+    <a href="../Layout%20Mobile/" class="dropdown-item">Layout Mobile</a>
+</li>
+                                    
+<li>
+    <a href="../Medida%20Implicita%20e%20Explicita/" class="dropdown-item">Medidas Implícitas e Explícitas</a>
+</li>
+                                    
+<li>
+    <a href="../Tipos%20de%20Dados%20no%20DAX/" class="dropdown-item">Para saber mais: Tipos de Dados no DAX</a>
+</li>
+                                    
+<li>
+    <a href="../Tipos%20de%20Jun%C3%A7%C3%A3o%20na%20Mesclagem%20do%20Power%20BI/" class="dropdown-item">Tipos de Junção na Mesclagem do Power BI</a>
+</li>
+                                    
+<li>
+    <a href="../Tooltip/" class="dropdown-item">Para saber mais: tooltip</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">PYTHON <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../PYTHON/Anota%C3%A7%C3%B5es%20sobre%20Git%20e%20Github/" class="dropdown-item">Anotações Sobre Git e Github</a>
+</li>
+                                    
+<li>
+    <a href="../../PYTHON/Diagrama%20de%20Classes/" class="dropdown-item">Conhecendo Diagrama de Classes</a>
+</li>
+                                    
+<li>
+    <a href="../../PYTHON/Estudos%20Scrum/" class="dropdown-item">Conhecendo o SCRUM</a>
+</li>
+                                    
+<li>
+    <a href="../../PYTHON/Estudos%20e%20Libs%20Python/" class="dropdown-item">Estudos e Libs Python</a>
+</li>
+                                    
+<li>
+    <a href="../../PYTHON/M%C3%A9todo%20Melt/" class="dropdown-item">Resumo Método melt()</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">QLIK <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../QLIK/Estudos%20Qlik/" class="dropdown-item">Estudos Qlik</a>
+</li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li class="nav-item">
+                                <a rel="prev" href="../../LINUX/COMANDOS%20LINUX/" class="nav-link">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" href="../Coluna%20Calculada%20x%20Medidas/" class="nav-link">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-level="1"><a href="#calculo-de-horas-no-power-bi-acima-de-24h" class="nav-link">Cálculo de Horas no Power BI - Acima de 24h</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<h1 id="calculo-de-horas-no-power-bi-acima-de-24h">Cálculo de Horas no Power BI - Acima de 24h</h1>
+<p>Estaremos na segunda guia do Power BI, a de Dados, e iremos trabalhar com uma tabela em Excel já importada. Observe a seguir:</p>
+<p><img alt="Como cálcular horas - tabela exemplo" src="../../assets/Como-Fazer-Calculo-com-Horas-no-Power-BI-Imagem-1.png.jpg" /></p>
+<p>A partir daqui, iremos trabalhar com o ambiente temporário do Power Query, o editor de consultas do Power BI. Iremos no menu na parte superior de Página Inicial &gt; Transformar dados. A seguir veremos os passos para realizar os cálculos citados acima.</p>
+<h4 id="1-coluna-quantidade-de-horas">1. Coluna – Quantidade de horas</h4>
+<p>O primeiro a se fazer após ter o Power Query aberto é selecionar a coluna de <strong>Fim (necessariamente primeiro)</strong>, e segurando o <strong>Ctrl</strong>, selecionaremos a coluna de <strong>Início</strong>. <strong>Com as duas selecionadas, nessa ordem</strong>, iremos procurar pelo menu <strong>Adicionar coluna &gt; Hora</strong> (símbolo de relógio maior) <strong>&gt; Subtrair.</strong></p>
+<p>Nossa coluna foi criada, mas ela ainda está com formato de horas. Para facilitar nossos cálculos, precisaremos <strong>transformar essas horas para o formato decimal</strong> (número) para depois expor essas horas em uma forma final em horas, minutos e segundos. Para isso, iremos em <strong>Transformar &gt; Duração</strong> (símbolo de relógio menor) <strong>&gt; Total de Horas.</strong></p>
+<p>Para finalizar nossa etapa 1, <strong>renomearemos</strong> a coluna nova criada e transformada com o nome de <strong>“Total de Horas”.</strong></p>
+<p>Observe o resultado:</p>
+<p><img alt="Gerar coluna de horas - imagem resultado" src="../../assets/Como-Fazer-Calculo-com-Horas-no-Power-BI-Imagem-2.png.jpg" /></p>
+<p>Aqui, teremos a nossa nova coluna criada com a diferença de horas entre Fim e Início, nos dando qual foi a quantidade de horas calculada individualmente por cada pessoa, em cada dia apresentado. Iremos na Página <strong>Inicial &gt; Fechar e Aplicar</strong> para continuar fazendo nosso trabalho final.</p>
+<h4 id="2-medida-quantidade-total-de-horas">2. Medida – Quantidade total de horas</h4>
+<p>Iremos na primeira guia do Power BI <strong>(Relatório), onde vamos criar uma medida</strong>, clicando em qualquer coluna da nossa tabela, no menu à direita, e indo em <strong>Nova Medida</strong>. Como queremos que a <strong>nova medida calcule a quantidade total de horas</strong> daqueles funcionários, iremos fazer a soma da coluna de Total de Horas criada na primeira etapa. Então, sua fórmula será:</p>
+<pre><code>Total Horas = SUM('Controle de Horas'[Total de Horas])
+</code></pre>
+<p>Para visualizar o resultado dessa medida vamos <strong>criar um cartão</strong>, nas visualizações, e <strong>arrastar</strong> a nossa medida criada de <strong>Total Horas</strong> para o campo de <strong>Campos</strong> do cartão. Com isso conseguiremos ver a nossa medida.</p>
+<ul>
+<li>OBS: Se ela tiver como número inteiro (sem casas decimais), você deve clicar na medida, ir em Ferramentas de medida (ou Modelagem), e alterar a quantidade de casas decimais de Auto para 4. Veremos abaixo que teremos o número <strong>197,9972</strong>:</li>
+</ul>
+<p><img alt="Formato em que o calculo vai trazer a hora" src="../../assets/Como-Fazer-Calculo-com-Horas-no-Power-BI-Imagem-3.png.jpg" /></p>
+<h4 id="variaveis-hora-minuto-e-segundo">Variáveis Hora, Minuto e Segundo</h4>
+<p>Iremos criar <strong>variáveis</strong> para calcular nossa estrutura de horas, minutos e segundos para apresentar da forma que quisermos. Para isso, iremos abrir uma <strong>nova medida</strong>, como no passo 2 do post, e iremos escrever a seguinte fórmula:</p>
+<pre><code>Horas Trabalhadas =
+
+VAR horas = INT(SUM('Controle de Horas'[Total de Horas]))
+
+VAR minutos = INT((SUM('Controle de Horas'[Total de Horas]) - horas) * 60)
+
+VAR segundos = ROUND(((SUM('Controle de Horas'[Total de Horas]) - horas) * 60 - minutos) * 60,0)
+
+RETURN
+
+VALUE(horas &amp; minutos &amp; segundos)
+</code></pre>
+<ol>
+<li>
+<p>Explicação de “horas”:</p>
+<p>Repare que no passo 2 temos as horas como número decimal (quebrado). <strong>Queremos que a nossa variável de “horas” pegue apenas o valor inteiro desse número total de horas calculado na etapa 2</strong>.</p>
+<p>Para isso, usaremos a função <strong>INT</strong>, que nos retornará o inteiro daquele número (Total de Horas), o que nos retornará <strong>197</strong>.</p>
+</li>
+<li>
+<p>Explicação de “minutos”:</p>
+<p><strong>Queremos que a nossa variável de “minutos” pegue a parte decimal (quebrada) calculada na etapa 2 e multiplique por 60</strong>, para ver quanto aquela parte decimal (de horas) é equivalente em minutos. Fazemos assim porque 1 hora tem 60 minutos, e se temos uma parte decimal de horas, devemos multiplicar por 60 para saber quantos minutos tem naquela “quantidade” decimal.</p>
+<p>Para ter o que queremos de uma forma mais fácil, pegaremos o total de horas (em decimal mesmo) e subtrairemos do que foi calculado por horas, ou seja, a parte inteira das horas. O que sobrará serão nossas horas em decimais, que converteremos em minutos multiplicando por 60.</p>
+<p>Pegaremos apenas a parte inteira (com a função INT) pelo mesmo motivo explicado anteriormente. Ou seja, a parte “quebrada” de minutos será a quantidade de segundos que queremos retornar em seguida. Teremos então <strong>59</strong> minutos.</p>
+</li>
+<li>
+<p>Explicação de “segundos”:</p>
+<p>Iremos <strong>fazer a lógica de cálculo bem parecida para os minutos</strong>, com o adendo de diminuir a quantidade total de minutos, sobrando a parte decimal dos minutos, que é a que converteremos em segundos.</p>
+<p>Ele é mais complicado de visualizar, mas basicamente pegamos o total de horas, diminuímos do total de horas pela parte inteira das horas (calculada pela variável “horas”). Na mesma linha de fórmula pegamos esse valor e diminuímos da parte inteira dos minutos (calculado pela variável “minutos”). O <strong>que sobra aqui é a quantidade decimal (a direita da vírgula) da parte de minutos da nossa “hora original”</strong>.</p>
+<p>Então, o que faremos é pegar esse valor, <strong>multiplicar por 60</strong>, e arredondar com a função <strong>ROUND</strong> para <strong>0</strong> casas decimais, para mostrarmos esse número sem vírgula. Fazendo esse cálculo, teremos <strong>50</strong> segundos.</p>
+</li>
+<li>
+<p>Explicação do “return”:</p>
+<p>Na estrutura da variável, o “return” quer dizer o que o nosso cálculo com variáveis irá retornar ao final do procedimento. Nesse caso, iremos concatenar (juntar) as informações de horas, minutos e segundos.</p>
+<p>OBS: Precisamos colocar a fórmula <strong>VALUE</strong> antes do valor a ser retornado para ele ser visualizado num gráfico, porque até aqui ele será um texto, porque ao usar a função <strong>concatenar</strong>, ela <strong>resulta em um texto</strong>. Nosso resultado então será <strong>1,98 Mi</strong>.</p>
+</li>
+</ol>
+<p>Ué, como assim?</p>
+<p>O resultado, apesar de estranho, só está mal formatado, porque ele tentou converter isso em um valor inteiro.</p>
+<p>Para começar a mudar isso, iremos clicar na medida <strong>Total de Horas</strong>, ir em <strong>Ferramentas de Medida</strong> (ou Modelagem) e inserir em Formatação um formato personalizado para ela de <strong>“00:00:00”</strong>, como mostramos no vídeo. Aí ficará estranho novamente, como <strong>“02 Mi: : “</strong>.</p>
+<p>Para consertar isso, iremos <strong>clicar na visualização do cartão</strong>, iremos na propriedade de <strong>pincel</strong> (formatos), <strong>Rótulo de dados &gt; Exibir unidades</strong> e <strong>trocar de Auto para Nenhum</strong>, para que ele respeite a nossa formatação criada. Estava daquele jeito antes porque ele estava forçando a ser da mesma forma, apesar de termos formatado.</p>
+<p>Finalmente teremos o resultado de <strong>197:59:50</strong>, exatamente o que achamos nas variáveis de <strong>“horas”</strong>, <strong>“minutos” e “segundos”</strong>. Observe:</p>
+<p><img alt="Formato da hora no KPI após formula" src="../../assets/Como-Fazer-Calculo-com-Horas-no-Power-BI-Imagem-4.png.jpg" /></p>
+<h4 id="grafico-de-colunas-para-visualizacao-de-horas-dos-funcionarios">Gráfico de colunas para visualização de horas dos funcionários</h4>
+<p>Para melhor visualizar a quantidade de horas de cada pessoa, podemos <strong>criar um gráfico de colunas</strong>, indo no menu de visualizações e selecionando o quarto ícone. A partir disso iremos arrastar a nossa medida <strong>(Horas Trabalhadas)</strong> para o campo de <strong>Valores</strong> e a coluna <strong>Funcionário</strong> para o campo de <strong>Eixo</strong>.</p>
+<p>Ué, que valores são esses nos eixos? É o mesmo caso do passo anterior. O gráfico está forçando a medida a ser mostrada dessa forma.</p>
+<p>Para mudar isso, iremos <strong>clicar no gráfico</strong> de colunas, ir em <strong>Eixo Y, Exibir unidades e trocar de Auto para Nenhum</strong>. Assim, teremos todas as informações da forma que queremos. Observe nosso gráfico final, abaixo:</p>
+<p><img alt="Gráfico de colunas com horas " src="../../assets/Como-Fazer-Calculo-com-Horas-no-Power-BI-Imagem-5.png.jpg" /></p></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script src="../../js/jquery-3.6.0.min.js"></script>
+        <script src="../../js/bootstrap.min.js"></script>
+        <script>
+            var base_url = "../..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../../js/base.js"></script>
+        <script src="../../search/main.js"></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+                <p>From here you can search these documents. Enter your search terms below.</p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>

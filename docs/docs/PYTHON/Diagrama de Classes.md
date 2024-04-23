@@ -24,7 +24,7 @@ Os itens da diagramação que compõem um diagrama de classes são:
 - **Associação**: Ela pode conter nome, a multiplicidade e o tipo de navegação, indica de onde partem as informações da classe e para onde elas irão. O diagrama de classes seria um retângulo com três linhas, onde a linha superior contém o nome da classe, na linha do meio os atributos, e na linha inferior os métodos e suas funções.
 
 #### Notações possíveis:
-![Imagen1](/PYTHON/ASSETS/diragama1.webp)
+![Imagen1](../assets/diragama1.jpg)
 
 ### Relacionamento
 As Classes costumam possuir relacionamento entre si, com o intuito de compartilhar informações e colaborarem umas com as outras para permitir a execução dos diversos processos executados pelo sistema.
@@ -40,28 +40,28 @@ As Classes costumam possuir relacionamento entre si, com o intuito de compartilh
 
 Ela descreve um vínculo que ocorre entre classes — associação binária , mas é possível até mesmo que uma classe esteja vinculada a si própria, associação unária.Representamos as associações por meio de retas que ligam as classes envolvidas.
 
-![Imagen2](/PYTHON/ASSETS/diagrama2.webp)
+![Imagen2](../assets/diagrama2.jpg)
 
 
 ### Agregação
 O objeto-pai poderá usar as informações do objeto agregado.
 
-![Imagen3](/PYTHON/ASSETS/diagrama3.webp)
+![Imagen3](../assets/diagrama3.jpg)
 
 ### Composição
 Pode-se dizer que composição é uma variação da agregação. Uma composição tenta representar também uma relação todo — parte. No entanto, na composição o objeto-pai (todo) é responsável por criar e destruir suas partes. Em uma composição um mesmo objeto-parte não pode se associar a mais de um objeto-pai. O todo não existe (ou não faz sentido) sem as partes ou, as partes não existem sem o todo.
 
-![Imagen4](/PYTHON/ASSETS/diagrama4.webp)
+![Imagen4](../assets/diagrama4.jpg)
 
 ### Especialização e Generalização
 Atributos e métodos definidos na classe-mãe são herdados pelas classes-filhas.
 
-![Imagen5](/PYTHON/ASSETS/diagrama5.webp)
+![Imagen5](../assets/diagrama5.jpg)
 
 ### Interfaces
 São elementos do modelo que definem conjuntos de operações que outros elementos do modelo, como classes ou componentes devem implementar.
 
-![Imagen6](/PYTHON/ASSETS/diagrama6.webp)
+![Imagen6](../assets/diagrama6.jpg)
 
 Componentes: Carlos Barcelos, Rafaela Magnus, Wagner Brum.
 
