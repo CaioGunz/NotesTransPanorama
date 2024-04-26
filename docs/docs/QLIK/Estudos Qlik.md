@@ -1,9 +1,9 @@
 ## Arquivos Qlik:
-[Qlik sense Apostila](/QLIK/Qlik%20sense%20Apostila.pdf)
+[Qlik sense Apostila](./QLIK/Qlik%20sense%20Apostila.pdf)
 
-[QlIK SENSE ENTERPRISE](/QLIK/QLIK%20SENSE%20ENTERPRISE.pdf)
+[QlIK SENSE ENTERPRISE](./QLIK/QLIK%20SENSE%20ENTERPRISE.pdf)
 
-[Qlik Sense Documentation](/QLIK/QlikSense_Doccumentation.pdf)
+[Qlik Sense Documentation](./QLIK/QlikSense_Doccumentation.pdf)
 
 [Comunidade Qlik](https://community.qlik.com/)
 
