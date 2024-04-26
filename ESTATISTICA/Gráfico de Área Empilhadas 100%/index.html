@@ -6,9 +6,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
         
-        <link rel="canonical" href="https://gunz-study.com/ESTATISTICA/Multiplos%20Pequenos/">
+        <link rel="canonical" href="https://gunz-study.com/ESTATISTICA/Gr%C3%A1fico%20de%20%C3%81rea%20Empilhadas%20100%25/">
         <link rel="shortcut icon" href="../../img/favicon.ico">
-        <title>Múltiplos Pequeno - Gunz Study</title>
+        <title>Gráfico de Áreas Empilhadas 100% - Gunz Study</title>
         <link href="../../css/bootstrap.min.css" rel="stylesheet">
         <link href="../../css/font-awesome.min.css" rel="stylesheet">
         <link href="../../css/base.css" rel="stylesheet">
@@ -62,7 +62,7 @@
 </li>
                                     
 <li>
-    <a href="../Gr%C3%A1fico%20de%20%C3%81rea%20Empilhadas%20100%25/" class="dropdown-item">Gráfico de Áreas Empilhadas 100%</a>
+    <a href="./" class="dropdown-item active">Gráfico de Áreas Empilhadas 100%</a>
 </li>
                                     
 <li>
@@ -70,7 +70,7 @@
 </li>
                                     
 <li>
-    <a href="./" class="dropdown-item active">Múltiplos Pequeno</a>
+    <a href="../Multiplos%20Pequenos/" class="dropdown-item">Múltiplos Pequeno</a>
 </li>
                                     
 <li>
@@ -215,12 +215,12 @@
                             </a>
                         </li>
                             <li class="nav-item">
-                                <a rel="prev" href="../Mapa%20de%20Arvore%28treemap%29/" class="nav-link">
+                                <a rel="prev" href="../Graficos/" class="nav-link">
                                     <i class="fa fa-arrow-left"></i> Previous
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a rel="next" href="../M%C3%A9tricas%20com%20DAX/" class="nav-link">
+                                <a rel="next" href="../Mapa%20de%20Arvore%28treemap%29/" class="nav-link">
                                     Next <i class="fa fa-arrow-right"></i>
                                 </a>
                             </li>
@@ -242,7 +242,7 @@
     <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
         <ul class="nav flex-column">
             
-            <li class="nav-item" data-level="1"><a href="#multiplos-pequeno" class="nav-link">Múltiplos Pequeno</a>
+            <li class="nav-item" data-level="1"><a href="#grafico-de-areas-empilhadas-100" class="nav-link">Gráfico de Áreas Empilhadas 100%</a>
               <ul class="nav flex-column">
               </ul>
             </li>
@@ -251,19 +251,171 @@
 </div></div>
                     <div class="col-md-9" role="main">
 
-<h1 id="multiplos-pequeno">Múltiplos Pequeno</h1>
-<p>Vimos que temos alguns campos no visual do gráfico de linhas. Temos dois em particular que nem sempre são utilizados, mas podem te auxiliar em algumas análises. São eles os campos de Eixo y secundário e múltiplos pequenos.</p>
-<p>Com os múltiplos pequenos conseguimos dividir nossa análise em subgrupos para verificar o comportamento dos nossos dados em paralelo.</p>
-<p>Vamos supor que temos uma série com valores de vendas em um período relativos a 4 grupos de vendedores diferentes:
-<img alt="Exemplo de grafico de linhas multiplo" src="../assets/exemplodeGraficoDeLinhas.png" /></p>
-<p>No Power BI para analisar os 4 grupos poderíamos arrastar a coluna dos grupos para a legenda, para assim visualizar cada linha de forma independente:</p>
-<p><img alt="exemplo" src="../assets/imagem17.png" /></p>
-<p><img alt="Analise 4 Grupos Diferentes" src="../assets/analise4GruposDiferentes.png" /></p>
-<p>Porém, como dissemos antes, olha só como a análise fica muito poluída, não está claro quais informações queremos destacar. Dessa forma, uma maneira de solucionar isso é que podemos utilizar então o grupo no campo de múltiplos pequenos:</p>
-<p><img alt="Exemplo de multiplos pequenos no Power BI" src="../assets/exemploDeMultiplosPequenos.png" /></p>
-<pre><code>Os múltiplos pequenos nos ajudam a dividir a análise, deixando assim a leitura e 
-interpretação muito mais fáceis de se fazer.
-</code></pre></div>
+<h1 id="grafico-de-areas-empilhadas-100">Gráfico de Áreas Empilhadas 100%</h1>
+<p>O gráfico de áreas empilhadas 100% é um tipo de gráfico em que os dados são apresentados como pocentagens do total, permitindo comparar a distribuição relatica de várias categorias ao longo de um eixo. Nesti tipo de gráfico, a área total da representação é sempre igual a 100%, o que facilita a visualização das proporções entre as categorias.</p>
+<p>Este tipo de gráfico é útil quando desejamos comparar a contribuição de diferentes categorias para o total em várias séries de dados. Ele é bastante útil quando temos várias séries com tamanhos variados e queremos entender a distribuição percentual de cada categoria em relação ao total. Além disso, os gráficos de áreas empilhadas 100% são adequados para mostrar como a composição das categorias muda ao longo do tempo.</p>
+<p>Vamos entender as diferenças entre o gráfico de áreas empilhadas com valores absolutos e o de áreas empilhadas 100% por meio de um exemplo explorando um case do e-commerce Buscante, um buscador online de livros.</p>
+<p>Neste cado, você precisa representar a composição dos acessos do usuário nos últimos 5 anos (2018 a 2022) na plataforma, tomando como base o acesso realizado nos três países em que a empresa possui clientes. A base de dados que você recebeu possui as quantidades de acesso dos três países (Brasil, Argentina e colômbia) em cada ano de pesquisa.</p>
+<p>Para resolver esse problema, vamos criar 2 diferentes gráficos: o gráfico de áreas empilhadas para mostrar a magnitude e variação dos acessos ano a ano e um gráfico de áreas empilhadas 100% para mostrar a distribuição relativa dos acessos entre os países. </p>
+<p>Primeiro, vamos importar as libs que vamos utilizar e criar o DataFrame com os dados fornecidos para a construção do 1º gráfico:</p>
+<pre><code>import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+
+# Acessos em milhões de cada país em cada ano
+acessos = pd.DataFrame({'Ano': [2018, 2019, 2020, 2021, 2022], 'Brasil': [120, 150, 180, 200, 220],
+                        'Argentina': [85, 110, 130, 150, 170],  'Colômbia': [50, 70, 90, 110, 130]})
+
+acessos = acessos.set_index(&quot;Ano&quot;)
+acessos
+</code></pre>
+<p>DataFrame <strong>acessos</strong>:</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Ano</th>
+<th style="text-align: center;">Brasil</th>
+<th style="text-align: center;">Argentina</th>
+<th style="text-align: center;">Colômbia</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">2018</td>
+<td style="text-align: center;">120</td>
+<td style="text-align: center;">85</td>
+<td style="text-align: center;">50</td>
+</tr>
+<tr>
+<td style="text-align: center;">2019</td>
+<td style="text-align: center;">150</td>
+<td style="text-align: center;">110</td>
+<td style="text-align: center;">70</td>
+</tr>
+<tr>
+<td style="text-align: center;">2020</td>
+<td style="text-align: center;">180</td>
+<td style="text-align: center;">130</td>
+<td style="text-align: center;">90</td>
+</tr>
+<tr>
+<td style="text-align: center;">2021</td>
+<td style="text-align: center;">200</td>
+<td style="text-align: center;">150</td>
+<td style="text-align: center;">110</td>
+</tr>
+<tr>
+<td style="text-align: center;">2022</td>
+<td style="text-align: center;">220</td>
+<td style="text-align: center;">170</td>
+<td style="text-align: center;">130</td>
+</tr>
+</tbody>
+</table>
+<p>Em seguida, vamos aplicar a normalização em <strong>acessos</strong>, trazendo os números para a escala percentual (0-100) a fim de contruir o 2° gráfico:</p>
+<pre><code># Normalizando os números de acessos e deixando-os numa escala de 0 a 100
+acessos_normalizados = (acessos.div(acessos.sum(axis=1), axis=0) * 100).round(1)
+acessos_normalizados
+</code></pre>
+<p>DataFrame <strong>acessos_normalizados</strong>:</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Ano</th>
+<th style="text-align: center;">Brasil</th>
+<th style="text-align: center;">Argentina</th>
+<th style="text-align: center;">Colômbia</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">2018</td>
+<td style="text-align: center;">47.1</td>
+<td style="text-align: center;">33.3</td>
+<td style="text-align: center;">19.6</td>
+</tr>
+<tr>
+<td style="text-align: center;">2019</td>
+<td style="text-align: center;">45.5</td>
+<td style="text-align: center;">33.3</td>
+<td style="text-align: center;">21.2</td>
+</tr>
+<tr>
+<td style="text-align: center;">2020</td>
+<td style="text-align: center;">45.0</td>
+<td style="text-align: center;">32.5</td>
+<td style="text-align: center;">22.5</td>
+</tr>
+<tr>
+<td style="text-align: center;">2021</td>
+<td style="text-align: center;">43.5</td>
+<td style="text-align: center;">32.6</td>
+<td style="text-align: center;">23.9</td>
+</tr>
+<tr>
+<td style="text-align: center;">2022</td>
+<td style="text-align: center;">42.3</td>
+<td style="text-align: center;">32.7</td>
+<td style="text-align: center;">25.0</td>
+</tr>
+</tbody>
+</table>
+<p>Por fim, para construir ambos os gráficos lado a lado para realizarmos a comparação, vamos executar o seguinte código:</p>
+<pre><code>fig, axs = plt.subplots(1, 2, figsize=(14,7))
+
+fig.suptitle('Composição dos acessos dos usuários da Buscante no Brasil, Argentina e Colômbia de 2018 a 2022', 
+             fontsize = 16, ha = 'left', x = 0.03, y = 1.05)
+
+# GRÁFICO 1 - gráfico de áreas empilhadas
+
+acessos.plot.area(color = [&quot;#009C3B&quot;, &quot;#75AADB&quot;, &quot;#FFCD00&quot;], xticks=np.arange(2018, 2023,1), ax = axs[0], alpha= 0.6)
+axs[0].set_title('Em milhões de views\n', loc = &quot;left&quot;)
+axs[0].set_ylabel('')
+axs[0].set_xlabel('')
+axs[0].xaxis.set_tick_params(labelsize=12)
+axs[0].yaxis.set_tick_params(labelsize=12)
+axs[0].set_ylim(0.01, 570)     # ajustando os limites do eixo y
+axs[0].set_xbound(2018,2023)   # ajustando os limites do eixo x
+axs[0].legend().remove()
+axs[0].tick_params(axis='both', which='both', length=0)
+axs[0].set_frame_on(False)
+
+## Anotando os nomes das regiões
+pais = acessos.columns
+y_pos = [80, 240, 350]
+for i in range(len(pais)):
+  axs[0].text(2020, y_pos[i], f'{pais[i]}', color = '#231F20', weight = &quot;bold&quot;, fontsize = 14, ha=&quot;center&quot;, transform=axs[0].transData)
+
+#######################################
+
+# GRÁFICO 2 - gráfico de áreas empilhadas 100%
+
+acessos_normalizados.plot.area(color = [&quot;#009C3B&quot;, &quot;#75AADB&quot;, &quot;#FFCD00&quot;], xticks=np.arange(2018, 2023,1), ax = axs[1], alpha= 0.6)
+axs[1].set_title('Em porcentagem (%)\n', loc = &quot;left&quot;)
+axs[1].set_ylabel('')
+axs[1].set_xlabel('')
+axs[1].xaxis.set_tick_params(labelsize=12)
+axs[1].yaxis.set_tick_params(labelsize=12)
+axs[1].set_ylim(0.01, 110)     # ajustando os limites do eixo y
+axs[1].set_xbound(2018,2023)   # ajustando os limites do eixo x
+axs[1].legend().remove()
+axs[1].tick_params(axis='both', which='both', length=0)
+axs[1].set_frame_on(False)
+
+## Anotando os nomes das regiões
+pais = acessos_normalizados.columns
+y_pos = [20, 60, 90]
+for i in range(len(pais)):
+  axs[1].text(2020, y_pos[i], f'{pais[i]}', color = '#231F20', weight = &quot;bold&quot;, fontsize = 14, ha=&quot;center&quot;, transform=axs[1].transData)
+
+plt.tight_layout()
+plt.show()
+</code></pre>
+<p>o gráfico gerado é o seguinte:</p>
+<p><img alt="Gráfico de área em porcentagem" src="../../ASSETS/graficoAreasPoercentagem.png" /></p>
+<p>Note, neste exemplo da Buscante, que possuímos diferentes interpretações para osdois gráficos. Em essência os dados são os mesmos, mas as escalas escolhidas possuem intencionalidades diferentes para apresentação do dado.</p>
+<p>O gráfico de barras empilhadas foca na magnitude dos dados apontando, por exemplo, o crescimento global dos acessos e támbem as diferenças absolutas entre cada país. Já o gráfico de áreas empilhadas 100% representa a contribuição de cada país para o total de acessos. Ou seja, não conseguimos averiguar a evolução ou não dos acessos totais ano a ano, mas é mais evidente a composição de cada país para os acessos em cada um dos anos.</p>
+<p>Fonte: <strong>Alura</strong></p></div>
             </div>
         </div>
 
