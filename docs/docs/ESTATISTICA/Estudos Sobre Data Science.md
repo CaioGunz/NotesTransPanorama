@@ -78,7 +78,7 @@ Os algoritmos de software e machine learning são usados para obter insights mai
 
 Os cientistas de dados trabalham em conjunto com analistas e empresas para converter insights de dados em ação. Eles fazem diagramas, gráficos e tabelas para representar tendências e previsões. A sumarização de dados ajuda as partes interessadas a entender e implementar os resultados de forma eficaz.
 
-![Gráfico do OSEMN](../assets/OSEMn.png)
+![Gráfico do OSEMN](../ASSETS/OSEMn.png)
 
 -------------
 

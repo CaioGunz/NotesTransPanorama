@@ -14,15 +14,15 @@ Você pode utilizar a opção de duplicar quando você quer copiar uma tabela in
 
 Como exemplo, vamos imaginar que precisamos importar outra tabela com novos pedidos, e essa tabela terá a mesma estrutura da tabela que já tratamos. Nesse caso, nós podemos simplesmente duplicar a tabela de pedidos, clicando com o botão direito em cima dela e depois na opção **Duplicar**:
 
-![Imagem de como duplicar](../assets/aula4-img66.png)
+![Imagem de como duplicar](../ASSETS/aula4-img66.png)
 
 A nova tabela duplicada ficará com os tratamentos realizados na tabela original:
 
-![Imagem da tabela duplicada](../assets/aula4-img67.png)
+![Imagem da tabela duplicada](../ASSETS/aula4-img67.png)
 
 Agora, basta mudarmos o caminho do arquivo na fonte da tabela:
 
-![Imagem](../assets/aula4-img68.png)
+![Imagem](../ASSETS/aula4-img68.png)
 
 E assim teríamos a tabela com novos pedidos já com os tratamentos.
 
@@ -32,11 +32,11 @@ A referência é uma outra forma de copiar uma tabela, com a diferença de que a
 
 Para referenciar uma tabela, o processo é parecido. Vamos clicar com o botão direito em cima dela e depois na opção Referenciar:
 
-![Imagem de Como Refenciar uma Tabela](../assets/aula4-img69.png)
+![Imagem de Como Refenciar uma Tabela](../ASSETS/aula4-img69.png)
 
 Abaixo, podemos verificar a etapa Fonte na nova tabela, em que podemos perceber o cálculo ´= pedidos´ no topo, indicando a referência à tabela de pedidos:
 
-![Imagem](../assets/aula4-img70.png)
+![Imagem](../ASSETS/aula4-img70.png)
 
 Essa etapa de Fonte significa que se você fizer alterações na tabela de pedidos original, essa nova tabela será afetada.
 
@@ -46,7 +46,7 @@ A referência é uma boa opção quando você deseja realizar outros tratamentos
 
 A partir de agora, sabemos que existem duas opções ao copiar uma tabela. Com isso, vamos verificar mais de perto suas diferenças.
 
-![Diferenca entre duplicar e referenciar](../assets/aula4-img71.jpg)
+![Diferenca entre duplicar e referenciar](../ASSETS/aula4-img71.jpg)
 
 As opções de Duplicar e Referenciar são distintas e cada uma tem suas vantagens e desvantagens. A opção de duplicar é útil quando você deseja que as duas **cópias sejam independentes** uma da outra, enquanto a opção de referência é adequada quando você cria ramos diferentes a partir de uma tabela original.
 

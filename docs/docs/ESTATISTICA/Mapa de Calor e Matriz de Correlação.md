@@ -101,3 +101,5 @@ Note que utilizamos o método ```heatmap()``` do Seaborn para construir o mapa d
 Para aprender mais sobre a construção das matrizes de correlação e mapas de calor em Python, indicamos a leitura do método ```corr()``` do Pandas e do método ```heatmap()``` do Seaborn em cada documentação.
 
 Fonte: **Alura**
+
+[def]: ./docs/ASSETS/mapadeCaloreCorrelação.png

@@ -30,5 +30,5 @@
 
 -------------------
 ## Exemplos de Uso de Algumas Libs do Python (RoadMap)
-![Imagen Libs Python](../assets/libs%20python.gif)
+![Imagen Libs Python](../ASSETS/libs%20python.gif)
 

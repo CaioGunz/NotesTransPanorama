@@ -86,6 +86,8 @@ Em breve...
 
 [Métricas com DAX](./ESTATISTICA/Métricas%20com%20DAX.md)
 
+[Mapa de Calor e Matriz de Correlação](./ESTATISTICA/Mapa%20de%20Calor%20e%20Matriz%20de%20Correlação.md)
+
 # Sobre Linux:
 
 [Comando que mais uso no Linux](./LINUX/COMANDOS%20LINUX.md)
