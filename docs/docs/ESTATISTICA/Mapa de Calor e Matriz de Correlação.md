@@ -94,7 +94,7 @@ plt.show()
 
 Saída:
 
-![Mapa de calor e Correlação](../ASSETS/mapadeCaloreCorrelação.png)
+![Mapa de calor e Correlação](../assets/mapadeCaloreCorrelação.png)
 
 Note que utilizamos o método ```heatmap()``` do Seaborn para construir o mapa de calor. As Células são coloridas de acordo com o valor da correlação, facilitando a identificação de padrões e relações entre as variáveis.
 
