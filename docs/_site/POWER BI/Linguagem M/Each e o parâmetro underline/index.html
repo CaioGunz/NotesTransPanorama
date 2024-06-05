@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        <link rel="canonical" href="https://gunz-study.com/POWER%20BI/Linguagem%20M/Each%20e%20o%20par%C3%A2metro%20underline/">
+        <link rel="shortcut icon" href="../../../img/favicon.ico">
+        <title>Each e o parâmetro underline - Gunz Study</title>
+        <link href="../../../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../../../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../../../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/rainbow.min.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+        <script>hljs.highlightAll();</script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="../../..">Gunz Study</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="navitem">
+                                <a href="../../.." class="nav-link">Home</a>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">ESTATISTICA <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../../ESTATISTICA/Analise%20de%20Pareto/" class="dropdown-item">Para saber mais: a Análise de Pareto</a>
+</li>
+                                    
+<li>
+    <a href="../../../ESTATISTICA/Base%20de%20Dados%20-%20gratis/" class="dropdown-item">Para pegar bases de dados gratis</a>
+</li>
+                                    
+<li>
+    <a href="../../../ESTATISTICA/Estudos%20Sobre%20Data%20Science/" class="dropdown-item">Estudos sobre Data Science</a>
+</li>
+                                    
+<li>
+    <a href="../../../ESTATISTICA/Grafico%20de%20Barras/" class="dropdown-item">Gráfico de Barras Empilhadas e Clusterizada</a>
+</li>
+                                    
+<li>
+    <a href="../../../ESTATISTICA/Grafico%20de%20Pizza/" class="dropdown-item">Gráfico de Pizza</a>
+</li>
+                                    
+<li>
+    <a href="../../../ESTATISTICA/Graficos/" class="dropdown-item">Gráficos</a>
+</li>
+                                    
+<li>
+    <a href="../../../ESTATISTICA/Gr%C3%A1fico%20de%20%C3%81rea%20Empilhadas%20100%25/" class="dropdown-item">Gráfico de Áreas Empilhadas 100%</a>
+</li>
+                                    
+<li>
+    <a href="../../../ESTATISTICA/Mapa%20de%20Arvore%28treemap%29/" class="dropdown-item">Visual Mapa de Árvore (Treemap)</a>
+</li>
+                                    
+<li>
+    <a href="../../../ESTATISTICA/Mapa%20de%20Calor%20e%20Matriz%20de%20Correla%C3%A7%C3%A3o/" class="dropdown-item">Mapa de Calor e Matriz de Correlação</a>
+</li>
+                                    
+<li>
+    <a href="../../../ESTATISTICA/Multiplos%20Pequenos/" class="dropdown-item">Múltiplos Pequeno</a>
+</li>
+                                    
+<li>
+    <a href="../../../ESTATISTICA/M%C3%A9tricas%20com%20DAX/" class="dropdown-item">Para saber mais: médtricas com DAX</a>
+</li>
+                                    
+<li>
+    <a href="../../../ESTATISTICA/Tabelas%20Formais/" class="dropdown-item">Tabelas formais</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">LINUX <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../../LINUX/COMANDOS%20LINUX/" class="dropdown-item">Comandos Básicos do Linux (Meu uso)</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown active">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">POWER BI <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../Calculo%20de%20Horas%20-%20Acima%20de%2024h/" class="dropdown-item">Cálculo de Horas no Power BI - Acima de 24h</a>
+</li>
+                                    
+<li>
+    <a href="../../Coluna%20Calculada%20x%20Medidas/" class="dropdown-item">Coluna Calculada x Medidas</a>
+</li>
+                                    
+<li>
+    <a href="../../Configura%C3%A7%C3%B5es%20de%20Link/" class="dropdown-item">Configurações de Link</a>
+</li>
+                                    
+<li>
+    <a href="../../Contexto%20de%20Linha%20X%20Contexto%20de%20Filtro%20X%20Itera%C3%A7%C3%A3o/" class="dropdown-item">Para saber mais: Contexto de linha x Contexto de filtro x Iteração</a>
+</li>
+                                    
+<li>
+    <a href="../../Contextos/" class="dropdown-item">Para saber mais: Contextos</a>
+</li>
+                                    
+<li>
+    <a href="../../Diferenca%20de%20Duplicar%20e%20Manipular%20uma%20Tabela/" class="dropdown-item">Diferenca de Duplicar e Manipular uma Tabela</a>
+</li>
+                                    
+<li>
+    <a href="../../Estudos%20Power%20BI/" class="dropdown-item">Estudos Power BI</a>
+</li>
+                                    
+<li>
+    <a href="../../Fun%C3%A7%C3%A3o%20RELATED/" class="dropdown-item">Para saber mais: a função RELATED</a>
+</li>
+                                    
+<li>
+    <a href="../../Fun%C3%A7%C3%A3o%20VALUES%20e%20DISTINCT/" class="dropdown-item">PAra saber mais: funções que retornam tabelas (Values e Distinct)</a>
+</li>
+                                    
+<li>
+    <a href="../../Fun%C3%A7%C3%B5es%20BLANK%20e%20ISBLANK/" class="dropdown-item">Utilizando as funções BLANK e ISBLANK</a>
+</li>
+                                    
+<li>
+    <a href="../../Fun%C3%A7%C3%B5es%20Iteradoras/" class="dropdown-item">Para saber mais: as funções iteradoras</a>
+</li>
+                                    
+<li>
+    <a href="../../Fun%C3%A7%C3%B5es%20de%20Modofical%C3%A7%C3%A3o%20de%20Filtros%20de%20DAX/" class="dropdown-item">Para saber mais: Categoria de funções de modificação de filtros em DAX</a>
+</li>
+                                    
+<li>
+    <a href="../../Fun%C3%A7%C3%B5es%20para%20Convers%C3%A3o%20de%20Tipo/" class="dropdown-item">Funções para conversão de tipo</a>
+</li>
+                                    
+<li>
+    <a href="../../KeepFilter/" class="dropdown-item">Para saber mais: KeepFilter</a>
+</li>
+                                    
+<li>
+    <a href="../../Layout%20Mobile/" class="dropdown-item">Layout Mobile</a>
+</li>
+                                    
+<li>
+    <a href="../../Medida%20Implicita%20e%20Explicita/" class="dropdown-item">Medidas Implícitas e Explícitas</a>
+</li>
+                                    
+<li>
+    <a href="../../Tipos%20de%20Dados%20no%20DAX/" class="dropdown-item">Para saber mais: Tipos de Dados no DAX</a>
+</li>
+                                    
+<li>
+    <a href="../../Tipos%20de%20Jun%C3%A7%C3%A3o%20na%20Mesclagem%20do%20Power%20BI/" class="dropdown-item">Tipos de Junção na Mesclagem do Power BI</a>
+</li>
+                                    
+<li>
+    <a href="../../Tooltip/" class="dropdown-item">Para saber mais: tooltip</a>
+</li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Linguagem M</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="./" class="dropdown-item active">Each e o parâmetro underline</a>
+</li>
+    </ul>
+  </li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">PYTHON <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../../PYTHON/Anota%C3%A7%C3%B5es%20sobre%20Git%20e%20Github/" class="dropdown-item">Anotações Sobre Git e Github</a>
+</li>
+                                    
+<li>
+    <a href="../../../PYTHON/Diagrama%20de%20Classes/" class="dropdown-item">Conhecendo Diagrama de Classes</a>
+</li>
+                                    
+<li>
+    <a href="../../../PYTHON/Estudos%20Scrum/" class="dropdown-item">Conhecendo o SCRUM</a>
+</li>
+                                    
+<li>
+    <a href="../../../PYTHON/Estudos%20e%20Libs%20Python/" class="dropdown-item">Estudos e Libs Python</a>
+</li>
+                                    
+<li>
+    <a href="../../../PYTHON/M%C3%A9todo%20Melt/" class="dropdown-item">Resumo Método melt()</a>
+</li>
+                                    
+<li>
+    <a href="../../../PYTHON/Normaliza%C3%A7%C3%A3o%20dos%20Dados/" class="dropdown-item">Normalização dos dados</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">QLIK <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../../QLIK/Estudos%20Qlik/" class="dropdown-item">Estudos Qlik</a>
+</li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li class="nav-item">
+                                <a rel="prev" href="../../Tooltip/" class="nav-link">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" href="../../../PYTHON/Anota%C3%A7%C3%B5es%20sobre%20Git%20e%20Github/" class="nav-link">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-level="1"><a href="#each-e-o-parametro-underline" class="nav-link">Each e o parâmetro underline</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<h1 id="each-e-o-parametro-underline">Each e o parâmetro underline</h1>
+<p>Existem duas expressões extremamente importantes dentro da Linguagem M e que possibilitam a criação de funções anônimas e simples para, por exemplo, referenciar uma coluna de nossa tabela ou agir como um iterador em lista. São elas <code>each</code> é utiliza para criar de forma simplificada funções anônimas com um parâmetro <code>_</code>. A sintaxe da expressão que gera o <code>each</code> é a seguinte:</p>
+<pre><code>(_) =&gt; _expressão
+
+//ou 
+
+(_) =&gt; expressão
+</code></pre>
+<p><strong><em>Mas, primeiro, o que são funções anônimas e o que parâmetro <code>_</code> significa?</em></strong></p>
+<p>Uma função anônima é uma função que é definida, mas não nomeada, e é utilizada no mesmo local e momento que é criada. Em diversas linguagens, como por exemplo o  Python, essa função é útil para agit tão somente no momento que precisamos, sem ter que guardar seus valores ocupando espaço no código.</p>
+<p>Já o parâmetro underline, refere-se a uma variável temporária que, como o própio nome indica, é um tipo de variável que será utilizada apenas no escopo de uma função ou em um dado momento no código. Por se tratarem de variáveis que não serão utilizadas novamente em outro momento no código, o <code>_</code> age como uma palavra-chave para identidicar essa variável.</p>
+<p>Por exemplo, podemos utilizá-la para guardar um valor de uma tabela e executá-la imediatamente após a definição da seguinte forma:</p>
+<pre><code>let
+_ = Table.FromColumns({
+{&quot;Daniele&quot;, &quot;Ana&quot;, &quot;David&quot;, &quot;Bruno&quot;},
+{1, 2, 3, 4},
+{4, 4, 3, 2}},
+{&quot;Pessoa&quot;, &quot;Matrícula&quot;, &quot;Nota&quot;})
+in_
+     _
+</code></pre>
+<p>Percebe-se nesse exemplo que o <code>_</code> age como uma variável temporária que recebe uma tabela e retorna para nossa consulta a tabela preenchida.</p>
+<p><img alt="Each e underline" src="../ASSETS/eachUnderline.png" /></p>
+<p>Combinando o uso do underline com a palavra-chave <code>each</code> criamos uma função simples e ao mesmo tempo poderosa.</p>
+<p>Se por exemplo quisermos gerar uma lista de números pares, podemos unir a função <code>List.Select()</code>, que seleciona valores de uma lista a partir de uma função, com o <strong>each</strong> e <strong>under line</strong> juntos. Como na consulta abaixo:</p>
+<pre><code>let
+     Lista = {1 .. 10},
+     pares = List.Select(
+          Lista,                           // lista com os valores de 1 a 10
+          each Number.Mod( _ ,2) = 0     // Retorna o resto da divisão de cada item da lista por 2 e seleciona quem resulta em zero
+          )   
+in
+     pares
+</code></pre>
+<p>Aqui o each gera uma função anônima que calcula o resto da divisão entre cada valor da lista ( passado a cada iteração para a variável temporária <code>_</code>) e o número 2 e retorna apenas os valores em que a divisão tenha resto zero, ou seja, os números pares.</p>
+<p>Essa combinação também pode ser utilizada para executar uma função nos valores presentes em uma coluna de uma dada tabela, modificando a coluna de acordo com a operação que deseja:</p>
+<pre><code>#”Nova coluna” = Table.TransformColumns(
+               #&quot;Tipo Alterado&quot;, {&quot;Temperatura&quot;, each #”Função temperatura”( _ )}
+               )
+</code></pre>
+<p>Neste exemplo, o <code>each</code> aplica a função presente em <code>#"Função temperatura"()</code> em todos os valores presentes na coluna <code>#Temperatura</code> de uma tabela. O <code>_</code> atua como uma forma de exibir que a operação será aplicada em cada linha da coluna e os valores serão utilizados na função presente em <code>#"Função temperatura"()</code>.</p>
+<p>Fonte: <strong>ALURA</strong></p></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script src="../../../js/jquery-3.6.0.min.js"></script>
+        <script src="../../../js/bootstrap.min.js"></script>
+        <script>
+            var base_url = "../../..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../../../js/base.js"></script>
+        <script src="../../../search/main.js"></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+                <p>From here you can search these documents. Enter your search terms below.</p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>
