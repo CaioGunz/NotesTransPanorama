@@ -6,9 +6,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
         
-        <link rel="canonical" href="https://gunz-study.com/POWER%20BI/Fun%C3%A7%C3%A3o%20VALUES%20e%20DISTINCT/">
+        <link rel="canonical" href="https://gunz-study.com/POWER%20BI/Fun%C3%A7%C3%A3o%20CROSSJOIN/">
         <link rel="shortcut icon" href="../../img/favicon.ico">
-        <title>PAra saber mais: funções que retornam tabelas (Values e Distinct) - Gunz Study</title>
+        <title>Para saber mais: entendendo a função CROSSJOIN() - Gunz Study</title>
         <link href="../../css/bootstrap.min.css" rel="stylesheet">
         <link href="../../css/font-awesome.min.css" rel="stylesheet">
         <link href="../../css/base.css" rel="stylesheet">
@@ -132,7 +132,7 @@
 </li>
                                     
 <li>
-    <a href="../Fun%C3%A7%C3%A3o%20CROSSJOIN/" class="dropdown-item">Para saber mais: entendendo a função CROSSJOIN()</a>
+    <a href="./" class="dropdown-item active">Para saber mais: entendendo a função CROSSJOIN()</a>
 </li>
                                     
 <li>
@@ -140,7 +140,7 @@
 </li>
                                     
 <li>
-    <a href="./" class="dropdown-item active">PAra saber mais: funções que retornam tabelas (Values e Distinct)</a>
+    <a href="../Fun%C3%A7%C3%A3o%20VALUES%20e%20DISTINCT/" class="dropdown-item">PAra saber mais: funções que retornam tabelas (Values e Distinct)</a>
 </li>
                                     
 <li>
@@ -261,12 +261,12 @@
                             </a>
                         </li>
                             <li class="nav-item">
-                                <a rel="prev" href="../Fun%C3%A7%C3%A3o%20RELATED/" class="nav-link">
+                                <a rel="prev" href="../Estudos%20Power%20BI/" class="nav-link">
                                     <i class="fa fa-arrow-left"></i> Previous
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a rel="next" href="../Fun%C3%A7%C3%B5es%20%20PATH%28%20%29%2C%20PATHITEM%28%20%29%2C%20PATHCONTAINS%28%20%29/" class="nav-link">
+                                <a rel="next" href="../Fun%C3%A7%C3%A3o%20RELATED/" class="nav-link">
                                     Next <i class="fa fa-arrow-right"></i>
                                 </a>
                             </li>
@@ -288,7 +288,7 @@
     <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
         <ul class="nav flex-column">
             
-            <li class="nav-item" data-level="1"><a href="#para-saber-mais-funcoes-que-retornam-tabelas-values-e-distinct" class="nav-link">PAra saber mais: funções que retornam tabelas (Values e Distinct)</a>
+            <li class="nav-item" data-level="1"><a href="#para-saber-mais-entendendo-a-funcao-crossjoin" class="nav-link">Para saber mais: entendendo a função CROSSJOIN()</a>
               <ul class="nav flex-column">
               </ul>
             </li>
@@ -297,28 +297,37 @@
 </div></div>
                     <div class="col-md-9" role="main">
 
-<h1 id="para-saber-mais-funcoes-que-retornam-tabelas-values-e-distinct">PAra saber mais: funções que retornam tabelas (Values e Distinct)</h1>
-<p>Em DAX, as funções que retornam tabelas são ferramentas poderosas para manipulação de dados e análise em modelos de dados do Microsoft Power BI, Excel e outros aplicativos compatíveis com DAX. Duas dessas funções são "VALUES" e "DISTINCT". Elas desempenham um papel fundamental na criação de medidas e colunas calculadas em suas tabelas.</p>
-<h3 id="1-funcao-values">1 - Função Values:</h3>
-<p>A função VALUES é usada para retornar um tabela de valores únicos de uma coluna específica em um contexto de filtro. Ela é frequentemente utilizada para criar uma lista distinta de valores com base nas seleções ou filtros aplicados em outras colunas. A sintaxe básica da função VALUES é:</p>
-<pre><code>VALUES(tabela[coluna])
-</code></pre>
-<p>Onde "tabela" é a tabela que contém a coluna desejada, e "coluna" é o nome da coluna da qual se deseja extrair os valores únicos. O resultado é uma nova tabela contendo os valores únicos. O resultado é uma nova tabela contendo os valores únicos da coluna especificada.</p>
-<p>Exemplo:</p>
-<p>Suponha que temos uma tabela chamada "Vendas" com as colunas "Produtos" e "Valor". Se quisermos obter uma lista de produtos distintos, podemos criar uma medida usando a função VALUES:</p>
-<pre><code>Produtos Distintos = VALUES(Vendas[Produto])
-</code></pre>
-<h3 id="2-funcao-distinct">2 - Função DISTINCT:</h3>
-<p>A função DISTINCT é semelhante à função VALUES, pois também retorna uma tabela de valores únicos de uma coluna específica. No entanto, a função DISTINCT pode ser usada sem a necessidade de especificar uma tabela, tornando-a mais flexível quando você precisa de uma lista de valores únicos sem se referir a uma tabela específica. A sintaxe básica da função DISTINCT é: </p>
-<pre><code>DISTINCT(tabela[coluna])
-</code></pre>
-<p>Exemplo:</p>
-<p>Usando o mesmo exemplo da tabela "Vendas", podemos obter a lista de produtos distintos sem referenciar explicitamente a tabela:</p>
-<pre><code>Produtos Distintos = DISTINCT(Vendas[Produto])
-</code></pre>
-<p>Ambas as funções são especialmente úteis em cenários de criação de relatórios e análises, quando você precisa gerar listas de valores exclusios para criar visualizações específicas ou para realizar cálculos em um contexto de filtro mais refinado. </p>
-<p>em resumo, as funções VALUES e DISTINCT em DAX são ferramentas valiosas para extrair valores únicos de colunas específicas em tabelas, pois permite uma manipulação de dados mais precisa e eficiente em suas análises e relatórios.</p>
-<p>Fonte: Alura</p></div>
+<h1 id="para-saber-mais-entendendo-a-funcao-crossjoin">Para saber mais: entendendo a função CROSSJOIN()</h1>
+<p>A função <code>CROSSJOIN( )</code> é usada para criar uma combinação de todas as linhas de duas ou mais tabelas. Ela cria uma nova tabela virtual que contém todas as combinações possíveis de registros das tabelas de entrada.</p>
+<p>Em outras palavras, <code>CROSSJOIN( )</code> gera um produto cartesiano das tabelas.</p>
+<p><strong>Exemplos:</strong></p>
+<p>Vamos considerar duas tabelas, "Tabela A" e "Tabela B", com os seguintes dados:</p>
+<p><strong>Tabela A:</strong>
+| ID|Produto|
+|:---:|:---:|
+| 1 | A |
+| 2 | B |</p>
+<p><strong>Tabela B:</strong>
+| ID|Cor|
+|:---:|:---:|
+| 1 | Azul |
+| 2 | Verde |</p>
+<p>Usando a função CROSSJOIN nas tabelas acima, obteremos a seguinte tabela resultante:</p>
+<p><strong>Resultado do </strong>CROSSJOIN<strong>:</strong>
+| ID|Produto|Cor|
+|:---:|:---:|:---:|
+| 1 | A |Azul|
+| 1 | A |Verde|
+| 2 | B |Azul|
+| 2 | B |Verde|</p>
+<p><strong>Casos de Uso:</strong></p>
+<ol>
+<li><strong>Análise de Vendas por Produto e Região:</strong> Suponha que você tenha uma tabela de produtos e outra de regiões. Usando <code>CROSSJOIN( )</code>, você pode criar uma nova tabela que cruza todos os produtos com todas as regiões. Isso permitirá que você analise as vendas de cada produto em todas as regiões.</li>
+<li><strong>Modelagem de Cenários:</strong> Ao criar cenários hipotéticos, você pode usar <code>CROSSJOIN( )</code> para combinar uma tabela de variáveis (como taxas de crescimento ou inflação) com uma tabela de anos. Isso ajuda a modelar diferentes cenários de projeção financeira.</li>
+<li><strong>Filtragem Dinâmica:</strong> A combinação de tabelas por meio de <code>CROSSJOIN( )</code> também pode ser usada para criar filtros dinâmicos. Por exemplo, se você deseja filtrar uma tabela de datas por diferentes categorias de produtos, pode usar <code>CROSSJOIN( )</code> para criar uma tabela que contenha todas as combinações de datas e produtos. Isso permite filtrar dados de acordo com diferentes contextos.</li>
+<li><strong>Criação de Hierarquias Personalizadas:</strong> Se você quiser criar uma hierarquia personalizada, como "Ano &gt; Trimestre &gt; Mês" para análise temporal, pode usar CROSSJOIN( ) para criar a combinação desejada entre as tabelas de ano, trimestre e mês.</li>
+</ol>
+<p>Lembre-se de que, embora a função <code>CROSSJOIN( )</code> seja útil para criar combinações de tabelas, ela pode gerar tabelas grandes e exigir recursos computacionais significativos. Portanto, é importante usá-la com cuidado e considerar o impacto no desempenho do seu modelo de dados.</p></div>
             </div>
         </div>
 
